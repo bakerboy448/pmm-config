@@ -8,6 +8,7 @@ libraries: # Library mappings must have a colon (:) placed after them
       url: http://localhost:7878/radarr
       token:
       add: true
+      add_existing: true
       root_folder_path: /data/media/media/movies
       monitor: true
       availability: released
@@ -24,6 +25,7 @@ libraries: # Library mappings must have a colon (:) placed after them
       url: http://localhost:8989/sonarr
       token:
       add: true
+      add_existing: true
       root_folder_path: /data/media/media/tv
       monitor: all
       quality_profile: "HD - Low - No Upgrade"
