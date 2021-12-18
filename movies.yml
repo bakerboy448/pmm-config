@@ -75,12 +75,6 @@ collections:
     imdb_list: https://www.imdb.com/list/ls009410711/
     summary: "A collection of movies and shows created by Marvel Studios, comprising of the Marvel Cinematic Universe."
     collection_order: release
-  Disney Animation:
-    template: {name: Studio}
-    imdb_list: https://www.imdb.com/search/title/?companies=co0074039&count=250
-    summary: A collection of Disney Animation movies.
-    content_rating: G
-    collection_order: alpha
   Pixar Animation:
     template: {name: Studio}
     imdb_list: https://www.imdb.com/list/ls087911008/
@@ -92,31 +86,10 @@ collections:
 #####################################
 #      Special Genre Collections    #
 #####################################
-  Mindfuck Movies:
-    template: {name: Special Genre}
-    trakt_list: https://trakt.tv/users/hdlists/lists/mindfuck-movies
-    summary: "A collection of movies that will mess with your mind!"
-  Outer Space & Exploration Movies:
-    template: {name: Special Genre}
-    trakt_list: https://trakt.tv/users/hdlists/lists/outer-space-space-exploration-movies
-    summary: "A collection of movies that feature outer space and exploration."
   Superhero Movies:
     template: {name: Special Genre}
     trakt_list: https://trakt.tv/users/hdlists/lists/superhero-movies-from-1980-to-today
     summary: "A collection of superhero movies released from 1980 until today."
-  Time Travel Movies:
-    template: {name: Special Genre}
-    trakt_list:
-      - https://trakt.tv/lists/3940186
-      - https://trakt.tv/lists/20709447
-      - https://trakt.tv/lists/2729898
-      - https://trakt.tv/lists/2729898
-      - https://trakt.tv/lists/4297290
-      - https://trakt.tv/lists/2652307
-    imdb_list:
-      - https://www.imdb.com/list/ls068617191/
-      - https://www.imdb.com/list/ls004426453/
-    summary: "A collection of movies that include time travel."
 
 #####################################
 #     General Movies Collections    #
@@ -182,10 +155,6 @@ collections:
     summary: A collection of movies and shows set in J.R.R. Tolkien's Middle Earth.
   Mission Impossible:
     template: {name: Movies, collection: 87359}
-  Monsterverse:
-    imdb_list: https://www.imdb.com/list/ls060980695/
-    summary: A collection of all the MonsterVerse movies.
-    collection_mode: hide
   The Mummy:
     template: {name: Movies, collection: 1733}
   A Nightmare on Elm Street:
@@ -235,9 +204,6 @@ collections:
   The Twilight Saga:
     template: {name: Movies, collection: 33514}
     sort_title: Twilight Saga
-  Wizarding World:
-    template: {name: Movies, collection: "1241,435259"}
-    summary: A collection of all the Wizarding World movies, including the Harry Potter and Fantastic Beasts series.
   X-Men:
     template: {name: Movies, collection: "748,453993"}
 #####################################
