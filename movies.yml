@@ -208,7 +208,7 @@ collections:
     imdb_list: https://www.imdb.com/list/ls063934595/
 
   Thanksgiving Movies:
-    schedule: range(11/20-10/28)
+    schedule: range(11/20-11/28)
     sort_title: "!AA"
     template: { name: Holiday, holiday: Thanksgiving }
     imdb_list:
