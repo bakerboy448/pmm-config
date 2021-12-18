@@ -149,6 +149,10 @@ collections:
   A Nightmare on Elm Street:
     template: { name: Movies, collection: 8581, tmdb_movie: 23437 }
     sort_title: Nightmare on Elm Street
+  Now You See Me:
+    template: { name: Movie, collection: 382685 }
+  Ocean's Movies:
+    template: { name: Movie, collection: 304, movie: 402900 }
   Pirates of the Caribbean:
     template: { name: Movies, collection: 295 }
   Predator:
@@ -166,8 +170,16 @@ collections:
   Shrek:
     template: { name: Movies, collection: 2150 }
   Spider-Man:
-    template: { name: Movies, collection: "556,125574,531241,573436" }
-    summary: A collection of all the mainstream Spider-Man movies.
+    template: { name: Movie, collection: 556 }
+  Spider-Man (Avengers):
+    template: { name: Movie, collection: 531241 }
+  "Spider-Man: Spider-Verse":
+    template: { name: Movie, collection: 573436 }
+    collection_mode: hide
+    name_mapping: Spider-Man Spider-Verse
+  Spider-Man Universe:
+    template: { name: Movie, collection: "556, 531241, 573436, 125574" }
+    sort_title: +5_2_Spider-Man Universe
   Star Trek:
     template: { name: Movies, collection: "151,115575,115570" }
     summary: "Star Trek is an American science fiction media franchise originating from the 1960s television series Star Trek, created by Gene Roddenberry."
@@ -191,6 +203,8 @@ collections:
     sort_title: Twilight Saga
   X-Men:
     template: { name: Movies, collection: "748,453993" }
+  Zombieland:
+    template: { name: Movie, collection: 537982 }
   #####################################
   #        Holiday Collections        #
   #####################################
