@@ -1,10 +1,26 @@
 ---
 name: Yaml Lint
-on: [push]  # yamllint disable-line rule:truthy
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
 jobs:
-  lintAllTheThings:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: yaml-lint
-        uses: ibiqlik/action-yamllint@v3
+    - uses: actions/checkout@v2
+    - name: yamllint version
+      run: |
+        yamllint --version
+    - name: yamllint run
+      run: |
+        for f in `find definitions -type f`
+        do
+          echo "$f"
+          yamllint "$f" --format github
+        done
