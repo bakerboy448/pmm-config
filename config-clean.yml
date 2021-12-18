@@ -4,6 +4,9 @@ libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     metadata_path:
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies.yml
+    operations:
+      delete_unmanaged_collections: true
+      delete_collections_with_less: 2
     radarr: # Can be individually specified per library as well
       url: http://localhost:7878/radarr
       token:
@@ -21,6 +24,9 @@ libraries: # Library mappings must have a colon (:) placed after them
     metadata_path:
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv.yml
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv-meta.yml
+    operations:
+      delete_unmanaged_collections: true
+      delete_collections_with_less:2
     sonarr: # Can be individually specified per library as well
       url: http://localhost:8989/sonarr
       token:
@@ -52,7 +58,7 @@ settings: # Can be individually specified per library as well
   run_again_delay: 2
   missing_only_released: true
   only_filter_missing: false
-  collection_minimum: 1
+  collection_minimum: 2
   delete_below_minimum: true
   delete_not_scheduled: false
   tvdb_language: eng
