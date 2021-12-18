@@ -20,6 +20,7 @@ templates:
   #####################################
   #         Studio Collections        #
   #####################################
+collections:
   DC Extended Universe:
     template: { name: Studio }
     imdb_list: https://www.imdb.com/list/ls077827588/

@@ -48,7 +48,7 @@ settings: # Can be individually specified per library as well
   show_missing_assets: true
   save_missing: true
   run_again_delay: 2
-  missing_only_released: false
+  missing_only_released: true
   only_filter_missing: false
   collection_minimum: 1
   delete_below_minimum: true

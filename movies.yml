@@ -3,20 +3,30 @@ templates:
   #     Custom Collection Templates   #
   #####################################
   Holiday:
-  smart_label: title.asc
-  summary: "A timed collection of <<holiday>> movies and other movies that may relate to the holiday. NOTE: this collection will automatically disappear once the holiday period is over."
-  delete_not_scheduled: true
-  sort_title: "!AA"
-  run_again: true
-  visible_home: true
-  visible_shared: true
-  sync_mode: sync
+    smart_label: title.asc
+    summary: "A timed collection of <<holiday>> movies and other movies that may relate to the holiday. NOTE: this collection will automatically disappear once the holiday period is over."
+    delete_not_scheduled: true
+    sort_title: "!AA"
+    run_again: true
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync
   Director:
     sort_title: "!A <<collection_name>>"
     tmdb_director_details: <<tmdb>>
     collection_order: release
     collection_mode: hide
-    schedule: weekly(sunday)
+    schedule: weekly(friday)
+  Person:
+    smart_filter:
+      any:
+        actor: tmdb
+        director: tmdb
+        writer: tmdb
+        producer: tmdb
+      sort_by: random
+      validate: false
+    tmdb_person: <<person>>
   Studio:
     sort_title: "!B <<collection_name>>"
     collection_mode: hide
@@ -41,6 +51,12 @@ templates:
 
 collections:
   #####################################
+  #        Actor Collections			    #
+  #####################################
+  Clint Eastwood:
+    template: { name: Person, person: 190 }
+
+  #####################################
   #        Director Collections       #
   ######################################
   Christopher Nolan:
@@ -57,8 +73,6 @@ collections:
     template: { name: Director, tmdb: 488 }
   Quentin Tarantino:
     template: { name: Director, tmdb: 138 }
-  Wes Anderson:
-    template: { name: Director, tmdb: 5655 }
 
   #####################################
   #         Studio Collections        #
@@ -121,8 +135,6 @@ collections:
   The Hobbit:
     template: { name: Movies, collection: 121938 }
     sort_title: Hobbit
-  Halloween:
-    template: { name: Movies, collection: 91361 }
   The Hunger Games:
     template: { name: Movies, collection: 131635 }
     sort_title: Hunger Games
@@ -167,8 +179,6 @@ collections:
     template: { name: Movies, collection: 1575 }
   Saw:
     template: { name: Movies, collection: 656 }
-  Scary Movies:
-    template: { name: Movies, collection: 4246 }
   Scream:
     template: { name: Movies, collection: 2602 }
   Sharknado:
@@ -196,8 +206,6 @@ collections:
   The Transporter:
     template: { name: Movies, collection: 9518 }
     sort_title: Transporter
-  Tremors:
-    template: { name: Movies, collection: 91799 }
   The Twilight Saga:
     template: { name: Movies, collection: 33514 }
     sort_title: Twilight Saga
