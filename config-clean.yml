@@ -80,26 +80,26 @@ omdb:
   apikey: ########
 notifiarr:
   apikey:
-anidb: # Not required for AniDB builders unless you want mature content
-  username: ######
-  password: ######
-trakt:
-  client_id: ################################################################
-  client_secret: ################################################################
-  authorization:
-    # everything below is autofilled by the script
-    access_token:
-    token_type:
-    expires_in:
-    refresh_token:
-    scope: public
-    created_at:
-mal:
-  client_id: ################################
-  client_secret: ################################################################
-  authorization:
-    # everything below is autofilled by the script
-    access_token:
-    token_type:
-    expires_in:
-    refresh_token:
+# anidb: # Not required for AniDB builders unless you want mature content
+#   username: ######
+#   password: ######
+# trakt:
+#   client_id: ################################################################
+#   client_secret: ################################################################
+#   authorization:
+#     # everything below is autofilled by the script
+#     access_token:
+#     token_type:
+#     expires_in:
+#     refresh_token:
+#     scope: public
+#     created_at:
+# mal:
+#   client_id: ################################
+#   client_secret: ################################################################
+#   authorization:
+#     # everything below is autofilled by the script
+#     access_token:
+#     token_type:
+#     expires_in:
+#     refresh_token:
