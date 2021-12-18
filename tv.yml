@@ -10,7 +10,7 @@ templates:
       - trakt_list
       - imdb_list
       - tvdb_show
-    trakt_list_details: <<trakt_list>>
+    # trakt_list_details: <<trakt_list>>
     imdb_list: <<imdb_list>>
     tvdb_show: <<tvdb_show>>
     sort_title: <<collection_name>>
