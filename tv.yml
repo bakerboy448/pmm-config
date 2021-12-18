@@ -1,7 +1,7 @@
-#####################################
-#     Custom Collection Template    #
-#####################################
 templates:
+  #####################################
+  #     Custom Collection Template    #
+  #####################################
   Studio:
     sort_title: "!A <<collection_name>>"
     collection_mode: hide

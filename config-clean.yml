@@ -4,10 +4,37 @@ libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     metadata_path:
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies.yml
+    radarr: # Can be individually specified per library as well
+      url: http://localhost:7878/radarr
+      token:
+      add: true
+      root_folder_path: /data/media/media/movies
+      monitor: true
+      availability: released
+      quality_profile: "HD - No Remux"
+      tag: pmm
+      search: true
+      radarr_path:
+      plex_path:
   TV Shows:
     metadata_path:
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv.yml
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv-meta.yml
+    sonarr: # Can be individually specified per library as well
+      url: http://localhost:8989/sonarr
+      token:
+      add: true
+      root_folder_path: /data/media/media/tv
+      monitor: all
+      quality_profile: "HD - Low - No Upgrade"
+      language_profile: English
+      series_type: standard
+      season_folder: true
+      tag: pmm
+      search: true
+      cutoff_search: false
+      sonarr_path:
+      plex_path:
 settings: # Can be individually specified per library as well
   cache: true
   cache_expiration: 60
@@ -54,33 +81,6 @@ notifiarr:
 anidb: # Not required for AniDB builders unless you want mature content
   username: ######
   password: ######
-radarr: # Can be individually specified per library as well
-  url: http://localhost:7878/radarr
-  token:
-  add: true
-  root_folder_path: /data/media/media/movies
-  monitor: true
-  availability: released
-  quality_profile: "HD - No Remux"
-  tag: pmm
-  search: true
-  radarr_path:
-  plex_path:
-sonarr: # Can be individually specified per library as well
-  url: http://localhost:8989/sonarr
-  token:
-  add: true
-  root_folder_path: /data/media/media/movies/tv
-  monitor: all
-  quality_profile: "HD - Low - No Upgrade"
-  language_profile: English
-  series_type: standard
-  season_folder: true
-  tag: pmm
-  search: true
-  cutoff_search: false
-  sonarr_path:
-  plex_path:
 trakt:
   client_id: ################################################################
   client_secret: ################################################################
