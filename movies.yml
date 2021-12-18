@@ -17,16 +17,6 @@ templates:
     collection_order: release
     collection_mode: hide
     schedule: weekly(friday)
-  Person:
-    smart_filter:
-      any:
-        actor: tmdb
-        director: tmdb
-        writer: tmdb
-        producer: tmdb
-      sort_by: random
-      validate: false
-    tmdb_person: <<person>>
   Studio:
     sort_title: "!B <<collection_name>>"
     collection_mode: hide
@@ -51,20 +41,10 @@ templates:
 
 collections:
   #####################################
-  #        Actor Collections			    #
-  #####################################
-  Clint Eastwood:
-    template: { name: Person, person: 190 }
-
-  #####################################
   #        Director Collections       #
   ######################################
   Christopher Nolan:
     template: { name: Director, tmdb: 525 }
-  Edgar Wright:
-    template: { name: Director, tmdb: 11090 }
-  James Cameron:
-    template: { name: Director, tmdb: 2710 }
   M. Night Shyamalan:
     template: { name: Director, tmdb: 11614 }
   Martin Scorsese:
