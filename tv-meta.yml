@@ -1,0 +1,722 @@
+metadata:
+  "Avatar: The Last Airbender":
+    sort_title: Avatar 01
+    seasons:
+      1:
+        title: "Book One: Water"
+        summary: "After a lapse of 100 years, the Avatar-spiritual master of the elements-has returned. And just in the nick of time. The Four Nations (Water, Earth, Fire, and Air) have become unbalanced. The Fire Nation wants to rule the world, and its first conquest will be the Northern Water Tribe. It's up to a 12-year-old Airbender named Aang to find a way to stop it. Join Aang, Katara, Sokka, Momo, and Appa as they head north on the adventure of a lifetime."
+      2:
+        title: "Book Two: Earth"
+        summary: "Avatar Aang continues his quest to master the four elements before the end of summer. Together with Katara, Sokka, Momo, and Appa, he journeys across the Earth Kingdom in search of an Earthbending mentor. Along the way, he confronts Princess Azula, treacherous daughter of Firelord Ozai and sister to Prince Zuko. More powerful than her brother, Azula will stop nothing to defeat the Avatar. But Aang and the gang find plenty of Earth Kingdom allies to help them along the way. From the swamps of the South to the Earth King's palace, Book Two is an adventure like no other."
+      3:
+        title: "Book Three: Fire"
+        summary: "Having survived the terrible battle with Azula, Aang faces new challenges as he and his brave friends secretly enter the Fire Nation. Their quest is to find and defeat Firelord Ozai. Along the way, they discover that Ozai has plans of his own. The leader of the Fire Nation intends to use the massive power of Sozin's comet to spread his dominion permanently across the four nations. Short on time, Aang has a lot of bending to learn and no master to help him learn it. However, his friends are there to help, and he finds unexpected allies deep in the heart of the Fire Nation. In the spectacular conclusion, Aang must fulfill his destiny and become a fully realized Avatar, or watch the world go up in smoke."
+
+  "Avatar: The Legend of Korra":
+    sort_title: Avatar 02
+    alt_title: The Legend of Korra
+    original_title: The Legend of Korra
+    seasons:
+      1:
+        title: "Book One: Air"
+        summary: "When Avatar Aang passes, he is reincarnated as a girl named Korra, from the Southern Water Tribe. Against the wishes of her guardians, Korra leaves the safety of her home to travel to Republic City. Before long, Korra’s Avatar skills are put to the test when she encounters a group of Chi-blockers led by a masked man named Amon. With his Equalists followers, Amon plots to gain control over Republic City and ultimately rid the world of the 'impurity' of bending. Korra and her friends will stop at nothing to capture him, leading to an Avatar adventure like nothing before!"
+      2:
+        title: "Book Two: Spirits"
+        summary: "After defeating Amon and the Equalists in their anti-bending revolution, Korra and Team Avatar embark on a new journey deep into the mythlogy of the mystical Spirit World, encountering creatures like nothing they've seen before and discovering the truth about the very first Avatar."
+      3:
+        title: "Book Three: Change"
+        summary: "It's the return of the Airbenders! Korra discovers that new Airbenders are popping up all over the Earth Kingdom. While she tries to find these Airbenders and rebuild the Air Nation, a group of dangerous criminals embark on a mission of their own."
+      4:
+        title: "Book Four: Balance"
+        summary: "To save the world, Avatar Korra endured her most intense battle yet. Now broken and bruised, Korra begins a journey of self-discovery and survival as the strong prey upon the weak. When an aggressive military force rises up led by a familiar face, the fate of the Earth Kingdom hangs in the balance and only the Avatar can set things right."
+  MasterClass:
+    #schedule: weekly(sunday)
+    summary: "(Workbooks Available on Request) Online classes taught by the world's greatest minds. Whether it be in business and leadership, photography, cooking, writing, acting, music, sports and more, MasterClass delivers a world class online learning experience."
+    seasons:
+      1:
+        title: "James Patterson Teaches Writing"
+        summary: "James Patterson, the author of 19 consecutive No. 1 New York Times bestsellers, reveals his tricks of the trade for the very first time. In this course, he guides you through every part of the book writing process."
+
+      2:
+        title: "Usher Teaches The Art Of Performance"
+        summary: "Usher, winner of 8 Grammy Awards, reveals the technical skills, career lessons and breakthrough advice that he has used to captivate audiences for over 25 years. For the first time ever, learn how Usher approaches performance and wins over audiences from the studio to the stage. There has never been a class like this before."
+
+      3:
+        title: "Annie Leibovitz Teaches Photography"
+        summary:  "Annie was the first woman to be named chief photographer at Rolling Stone and the last person to take a portrait of John Lennon. In her first online class, Annie shows us that what makes a picture stunning isn't the gear or technology—it's the story. Annie teaches you her philosophy on photography—how to develop concepts, work with subjects, shoot with natural light, and bring images to life in post-production. See the world through her eyes."
+
+      4:
+        title: "Serena Williams Teaches Tennis"
+        summary: "Serena Williams, the world's #1 ranked women's tennis player and winner of 23 Grand Slam singles titles, teaches you tennis and reveals the secrets of her game. This is as close as you can get to a private lesson with one of the world's greatest tennis players."
+
+      5:
+        title: "Christina Aguilera Teaches Singing"
+        summary: "Christina teaches you how to expand your range, find your voice, and master the techniques that have earned her six Grammy Awards. You'll learn warm-up exercises, breath control, vibrato, her signature growls, and hear Christina break down her biggest hits. There has never been a singing class like this before."
+
+      6:
+        title: "Werner Herzog Teaches Filmmaking"
+        summary: "When the legendary director Werner Herzog was 19, he stole a camera and made his first movie. 70 films and 50 awards later, Werner is teaching documentary and feature filmmaking. You'll learn storytelling, cinematography, locations, self-financing, documentary interview techniques, and how to bring your ideas to life. By the end, you'll make uncompromising films."
+
+      7:
+        title: "Aaron Sorkin Teaches Screenwriting"
+        summary: "Aaron Sorkin wrote his first movie on cocktail napkins. Those napkins turned into A Few Good Men, starring Jack Nicholson. Now, the Academy Award winning writer of The West Wing and The Social Network is teaching screenwriting. You'll learn his rules of storytelling, dialogue, character development, and what makes a script actually sell. By the end, you'll write unforgettable screenplays."
+
+      8:
+        title: "Reba McEntire Teaches Country Music"
+        summary: "You know her songs. Her Oklahoma charm. Now learn directly from Reba in her first-ever online class. Join her as she records a never-before-heard song, creates a new acoustic version of Fancy, breaks down her hits, and delivers emotional performances on the stage of the Grand Ole Opry. This is more than a music class. This is Reba's life, business, and country music MasterClass."
+
+      9:
+        title: "Deadmau5 Teaches Electronic Music Production"
+        summary: "Before he was deadmau5, all Joel wanted for Christmas was old toasters to take apart. Now, in his MasterClass, watch him take his music apart. Joel teaches you how he approaches melodies, mixing and mastering to make unique sounds you can't find in a cookie cutter sample pack. You'll get not only his lessons, you'll learn how to create your own music without spending money on million dollar gear."
+ 
+      10:
+        title: "Hans Zimmer Teaches Film Scoring"
+        summary: "Hans Zimmer didn't see a film until he was 12 years old. Since then, he's scored over 150 films, including Inception, The Lion King, and The Dark Knight. In his MasterClass, the self-taught Academy Award winner teaches how he creates sounds from nothing, composes compelling character themes, and scores a movie before ever seeing it. By the end, you'll have everything you need to tell your story."
+    
+      11:
+        title: "Gordon Ramsay Teaches Cooking"
+        summary: "This is Gordon Ramsay like you've never experienced. The seven-star Michelin chef takes you into his home kitchen to learn everything from kitchen setup and buying the freshest ingredients to constructing unforgettable dishes. In this MasterClass, you're not just learning recipes, you're learning how to take your cooking to the next level."
+    
+      12:
+        title: "Shonda Rhimes Teaches Writing For Television"
+        summary: "When Shonda Rhimes pitched Grey's Anatomy she got so nervous she had to start over. Twice. Since then, she has created and produced TV's biggest hits. In her class, Shonda teaches you how to create compelling characters, write a pilot, pitch your idea, and stand out in the writers' room. You'll also get original pilot scripts, pitch notes, and series bibles from her shows. Welcome to Shondaland."
+    
+      13:
+        title: "Frank Gehry Teaches Design And Architecture"
+        summary: "At 19 years old, Frank Gehry was a truck driver taking sculpture classes at night school. His vision for what architecture could accomplish went on to reshape our cities' skylines, and the imaginations of artists and designers around the world. Now this master builder invites you into his never-before-seen model archive for a look into his creative process."
+    
+      14:
+        title: "Steve Martin Teaches Comedy"
+        summary: "One of Steve's first gigs was at the drive-in movies. When the audience liked a joke, they honked. In this class, Steve shares insights from performing for cars and humans over a 50-year career spanning sold-out arenas and blockbuster films. Learn how to find your voice, gather material, develop an act, and take your comedy to the next level."
+    
+      15:
+        title: "David Mamet Teaches Dramatic Writing"
+        summary: "David Mamet sat in on a poker game full of thieves and left with the inspiration for American Buffalo. Now, the Pulitzer Prize-winning writer of Glengarry Glen Ross takes you through his process for turning life's strangest moments into dramatic art. In his writing class, he'll teach you the rules of drama, the nuances of dialogue, and the skills to develop your own voice and create your masterpiece."
+    
+      16:
+        title: "Diane Von Furstenberg Teaches Building a Fashion Brand"
+        summary: "In her 20s, Diane convinced a textile factory owner in Italy to let her produce her first designs. With those samples, she flew to New York City to build one of the world's most iconic and enduring fashion brands. In her first online class, Diane teaches you how to build a brand. You'll learn how to create a visual identity, build loyalty, stay true to your vision, and launch your product."
+    
+      17:
+        title: "Jane Goodall Teaches Conservation"
+        summary: "There is still a window of time. Nature can win if we give her a chance. In her first ever online class, Dr. Jane Goodall teaches how you can conserve the environment. She also shares her research on the behavioral patterns of chimpanzees and what they taught her about conservation. You'll learn how to act locally and protect the planet."
+    
+      18:
+        title: "Garry Kasparov Teaches Chess"
+        summary: "At age 22, Garry Kasparov became the youngest world chess champion. After beating Bobby Fischer's peak rating, he outranked his fiercest competitors for over twenty years. Now, Garry is ready to share what made him a six-time World Chess Champion. Through detailed lessons, including his favorite openings and advanced tactics, you will develop the instincts and philosophy to become a stronger player."
+    
+      19:
+        title: "Herbie Hancock Teaches Jazz"
+        summary: "Herbie Hancock's jazz career started in his family's living room, listening to his favorite records and trying to play along. Now, he's one of the most celebrated musicians in the world. Join Herbie at the piano as he shares his approach to improvisation, composition, and harmony. Gain access to 10+ original piano transcriptions, including 5 exclusive solo performances."
+    
+      20:
+        title: "Martin Scorsese Teaches Filmmaking"
+        summary: "Martin Scorsese drew his first storyboard when he was eight. Today he's a legendary director whose films—from Mean Streets to  The Wolf of Wall Street—have shaped movie history. In his first-ever online class, the Oscar winner teaches his approach to filmmaking, from storytelling to editing to working with actors. He deconstructs films and breaks down his craft, changing how you make—and watch—movies."
+    
+      21:
+        title: "Judy Blume Teaches Writing"
+        summary: "Judy Blume broke the rules. Her refreshingly honest children's books were banned by hundreds of libraries—and loved by generations of readers, who bought 85 million copies of classics like Are You There God? It's Me, Margaret and Superfudge. In her first online class, the award-winning author teaches you how to invent vivid characters, write realistic dialogue, and turn your experiences into stories people will treasure."
+    
+      22:
+        title: "Samuel L. Jackson Teaches Acting"
+        summary: "As a kid, Samuel L. Jackson stuttered so badly that he stopped talking for almost a year. Today he's one of the world's most successful actors, with roles in over 100 films, including Pulp Fiction and The Avengers. For the first time, the Oscar nominated star teaches how he creates memorable characters, powerful performances, and a long-lasting career. Learn to master auditions, analyze scripts, and find the truth in every role you play."
+    
+      23:
+        title: "Bob Woodward Teaches Investigative Journalism"
+        summary: "Bob Woodward was just 29 when he changed a nation. His Watergate reporting with Carl Bernstein helped expose the corruption of the Nixon presidency. Two Pulitzer Prizes and nineteen best-selling books later, the legendary journalist is teaching his first-ever online class for anyone who wants to find the truth. Learn to investigate a story, interview sources, and understand how the news is written. The next history-making story might be yours."
+    
+      24:
+        title: "Marc Jacobs Teaches Fashion Design"
+        summary: "Marc Jacobs' infamous grunge collection got him fired. It also won him the CFDA Womenswear Designer of the Year Award. In his first online class, the 11-time CFDA Award-winning designer teaches his hands-on process for creating clothes that push boundaries and set trends. Learn Marc's construction techniques, how he creates unique shapes and silhouettes, and how you can develop your own ideas from the first sketch to the final piece."
+    
+      25:
+        title: "Ron Howard Teaches Directing"
+        summary: "Ron Howard made his first film in 22 days with $602,000. Today, his movies have grossed over $1.8 billion. In his first-ever online class, the Oscar-winning director of Apollo 13 and A Beautiful Mind decodes the craft of directing like never before. In lessons and on-set workshops, you'll learn how to evaluate ideas, work with actors, block scenes, and bring your vision to the screen—whether it's a laptop or an IMAX theater."
+    
+      26:
+        title: "Helen Mirren Teaches Acting"
+        summary: "Oscar, Golden Globe, Emmy, and Tony winner Helen Mirren is one of the greatest actresses of our time. In her first online class, she discusses the dualism that is core to her method: the necessity for mastering technique (craft) and then letting go so that your imagination can take over (art). Learn how to break down a script, research characters, and master techniques so you can transcend them to find freedom in every role."
+    
+      27:
+        title: "Stephen Curry Teaches Shooting Ball Handling And Scoring"
+        summary: "Stephen was barely recruited by college coaches. Today, he's a three-time champion and one of the best shooters in NBA history. Join Stephen on the court in his first-ever online class as he teaches you how to improve your shooting mechanics, and leads you through ball-handling, footwork, and scoring drills. Then see the game through Stephen's eyes as he analyzes NBA game footage to help you elevate your basketball IQ."
+    
+      28:
+        title: "Wolfgang Puck Teaches Cooking"
+        summary: "Legend has it Wolfgang Puck came up with his famous smoked salmon pizza when his restaurant ran out of bagels—and ended up changing the way America cooks. In his MasterClass, the five-time James Beard Award-winning chef behind more than 100 restaurants brings you into his kitchen. You'll learn not only how to master starters, mains, sides, and cocktails, but also how to take risks to create memorable recipes of your own."
+    
+      29:
+        title: "Alice Waters Teaches The Art Of Home Cooking"
+        summary: "Alice Waters started America's farm-to-table revolution. When she founded the iconic restaurant Chez Panisse, her local, organic ingredients sparked a movement—and earned her the James Beard Award for Outstanding Chef. In her first-ever online class, Alice opens the doors of her home kitchen to teach you how to pick seasonal ingredients, cook healthy and beautiful meals, and change your life by changing the food you make at home."
+    
+      30:
+        title: "Thomas Keller Teaches Cooking Techniques"
+        summary: "Thomas Keller is the only American-born chef to hold multiple Michelin three-star ratings. In his first online class, the chef behind The French Laundry teaches you how to master the fundamentals of cooking. Learn about handling kitchen tools, preparing foundational ingredients (like vegetables, eggs, and pasta), and the science behind cooking. Gain the skills—and confidence—that will help you execute recipes to perfection."
+    
+      31:
+        title: "Armin Van Buuren Teaches Dance Music"
+        summary: "Every week, Armin van Buuren puts 41 million listeners into A State of Trance on his radio show. In his first-ever online class, the platinum-selling DJ breaks down his hits—and builds a track from scratch—to show you how he produces, performs, and promotes dance music. You'll learn his technical process for using samples and plug-ins, mixing, recording vocals, and building a DJ set. Your crowd is waiting."
+    
+      32:
+        title: "Malcolm Gladwell Teaches Writing"
+        summary: "Ketchup. Crime. Quarterbacks. Thanks to Malcolm Gladwell, these ordinary subjects have helped millions of readers devour complex ideas like behavioral economics and performance prediction. Now, the renowned storyteller and best-selling author of Blink and The Tipping Point is teaching his craft online for the first time. Write stories that captivate by learning how Malcolm researches topics, crafts characters, and distills big ideas into simple, powerful narratives."
+    
+      33:
+        title: "Judd Apatow Teaches Comedy"
+        summary: "No joke: At age 15, Judd Apatow took a dishwashing job at a comedy club to watch the acts. Today, he's the comedic genius behind hits including The 40-Year-Old Virgin, Knocked Up, Bridesmaids, and Freaks and Geeks. In his first-ever online class, the Emmy Award winner teaches you how to create hilarious storylines, write great stand-up, and direct comedies that leave audiences laughing."
+    
+      34:
+        title: "Chris Hadfield Teaches Space Exploration"
+        summary: "Impossible things happen. At age nine, Chris Hadfield knew he wanted to go to space. He eventually went there three times, becoming a commander of the International Space Station. In his MasterClass, Chris teaches you what it takes to explore space and what the future holds for humans in the final frontier. Learn about the science of space travel, life as an astronaut, and how flying in space will forever change the way you think about living on Earth."
+    
+      35:
+        title: "Spike Lee Teaches Filmmaking"
+        summary: "Spike Lee didn't just direct his award-winning 1986 feature debut, She's Gotta Have It. He was also the writer, star, truck driver, location scout, electrician, and caterer—because that's what it took to get his film made. In his first-ever online class, the visionary behind  Do the Right Thing, Malcolm X, and 25th Hour lets you in on his uncompromising approach to filmmaking. Learn about writing, self-producing, working with actors, and making movies that break down barriers."
+    
+      36:
+        title: "R.L. Stine Teaches Writing For Young Audiences"
+        summary: "Award-winning novelist R.L. Stine wrote jokes and funny stories for 20 years before he switched gears and became a horror-writing legend. Since then, the author of the Goosebumps and Fear Street series has sold more than 400 million copies. In his first-ever online class, Bob takes the fear out of fiction writing. Whether you're a beginner or a pro, you'll learn new ways to conquer writer's block, develop plots, and build nail-biting suspense that will thrill young readers."
+    
+      37:
+        title: "Daniel Negreanu Teaches Poker"
+        summary: "Put yourself across the felt from Daniel Negreanu—the biggest live tournament poker winner of all time. The six-time World Series of Poker champion teaches advanced theory and practice through hand-reviews of his winning games. Learn how to sharpen your mental game through demos on reading opponents and spotting tells. Join Daniel at the table to learn how to increase your win rate, grow your ROI, and get your game 'In the Money.'"
+    
+      38:
+        title: "Natalie Portman Teaches Acting"
+        summary: "Natalie Portman began acting professionally at 12 and won an Oscar before she turned 30. As a self-taught actor, she uses personal techniques to create compelling, complex characters. In her first-ever acting class, Natalie shows how empathy is at the core of every great performance, how to bring real-life details into every role, and how to build your own creative process. Get ready for your breakout performance."
+    
+      39:
+        title: "Margaret Atwood Teaches Creative Writing"
+        summary: "Called the 'Prophet of Dystopia,' Margaret Atwood is one of the most influential literary voices of our generation. In her first-ever online class, the author of The Handmaid's Tale  teaches how she crafts compelling stories—from historical to speculative fiction—that remain timeless and relevant. Explore Margaret's creative process for developing ideas into novels with strong structures and nuanced characters."
+    
+      40:
+        title: "Ken Burns Teaches Documentary Filmmaking"
+        summary: "Since its 2017 debut, Ken Burns's The Vietnam War has enthralled over 39 million viewers by painting an intimate and revealing portrait of history. Learn how Ken captivates audiences with his ability to distill vast research and complex truths into compelling narratives. From first treatment to final edit, Ken teaches his documentary filmmaking techniques that 'wake the dead' to bring their stories to life."
+    
+      41:
+        title: "Gordon Ramsay Teaches Cooking Restaurant Recipes At Home"
+        summary: "It's more than dinner, it's a dining experience. Gordon Ramsay returns with a second MasterClass to teach you how to prep, plate, and pair recipes that wow guests. With 13 restaurant-inspired dishes—designed to cook at home—you'll learn how to build elevated courses from appetizer to dessert using everyday ingredients."
+    
+      42:
+        title: "Tom Morello Teaches Electric Guitar"
+        summary: "Tom Morello is a two-time Grammy winner, and one of Rolling Stone's 'Greatest Guitarists of All Time.' In his first online class, the co-founder of Rage Against the Machine will teach you the riffs, rhythms, and solos that launched his career and sent his music to the top of the charts. Tom will share his approach to making music that challenges the status quo, and teach you how to create your own musical style."
+    
+      43:
+        title: "David Axelrod And Karl Rove Teach Campaign Strategy And Messaging"
+        summary: "David Axelrod and Karl Rove reach across the aisle to offer an inside look at winning campaign strategies. The respective architects of Barack Obama's and George W. Bush's historic election victories teach how to develop a campaign platform and reach an audience with consistent messaging. Find the inspiration and tools to get involved at any level, or simply become a more informed, engaged citizen."
+    
+      44:
+        title: "Paul Krugman Teaches Economics And Society"
+        summary: "For Nobel Prize-winner Paul Krugman, economics is not a set of answers—it's a way of understanding the world. In his economics MasterClass, Paul teaches you the principles that shape political and social issues, including access to health care, the tax debate, globalization, and political polarization. Heighten your ability to read between the lines and decipher the underlying economics at play."
+    
+      45:
+        title: "Dan Brown Teaches Writing Thrillers"
+        summary: "Packed with secret symbols and high-stakes suspense, Dan Brown's thrillers have sold more than 250 million copies, including one of the world's best-selling novels, The Da Vinci Code. In his MasterClass, Dan unveils his step-by-step process for turning ideas into gripping narratives. Learn his methods for researching like a pro, crafting characters, and sustaining suspense all the way to a dramatic surprise ending."
+    
+      46:
+        title: "Thomas Keller Teaches Cooking Techniques Meats Stocks And Sauces"
+        summary: "As a follow-up to his first MasterClass, Chef Keller devotes his second class to beef, duck, chicken, pork, and veal—and the techniques he uses to prepare them. Learn to sauté, pan and oven roast, braise, fry, and grill, and to select the best cut of meat for each technique with confidence. Then, learn to make the stocks and sauces that are essentials in Chef Keller's restaurant kitchens."
+    
+      47:
+        title: "Dominique Ansel Teaches French Pastry Fundamentals"
+        summary: "Celebrated for his innovative twists on classic desserts, Cronut® creator and James Beard Award-winner Dominique Ansel has been called the 'World's Best Pastry Chef.' In his MasterClass, Dominique teaches his essential techniques for perfect pastries. Learn his precise methods, add classic recipes to your repertoire, and explore texture and flavor inspirations to delight friends and family with your own decadent desserts."
+    
+      48:
+        title: "Mira Nair Teaches Independent Filmmaking"
+        summary: "Oscar-nominated filmmaker Mira Nair approaches directing with the 'heart of a poet and the skin of an elephant'—spurred on by rejection and fighting to bring uncompromising stories to film. In the Golden Lion-winning director's MasterClass, learn to make a big impact on a small budget, evoke the best from actors and non-actors, and protect your creative vision so you tell the story that can only come from you."
+    
+      49:
+        title: "Jimmy Chin Teaches Adventure Photography"
+        summary: "Jimmy Chin has built his career taking photos at the top of the world, earning him the cover of National Geographic and multiple awards. Now he's taking you on location to teach you techniques for capturing breathtaking shots under high-stakes conditions. Learn his different creative approaches for commercial shoots, editorial spreads, and passion projects. Gather the gear—and the perspective—to bring your photography to new heights."
+    
+      50:
+        title: "James Suckling Teaches Wine Appreciation"
+        summary: "Called one of the 'world's most powerful wine critics', James Suckling has tasted more than 200,000 wines over the past 40 years. In his MasterClass, James tours legendary Tuscan vineyards and teaches you to explore the stories, history, and people behind every bottle. Deepen your knowledge of the properties in each sip, cultivate your passion, and choose, order, and pair wines with confidence."
+    
+      51:
+        title: "Carlos Santana Teaches The Art And Soul Of Guitar"
+        summary: "With 10 Grammys and almost 50 years on stage, Carlos teaches you his spiritual take on playing guitar. Learn how he weaves emotion, artistic expression, and musical styles from across the world to create a sound that transcends genre and connects with audiences. Join Carlos in his studio as he breaks down his process note by note—so you can discover the soul of your sound."
+    
+      52:
+        title: "Will Wright Teaches Game Design And Theory"
+        summary: "Learn the art and science of game design with Will Wright, the mind behind some of the most popular simulation games of all time—SimCity and The Sims. Will teaches you how to design games that empower players and unleash their creativity. You'll develop a toolset for understanding player psychology, as well as learn Will's approach to generating and pitching ideas, prototyping, playtesting, and building a community."
+    
+      53:
+        title: "Jodie Foster Teaches Filmmaking"
+        summary: "Go behind the scenes with two-time Oscar-winner Jodie Foster, star of Silence of the Lambs and director of Little Man Tate. In her first online class, she'll teach you how to bring your vision to life. Jodie brings her experience on both sides of the camera to guide you through every step of the filmmaking process, from storyboarding to casting and camera coverage. Everyone has a story. Learn how to tell yours."
+    
+      54:
+        title: "Howard Schultz Leading A Values Based Business"
+        summary: "Former Starbucks CEO Howard Schultz rose from a childhood in public housing to leading a company that revolutionized the way the world drinks coffee. With no formal business education, he relied on his values while growing a 13-store chain into a global brand with more than 250,000 employees. In his 90-minute video series, Howard shares what he's learned about values-based leadership and being an entrepreneur."
+    
+      55:
+        title: "Neil Gaiman Teaches The Art Of Storytelling"
+        summary: "Award-winning author Neil Gaiman has spent more than a quarter of a century crafting vivid, absorbing fiction. Now, the author of Stardust, Coraline, and The Sandman teaches his approach to imaginative storytelling. Learn how to find your unique voice, develop original ideas, and breathe life into your characters. Discover Neil's philosophy on what drives a story and open new windows to the stories inside you."
+    
+      56:
+        title: "Timbaland Teaches Producing And Beatmaking"
+        summary: "Grammy-winning music producer Timbaland takes you behind the boards to teach you his process for creating iconic tracks with artists like Jay-Z, Missy Elliott, Justin Timberlake, Beyonce, and Aaliyah. In his first-ever online class, learn how to collaborate with vocalists, layer new tracks, and create hooks that stick. Step into Timbalands studio and learn from one of the industrys most innovative hit makers."
+    
+      57:
+        title: "David Lynch Teaches Creativity And Film"
+        summary: "An avant-garde figure in filmmaking, David Lynch introduced mainstream audiences to art-house films. Now the Oscar-nominated director of Mulholland Drive teaches his cross-disciplinary creative process. Learn how he catches ideas, translates them into a narrative, and moves beyond formulaic storytelling. Embrace the art life in Davids MasterClass and learn to test the boundaries of your own artistic expression in any medium."
+    
+      58:
+        title: "Billy Collins Teaches Reading And Writing Poetry"
+        summary: "Known for his wit and wisdom, former U.S. Poet Laureate Billy Collins is one of Americas most beloved contemporary poets. In his MasterClass, Billy teaches you to appreciate the emotional pull of poetry. Learn his approach to exploring subjects, incorporating humor, and finding your voice. Discover the profound in the everyday, and let poetry lead you to the unexpected."
+    
+      59:
+        title: "Penn And Teller Teach The Art Of Magic"
+        summary: "With more than 40 years performing together, Penn & Teller have sold out shows around the world, earned a star on Hollywoods Walk of Fame, and created the longest-running headline act in Las Vegas. Now the legendary magicians are taking you behind the curtain. Learn fundamental magic tricks and the psychological tools that create amazement, at home or on stage. Expand your perception of the possible."
+    
+      60:
+        title: "Aaron Franklin Teaches Texas Style BBQ"
+        summary: "Once a backyard hobbyist, Aaron Franklin is now the James Beard Award-winning owner of Franklin Barbecue, where the line for his famous smoked brisket is hours long. Now the Central Texas barbecue specialist teaches you his meticulous low and slow process for mouth-watering ribs, pork butt, and brisket. With perfectly seasoned cuts and optimal temperatures, you'll learn to handle an offset smoker like a true pitmaster."
+    
+      61:
+        title: "Phil Ivey Teaches Poker Strategy"
+        summary: "At age 38, Phil Ivey became the youngest player to win 10 World Series of Poker bracelets. Now the man known for his enigmatic table presence and widely regarded as the world's best all-around poker player gives you unprecedented access to his mental game. Learn poker strategy, pick up new poker tips, and review hands with the player whos won more than $26 million in live tournament earnings."
+    
+      62:
+        title: "Itzhak Perlman Teaches Violin"
+        summary: "The worlds reigning virtuoso violin player, Itzhak Perlman performs for presidents, royals, and classical music lovers around the world. Now the beloved Juilliard instructor and 15-time Grammy Award winner brings his passion for teaching to a wide audience for the first time. Learn fundamental techniques, practice strategies, and how to add richness and depth to your sound. Give your most dynamic performance yet."
+    
+      63:
+        title: "Massimo Bottura Teaches Modern Italian Cooking"
+        summary: "Massimo Bottura, chef of the three-Michelin-star Osteria Francescana, treats his world-renowned restaurant as a laboratory of ideas. In his MasterClass, he shares how he transforms classic, regional Italian recipes into exciting modern dishes. Youll learn how to make rich, flavorful tagliatelle al rag, pumpkin risotto, and a MasterClass-exclusive Emilia Burger recipe. Develop your palate and embark on a culinary adventure."
+    
+      64:
+        title: "David Baldacci Teaches Mystery And Thriller Writing"
+        summary: "David Baldacci has captivated readers across the world with gripping, suspense-fueled thrillers. Now the New York Times bestselling author of 38 novels shares his techniques for crafting authentic characters, developing research-based plots, and navigating the world of publishing. Learn how to write a novel with red herrings, clues, and plot twists that will keep your readers turning the pages."
+    
+      65:
+        title: "Joyce Carol Oates Teaches The Art Of The Short Story"
+        summary: "The author of some of the most enduring fiction of our time, Joyce Carol Oates has published 58 novels and thousands of short stories, essays, and articles. Now the award-winning author and Princeton University creative writing professor teaches you how to tap into your storytelling instincts. Find ideas from your own experiences and perceptions, experiment with structure, and improve your craft, one sentence at a time."
+    
+      66:
+        title: "Simone Biles Teaches Gymnastics Fundamentals"
+        summary: "At 22, Simone Biles is already a legend. With 14 medals, including 10 gold, Simone is the most decorated World Championship American gymnast of all time. Now the Olympic gymnast: part of the gold-medal-winning USA gymnastics 'Final Five' breaks down her techniques for vault, uneven bars, balance beam, and floor. Discover how Simone performs under pressure, learn to practice like a champion, and claim your competitive edge."
+    
+      67:
+        title: "Anna Wintour Teaches Creativity And Leadership"
+        summary: "A fashion and media icon, Anna Wintour has been driving our cultural conversation for more than 30 years. The Vogue Editor-in-Chief and Artistic Director of Conde Nast takes off her signature sunglasses and gives you unprecedented access to her world. See how Anna nurtures talent, makes bold decisions, and evolves a brand. Learn how to lead with impact from a visionary creative leader."
+    
+      68:
+        title: "Thomas Keller Teaches Cooking Techniques III: Seafood Sous Vide And Desserts"
+        summary: "In his third MasterClass, Chef Thomas Keller focuses on preparing fresh seafood like lobster and salmon, making classic desserts such as apple pie and lemon tart, and showing how sous vide cooking can be done at home to enhance flavor and texture. Whether youre a beginning or advanced cook, youll learn the techniques and principles that will give you the understanding and skills to get the most delicious results."
+    
+      69:
+        title: "Danny Elfman Teaches Music For Film"
+        summary: "From The Simpsons theme to the soundtracks of Tim Burtons Pee-wees Big Adventure and The Nightmare Before Christmas, Danny Elfmans compositions are original, memorable, and exuberantly weird. Now the Oingo Boingo founder and four-time Oscar nominee shares his unconventional (and uncensored) creative process. Step into Dannys studio and learn his techniques for evoking emotion and elevating a story through music."
+    
+      70:
+        title: "Sara Blakely Teaches Self Made Entrepreneurship"
+        summary: "With little more than an idea and a drive to find her way, Sara Blakely went from selling fax machines door-to-door to becoming the worlds youngest female self-made billionaire in 2012. Now the inventor, entrepreneur, and founder of Spanx teaches you to open doors and close deals. Learn Saras customer-first approach and her tactics for prototyping, branding and building awareness, and bootstrapping your way to success."
+    
+      71:
+        title: "Bob Iger Teaches Business Strategy And Leadership"
+        summary: "In an era of disruption, Disney CEO Bob Iger led one of the world's most beloved brands to unprecedented success with the acquisitions of Pixar, Marvel, and Lucasfilm. Now, through case studies and lessons from 45 years in media, Bob teaches you how to evolve your business and career. Learn Bob's strategies for expanding a brand, leading with integrity, and making big moves - from risk management to the art of negotiation."
+    
+      72:
+        title: "Doris Kearns Goodwin Teaches Us Presidential History And Leadership"
+        summary: "For more than 50 years, historian Doris Kearns Goodwin has studied great American presidents. Now the Pulitzer Prize winner teaches you leadership through the lens of U.S. presidential history. With timeless stories of Lincoln, Teddy Roosevelt, FDR, and LBJ, Doris shares practical wisdom and a template for honing leadership skills. Manage a crisis, craft a message, and guide a team like extraordinary leaders of the past."
+    
+      73:
+        title: "Bobbi Brown Teaches Makeup And Beauty"
+        summary: "Bobbi Browns philosophy is that makeup should be quick and natural, and it should enhance who you are. A beauty industry icon, Bobbi shares her expertise in step-by-step tutorials, using models with a range of skin tones. Youll learn how to choose the right foundation, do a smoky eye and a statement lip, and take your look from day to night. But most of all, youll learn how to feel confident in your own skin."
+    
+      74:
+        title: "Misty Copeland Teaches Ballet Technique And Artistry"
+        summary: "As the first African American female principal dancer with American Ballet Theatre, Misty Copeland made history. Now shes one of the worlds most influential dancers, and shes inviting you to the barre to develop a deeper appreciation for ballet and the language of dance. From plies to partners, Misty demonstrates her techniques and teaches you to own your movement, own who you are, and do the dance only you can do."
+    
+      75:
+        title: "David Sedaris Teaches Storytelling And Humor"
+        summary: "With essays in The New Yorker, bestselling books like Calypso, tours, and readings on NPR, David Sedaris is one of the most recognizable essayists alive. Now he teaches you the art of personal storytelling. Learn how David crafts attention-grabbing openings, satisfying endings, and meaning from the mundane and how he uses humor to connect with others and process the difficult and sometimes dark aspects of everyday life."
+    
+      76:
+        title: "Chris Voss Teaches The Art Of Negotiation"
+        summary: "As an FBI hostage negotiator, Chris Voss persuaded terrorists, bank robbers, and kidnappers to see things his way. Now hes teaching you his field-tested strategies to help you in everyday negotiations, whether youre aiming to improve your salary, the service you receive, or your relationships. Get stronger communication skills, game-changing insights into human nature, and more of what you want out of life."
+    
+      77:
+        title: "Neil Degrasse Tyson Teaches Scientific Thinking And Communication"
+        summary: "With a hit talk show and bestselling books, Neil deGrasse Tyson is one of the most popular figures in modern science. Now the influential astrophysicist teaches you how his mind works and how he connects with audiences. Learn to think like a skeptic, open your own mind through scientific literacy, distill data, and navigate bias to discover objective truths and deliver your ideas in ways that engage, excite, and inspire."
+    
+      78:
+        title: "Gabriela Cámara Teaches Mexican Cooking"
+        summary: "A 'star of modern Mexican cuisine,' Gabriela Cámara brings her local, sustainable twist to time-honored traditions. Now the chef of Contramar shares the richness of her culture through the art of food. Learn step-by-step recipes—for dishes of her own design, like tuna tostadas, and staples like tacos al pastor, salsa, and tortillas—and delight loved ones with your own delicious renditions of Mexican favorites."
+    
+      79:
+        title: "Dustin Hoffman Teaches Acting"
+        summary: "Learn Dustin's Method - Dustin Hoffman believes that every great character is already inside you—the hard part is learning to access them. In his first ever online class, the two-time Academy Award winning star of The Graduate, Tootsie, and Rain Man teaches you everything he's learned during his 50 year acting career."
+    
+      80:
+        title: "Kelly Wearstler Teaches Interior Design"
+        summary: "Eclectic and experiential, Kelly Wearstler's style helped redefine modern American design and influenced the rise of designer hotels. Now the award-winning designer takes you behind the scenes to demystify interior design. Make any space feel larger, and choose colors, materials, and textures with confidence. Curate collections of art and objects, cultivate your own distinct style, and create spaces that tell a story."
+    
+      81:
+        title: "Jeff Goodby & Rich Silverstein Teach Advertising and Creativity"
+        summary: "As the minds behind the 'got milk?' campaign, the Budweiser lizards, and countless other ads that have permeated pop culture, Jeff Goodby and Rich Silverstein never stop reimagining the possibilities of advertising. Now they're sharing how they make the beautiful and edgy work that's seen by millions. Learn how to come up with great ideas, tell funny and compelling stories, and dazzle at your next pitch or presentation."
+    
+      82:
+        title: "Ru-Paul Teaches Self-Expression and Authenticity"
+        summary: "RuPaul has transformed drag subculture into a mainstream phenomenon with devoted fans across the world. Now the Emmy-winning host, performer, and drag icon is sharing an intimate look at his personal journey to self-realization. From finding your inner truth to owning the room, RuPaul teaches you how to present your best self to the world. It's your life's work to shine—RuPaul shows you how."
+    
+      83:
+        title: "Lynnette and Ryan Teach Mixology"
+        summary: "James Beard honoree Lynnette Marrero has been at the forefront of the NYC craft cocktail movement. Ryan Chetiyawardana (aka Mr. Lyan) is the founder of Dandelyan, named the world's best bar. They will teach you the essentials of cocktail making, from developing your palate to building your home bar. Learn how to mix a perfectly balanced drink for every occasion and mood—and become your friends' new favorite bartender."
+    
+      85:
+        title: "Ron Finley Teaches Gardening"
+        summary: "When Ron Finley first grew a garden on a curbside dirt strip, he got cited—and then a warrant was issued for his arrest. He fought back, got the laws changed, and started a movement. Now the community activist and self-proclaimed 'Gangster Gardener' is teaching you how to grow your own food, keep your plants alive, and find beauty and freedom in gardening no matter the size of your space. Start planting a revolution."
+    
+      86:
+        title: "Robin Roberts Teaches Effective Communication"
+        summary: "Millions of people spend their mornings with Robin Roberts, one of today's most beloved broadcasters. Now the Emmy-winning 'Good Morning America' co-anchor is sharing how she creates unforgettable moments through human connection. Learn how to communicate effectively, whether it's in front of an audience, at work, or with those you love. Start embracing vulnerability, building resilience, and living life with optimism."
+    
+      87:
+        title: "Tony Hawk Teaches Skateboarding"
+        summary: "A pro at 14 and the first to land a 900 at the X Games, Tony Hawk is one of the most influential skateboarders of all time. Now he's helping you take your skateboarding to the next level. Joined by pros Lizzie Armanto and Riley Hawk, Tony teaches you beginner, intermediate, and advanced tricks in street, park, and vert. Learn how to push yourself, get up when you fall, and find your own style. Start reaching new heights."
+    
+      88:
+        title: "Sheila E. Teaches Drumming and Percussion"
+        summary: "Raised in a family of musicians, Sheila E. has collaborated with icons like Marvin Gaye and Ringo Starr and was named one of the all-time greatest drummers by Rolling Stone. Now she teaches you how to find your rhythm. Learn the principles of percussion—with or without a drum set—and discover techniques for dynamic solos and fills. Jam with the Escovedo family and find your own groove, as a beginner or as a bandleader."
+    
+      89:
+        title: "Brandon McMillan Teaches Dog Training"
+        summary: "The Emmy-winning host of 'Lucky Dog', Brandon McMillan is an expert trainer dedicated to building relationships between humans and animals. In his MasterClass, Brandon shares his simple, effective training system to help you develop trust and control with your dog. From using commands like sit, stay, and down to fixing barking and digging, you'll learn how to improve your dog's behavior—and create a lifelong bond."
+    
+      90:
+        title: "Jake Shimabukuro Teaches ?Ukulele"
+        summary: "Jake Shimabukuro teaches you how to take your ?ukulele from the shelf to center stage, with techniques for beginners and seasoned players alike."
+    
+      91:
+        title: "Tan France Teaches Style For Everyone"
+        summary: "Queer Eye cohost Tan France breaks down the principles of great style, from building a capsule wardrobe to looking pulled together every day."
+    
+      92:
+        title: "St. Vincent Teaches Creativity and Songwriting"
+        summary: "Explore your creative process and embrace vulnerability with St. Vincent, the Grammy-winning, genre-defying artist and performer."
+    
+      93:
+        title: "Yotam Ottolenghi Teaches Modern Middle Eastern Cooking"
+        summary: "James Beard Award-winning chef Yotam Ottolenghi teaches you his recipes for delicious Middle Eastern platters layered with color and flavor."
+    
+      94:
+        title: "Daniel Pink Teaches Sales and Persuasion"
+        summary: "NYT-bestselling author Daniel Pink shares a science-based approach to the art of persuading, selling, and motivating yourself and others."
+    
+      95:
+        title: "Parris Goebel Teaches Creativity in Choreography"
+        summary: "Award-winning choreographer Parris Goebel teaches you her techniques for bringing a vision to life and her approach to owning your creativity."
+    
+      96:
+        title: "Emily Morse Teaches Sex and Communication"
+        summary: "In her MasterClass, Emily Morse empowers you to talk openly about sex and discover greater sexual satisfaction."
+    
+      97:
+        title: "Alicia Keys Teaches Songwriting and Producing"
+        summary: "Alicia shows you how she writes lyrics, crafts melodies, and explores sonics so you can discover the music you were born to make."
+    
+      98:
+        title: "Walter Mosley Teaches Fiction and Storytelling"
+        summary: "Walter Mosley, bestselling author and recipient of the National Book Award's Lifetime Achievement Medal, has written more than 60 books over his 30-year career and is celebrated for fiction that addresses our culture's racial divides. Now he's sharing the elements of storytelling that have helped him along the way. Learn how to choose the right words, structure, genre, and characters to create the novel that's in you."
+    
+      99:
+        title: "Apollonia Poilâne Teaches Bread Baking"
+        summary: "Poilâne CEO Apollonia Poilâne teaches the renowned Parisian bakery's philosophy and time-tested techniques for baking rustic French breads."
+    
+      100:
+        title: "Salman Rushdie Teaches Storytelling and Writing"
+        summary: "Booker Prize winner Salman Rushdie teaches you his techniques for crafting believable characters, vivid worlds, and spellbinding stories."
+    
+      101:
+        title: "Jeff Koons Teaches Art and Creativity"
+        summary: "Jeff Koons teaches you how color, scale, form, and more can help you channel your creativity and create the art that's in you."
+    
+      102:
+        title: "Nancy Cartwright Teaches Voice Acting"
+        summary: "The legendary voice actor reveals her creative process for giving life to animated characters with emotion, imagination, and humor."
+    
+      103:
+        title: "Matthew Walker Teaches the Science of Better Sleep"
+        summary: "Neuroscience professor Matthew Walker teaches you the science of sleep and how to optimize it to better your overall health."
+    
+      104:
+        title: "Issa Rae Teaches Creating Outside the Lines"
+        summary: "Emmy-nominated writer, actor, and producer Issa Rae teaches you how to bring your creative vision to life."
+    
+      105:
+        title: "Joe Holder Teaches Fitness and Wellness Fundamentals"
+        summary: "Joe Holder is a nationally recognized master trainer and one of the most influential coaches in fitness and sports. Now he's teaching you how to build the foundation for a lifetime of good health. With Joe's holistic approach, you'll learn how to work out for increased mobility and strength, maximize your nutrition, and build a positive mindset. Start achieving your health goals and living a more purposeful life."
+    
+      106:
+        title: "Jon Kabat-Zinn Teaches Mindfulness and Meditation"
+        summary: "Mindfulness expert Jon Kabat-Zinn teaches you how to incorporate meditation into your everyday life to improve your health and happiness."
+    
+      107:
+        title: "Roxane Gay Teaches Writing for Social Change"
+        summary: "Bestselling author and cultural critic Roxane Gay teaches writing for social change and arms you with the skills needed to make an impact."
+    
+      108:
+        title: "Questlove Teaches Music Curation and DJing"
+        summary: "The iconic DJ and Roots drummer Questlove teaches you how to be a better DJ, deepen your love of music, and make a perfect playlist."
+    
+      109:
+        title: "Niki Nakayama Teaches Modern Japanese Cooking"
+        summary: "Niki Nakayama of two-Michelin-starred n/naka teaches you how to honor fresh ingredients with her innovative take on Japanese home cooking techniques."
+    
+      110:
+        title: "Donna Farhi Teaches Yoga Foundations"
+        summary: "Renowned yoga instructor Donna Farhi teaches you the most essential physical and mental elements of creating a safe, sustainable practice."
+    
+      113:
+        title: "David Carson Teaches Graphic Design"
+        summary: "Pioneering graphic designer David Carson teaches you his intuitive approach to creating work that breaks rules and makes an impact."
+    
+      114:
+        title: "Wayne Gretzky Teaches the Athlete's Mindset"
+        summary: "NHL star Wayne Gretzky shares his journey and his approach to a winning mindset, from tapping into your true passion to committing to success every day."
+    
+      115:
+        title: "Tyler Mitchell Teaches Storytelling Through Portrait Photography"
+        summary: "History-making photographer Tyler Mitchell teaches you his artistic process for creating compelling images with any kind of camera."
+
+      116:
+        title: "Robert Reffkin Teaches Buying and Selling Real Estate"
+        summary: "As the CEO and founder of Compass, Robert Reffkin has used modern technology to revolutionize the real estate industry in the U.S. Now he’s demystifying the ins and outs of the American home-buying process and sharing tools that will help you buy or sell a home with confidence. Learn how to approach your search, choose an agent, make an offer, and more. Your future home is waiting—let Robert help you find it."
+
+      117:
+        title: "James Cameron Teaches Filmmaking"
+        summary: "From The Terminator and Titanic to Avatar, James Cameron has directed some of Hollywood’s biggest blockbusters. Now, for the first time in his 40-year career, he opens up about his process. Through behind-the-scenes breakdowns, James shares his approach to developing ideas, storylines, and characters; harnessing technology; and worldbuilding on any budget. Explore the innovation and imagination behind epic moviemaking."
+
+      118:
+        title: "LeVar Burton Teaches the Power of Storytelling"
+        summary: "As the CEO and founder of Compass, Robert Reffkin has used modern technology to revolutionize the real estate industry in the U.S. Now he’s demystifying the ins and outs of the American home-buying process and sharing tools that will help you buy or sell a home with confidence. Learn how to approach your search, choose an agent, make an offer, and more. Your future home is waiting—let Robert help you find it."
+
+      119:
+        title: "Robin Arzón Teaches Mental Strength"
+        summary: "From litigator to ultramarathoner to bestselling author to head instructor and VP at Peloton, Robin Arzón keeps proving it’s never too late to level up in your life. Now, she’s ready to teach you how building your mental strength can help you see what’s possible for yourself—and see it through. Learn how to identify your dreams and apply the principles of endurance, power, and strength to help you reach your goals."
+
+      120:
+        title: "Jessie Krebs Teaches Wilderness Survival"
+        summary: "As a former Air Force SERE (survival, evasion, resistance, and escape) specialist, wilderness survival expert Jessie Krebs spent 30 years preparing people for the unexpected. Now she’s teaching you the mindset and skills to safely explore the outdoors. Learn essential survival techniques—from signaling for help to reading a map, finding water, making shelter, and more—and embark on your next adventure with confidence."
+
+      121:
+        title: "Futura Teaches Spray-Painting & Abstract Art"
+        summary: "A pioneering painter and street artist, Futura has exhibited at institutions like the Museum of Contemporary Art in Los Angeles, collaborated with Louis Vuitton and Supreme, and created album art for The Clash. Now he’s teaching you his signature, kinetic approach to abstract art. Learn how to express yourself and paint with color, dimension, and detail. All you need to create art is an idea and a can of spray paint."
+
+      122:
+        title: "Elaine Welteroth Teaches Designing Your Career"
+        summary: "After a decade in her dream job as editor in chief of Teen Vogue, award-winning journalist Elaine Welteroth realized she had other dreams worth pursuing. Now, the New York Times bestselling author, multimedia trailblazer, and judge on the new Project Runway is teaching you how to get out of your comfort zone and harness your personal values, passions, and skills to custom design a career path as unique as you are."
+
+      123:
+        title: "Es Devlin Teaches Turning Ideas Into Art"
+        summary: "For more than 20 years, Es Devlin has sculpted immersive experiences for opera, drama, and performers like Beyoncé, Billie Eilish, The Weeknd, and U2. Now the artist and designer shares her process so you can cultivate creativity in any form. From sketching to collaborating to creating powerful visual stories, learn how to turn the abstract—your ideas and imagination—into art you can see, feel, and share."
+
+      124:
+        title: "Corey Damen Jenkins Teaches Interior Design"
+        summary: "Considered one of the most prominent interior designers working today, Corey Damen Jenkins creates elevated spaces for clients across the globe and believes everyone should have access to great design. Now he’s teaching you how to build bold, functional interiors on any budget. From mood boards to space planning, learn how to embrace the design process, make choices with confidence, and turn your home into a true haven."
+
+      125:
+        title: "Mashama Bailey Teaches Southern Cooking"
+        summary: "Through her award-winning Savannah restaurant, The Grey, Chef Mashama Bailey has brought worldwide acclaim to the rich, layered traditions of African American Southern cooking. Now the James Beard Award–winning chef shows you traditional and reimagined techniques and recipes for nutritious, flavorful Southern dishes. From pork shank and collard greens to gumbo and grits, explore a world of history, texture, and taste."
+
+      126:
+        title: "Geno Auriemma Teaches Leading Winning Teams"
+        summary: "With 11 national college basketball championships and two Olympic gold medals, Geno Auriemma has coached some of basketball’s most iconic teams. Now he’s showing you how to build and lead any kind of team—at home, work, or in your community—and achieve sustainable success. Learn strategies for being an empathetic, resilient leader so you can inspire others to push past their own barriers and reach their highest potential."
+
+      127:
+        title: "Alex Honnold & Tommy Caldwell Teach Rock Climbing"
+        summary: "With more than 60 combined years of elite rock climbing experience, Alex Honnold and Tommy Caldwell have scaled some of the largest—and most extreme—walls in the world. Now, the stars of Free Solo and The Dawn Wall are teaming up to share their tried-and-true techniques for tackling any wall. From the fundamentals of footwork and body and hand positioning to mental exercises and advanced holds and movements, you’ll learn how to take on new challenges and push yourself further on and off the wall."
+
+      128:
+        title: "Madhur Jaffrey Teaches Indian Cooking"
+        summary: "With more than 30 award-winning cookbooks and a James Beard Foundation Cookbook Hall of Fame Award, Madhur Jaffrey may be the greatest living authority on Indian cuisine. Now she shares those vast and storied traditions with you. Learn 30 authentic recipes: vegetables, breads, South Asian meats, street foods, and more. Blend and layer spices and bring it all together—from the perfect bite to full menus of vibrant flavor."
+
+      129:
+        title: "Nas Teaches Hip-Hop Storytelling"
+        summary: "From the landmark album 'Illmatic' in 1994 to the Grammy-winning 'King’s Disease', Nas has been exposing truth through rhymes and vivid street poetry for more than 25 years. Now he’s sharing his journey, the evolution of Hip-Hop, and a brand-new song with you. Hip-Hop, lyricism, flow—learn how to tap into the power of your own voice and turn your experiences into music with one of rap’s all-time greatest artists."
+
+      130:
+        title: "Yo-Yo Ma Teaches Music and Connection"
+        summary: "Likely the world’s most recognizable cellist, Yo-Yo Ma has spent more than 60 years creating meaning through music. Now, the 18-time Grammy Award winner is sharing that experience with you. Whether or not you play an instrument, explore Yo-Yo Ma’s philosophy for embracing music’s emotional power, expand your self-expression and creativity, and develop a deeper appreciation for music’s ability to connect people and culture."
+
+      131:
+        title: "Metallica Teaches Being a Band"
+        summary: "With 28 albums, 8 Grammy Awards, and a home in the Rock & Roll Hall of Fame, Metallica have been creating iconic music together for over 40 years. Now, they’re teaching what it takes to build and sustain success as a group. Get an exclusive look into their process for songwriting, building an album, and performing, and how they took charge of their creative destiny so you can do the same."
+# Source: https://pastebin.com/s9zTQkNG (https://www.reddit.com/comments/pz84io//hezo7oa)
+  Money Heist:
+    schedule: weekly(sunday)
+    episodes:
+      S01E01:
+        title: Episode 1
+        originally_available: 2017-12-20
+        summary: The Professor recruits a young female robber and seven other criminals for a grand heist, targeting the Royal Mint of Spain.
+      S01E02:
+        title: Episode 2
+        originally_available: 2017-12-20
+        summary: Hostage negotiator Raquel makes initial contact with the Professor. One of the hostages is a crucial part of the thieves' plans.
+      S01E03:
+        title: Episode 3
+        originally_available: 2017-12-20
+        summary: Police grab an image of the face of one of the robbers. Raquel is suspicious of the gentleman she meets at a bar.
+      S01E04:
+        title: Episode 4
+        originally_available: 2017-12-20
+        summary: Raquel suffers a personal crisis with her ex. The hostages are frightened by the gunshots they overheard. The thieves argue among themselves.
+      S01E05:
+        title: Episode 5
+        originally_available: 2017-12-20
+        summary: The thieves let a medical team enter the Mint, and an undercover policeman sneaks in with them. Can the Professor stay one step ahead of Raquel?
+      S01E06:
+        title: Episode 6
+        originally_available: 2017-12-20
+        summary: Mónica's condition worsens. The Professor enjoys the spoils of his latest trick. Río is disturbed by news he sees on the television.
+      S01E07:
+        title: Episode 7
+        originally_available: 2017-12-20
+        summary: A break in the investigation and a mistake by one of the thieves puts the Professor at serious risk of being discovered.
+      S01E08:
+        title: Episode 8
+        originally_available: 2017-12-20
+        summary: Tokyo catches Alison chatting with Río and confronts her. The police suspect a spy is in their midst.
+      S01E09:
+        title: Episode 9
+        originally_available: 2017-12-20
+        summary: The Professor races to stop a witness from identifying him. Berlín seeks revenge once his own name is revealed and slandered in the press.
+      S01E10:
+        title: Episode 10
+        originally_available: 2017-12-20
+        summary: Raquel enters the Mint to ascertain that all of the hostages are still alive and well. Nairobi gives Alison advice.
+      S01E11:
+        title: Episode 11
+        originally_available: 2017-12-20
+        summary: Ángel and Raquel question each other's loyalties. Mónica makes a move on Denver. Río is faced with a difficult decision.
+      S01E12:
+        title: Episode 12
+        originally_available: 2017-12-20
+        summary: Arturo continues to formulate an escape plan for a group of hostages. The Professor reveals who gave him the idea for the heist.
+      S01E13:
+        title: Episode 13
+        originally_available: 2017-12-20
+        summary: "The Professor meets Raquel's mother under stressful circumstances. At the Mint, the thieves offer the hostages a decision: money or freedom?"
+      S02E01:
+        title: Episode 1
+        originally_available: 2018-04-06
+        summary: As forensic experts comb the Toledo country house for DNA, the Professor loses control. Inside the Mint, the robbers' nerves reach a breaking point.
+      S02E02:
+        title: Episode 2
+        originally_available: 2018-04-06
+        summary: The police interrogate the first robber to be captured. Furious over Berlín's recent actions, Río takes a stand against him.
+      S02E03:
+        title: Episode 3
+        originally_available: 2018-04-06
+        summary: Hoping to learn the Professor's identity, Raquel appeals to her captive's emotions. A punishment for "high treason" sparks a revolt among the robbers.
+      S02E04:
+        title: Episode 4
+        originally_available: 2018-04-06
+        summary: Recognizing their plan isn't working out, the robbers instead aim to win over the public via the press. Raquel plots a trap to capture the Professor
+      S02E05:
+        title: Episode 5
+        originally_available: 2018-04-06
+        summary: Arturo tries to set another escape plan in motion. During a conversation with Salva, Raquel spots a tiny detail that gets her mind racing.
+      S02E06:
+        title: Episode 6
+        originally_available: 2018-04-06
+        summary: After confessing a long-held secret, Moscow loses his son's trust. A contingency plan to free Tokyo hits a snag, forcing her to improvise.
+      S02E07:
+        title: Episode 7
+        originally_available: 2018-04-06
+        summary: With one of their own critically injured, the robbers race against time to save his life. During a moment alone, Ariadna makes a confession to Mónica.
+      S02E08:
+        title: Episode 8
+        originally_available: 2018-04-06
+        summary: After being removed from the case due to her relationship with the Professor, Raquel sets out to conduct her own search for the mastermind.
+      S02E09:
+        title: Episode 9
+        originally_available: 2018-04-06
+        summary: As the police enter the Mint, Berlín leads the robbers in a final showdown. Will they escape with the 984 million euros -- and with their lives intact?
+      S03E01:
+        title: We're Back
+        originally_available: 2019-07-19
+        summary: When Río is captured, a distraught Tokyo turns to the Professor for help. Armed with a bold new plan, they reunite the team in order to rescue him.
+      S03E02:
+        title: Aikido
+        originally_available: 2019-07-19
+        summary: The Professor recruits Martín to put his brother's plan into action and target the Bank of Spain. First step? Create total chaos.
+      S03E03:
+        title: 48 Meters Underground
+        originally_available: 2019-07-19
+        summary: Tokyo and Nairobi's efforts go drastically awry. The Professor recalls Berlín detailing how they'd steal the gold from the water-logged vault.
+      S03E04:
+        title: It's Dolphin Time
+        originally_available: 2019-07-19
+        summary: Tamayo's breaches of protocol surprise the Professor. Bogotá calms Denver's anxieties. With time running out, Palermo initiates the "Flipper" plan.
+      S03E05:
+        title: Boom, Boom, Ciao
+        originally_available: 2019-07-19
+        summary: The Professor shocks officials with his latest stunt, but in response, a new inspector rattles Raquel. Palermo and Nairobi get into a heated argument.
+      S03E06:
+        title: Everything Seemed Insignificant
+        originally_available: 2019-07-19
+        summary: Just as Inspector Sierra orchestrates a plan to sneak a team into the Bank of Spain, the Professor and Raquel lose communication with Palermo.
+      S03E07:
+        title: A Quick Vacation
+        originally_available: 2019-07-19
+        summary: Tokyo's happiness turns bittersweet. Ángel closes in on a quarreling Raquel and the Professor. Authorities offer a multimillion-dollar reward for tips.
+      S03E08:
+        title: Astray
+        originally_available: 2019-07-19
+        summary: Tokyo attempts to drown her sorrows. Sierra uses personal tactics to target a vulnerable Nairobi, while Suárez continues to hunt down Raquel.
+      S04E01:
+        title: Game Over
+        originally_available: 2020-04-03
+        summary: Anger and grief heighten tensions between the group. The Professor, while in mourning, attempts to make a daring and dangerous escape.
+      S04E02:
+        title: Berlin's Wedding
+        originally_available: 2020-04-03
+        summary: Palermo shocks the group with his actions. Sierra pressures her subject to take a deal. The Professor remembers his brother's wedding.
+      S04E03:
+        title: Anatomy Lesson
+        originally_available: 2020-04-03
+        summary: The Professor's mole attempts to pass along his message to the person inside the tent. Denver's jealousy toward Mónica and Rio's friendship heightens.
+      S04E04:
+        title: Pasodoble
+        originally_available: 2020-04-03
+        summary: In the past, Berlin predicts that Gandía will cause problems for the operation. Sierra's interrogation of Lisboa leads to a personal revelation. 
+      S04E05:
+        title: 5 Minutes Earlier
+        originally_available: 2020-04-03
+        summary: Denver turns to an undercover source for help. Nairobi attempts to motivate her team as the danger around them intensifies.
+      S04E06:
+        title: TKO
+        originally_available: 2020-04-03
+        summary: With Nairobi held hostage, Gandía negotiates with the crew. The Professor desperately seeks a new plan to save his team.
+      S04E07:
+        title: Strike the Tent
+        originally_available: 2020-04-03
+        summary: The group reels following the attack on one of their own. The Professor puts his adjusted plan in motion with the help of new recruits and Palermo.
+      S04E08:
+        title: The Paris Plan
+        originally_available: 2020-04-03
+        summary: The Professor, Benjamin and the others attempt to free Lisboa. Tokyo's anger threatens her faith in the plan. Sierra takes matters into her own hands.
+      S05E01:
+        title: The End of the Road
+        originally_available: 2021-09-03
+        summary: The Professor faces off with Sierra as Tamayo raises the stakes of the negotiations by calling the army. In the past, Berlin meets with a family member.
+      S05E02:
+        title: Do You Believe in Reincarnation?
+        originally_available: 2021-09-03
+        summary: Arturo seizes an opportunity to fight back while escalating a personal vengeance. Lisbon makes a crucial discovery.
+      S05E03:
+        title: The Spectacle of Life
+        originally_available: 2021-09-03
+        summary: A betrayal and an emergency both catch Sierra by surprise. Palermo rallies the troops as the army closes in on the gang.
+      S05E04:
+        title: Your Place in Heaven
+        originally_available: 2021-09-03
+        summary: With Helsinki's life in danger, the thieves mount a covert counter attack. Years earlier, Berlin and his son conduct their first heist together.
+      S05E05:
+        title: Live Many Lives
+        originally_available: 2021-09-03
+        summary: While surrounded by gunfire and trapped in the kitchen, Tokyo reminisces about her first love and her initial encounter with the Professor.

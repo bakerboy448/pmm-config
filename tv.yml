@@ -1,0 +1,50 @@
+#####################################
+#     Custom Collection Template    #
+#####################################
+templates:
+  Studio:
+    sort_title: "!A <<collection_name>>"
+    collection_mode: hide
+  TV Collection:
+    optional:
+      - trakt_list
+      - imdb_list
+      - tvdb_show
+    trakt_list_details: <<trakt_list>>
+    imdb_list: <<imdb_list>>
+    tvdb_show: <<tvdb_show>>
+    sort_title: <<collection_name>>
+    collection_order: release
+    collection_mode: hide
+
+
+#####################################
+#         Studio Collections        #
+#####################################
+  DC Extended Universe:
+    template: {name: Studio}
+    imdb_list: https://www.imdb.com/list/ls077827588/
+    summary: "The DC Extended Universe (DCEU) is a media franchise and shared universe centered on superheros from DC Comics."
+    collection_order: release
+  Marvel Studios:
+    template: {name: Studio}
+    imdb_list: https://www.imdb.com/list/ls009410711/
+    summary: "A collection of movies and shows created by Marvel Studios, comprising of the Marvel Cinematic Universe."
+    collection_order: release
+
+
+#####################################
+#         General Collections       #
+#####################################
+  Alien:
+    template: {name: TV Collection, tvdb_show: 360348}
+    summary: "An expansion of the Alien film collection."
+  Marvel Alternates:
+    template: {name: TV Collection, imdb_list: "https://www.imdb.com/list/ls509339319/"}
+    summary: "A collection of movies and TV shows produced with Marvel characters, separate from the Marvel Cinematic Universe."
+  Star Trek:
+    template: {name: TV Collection, imdb_list: "https://www.imdb.com/list/ls022123905/"}
+    summary: "Star Trek is an American science fiction media franchise originating from the 1960s television series Star Trek, created by Gene Roddenberry."
+  What We Do in the Shadows:
+    template: {name: TV Collection, tvdb_show: "358211, 344280"}
+    summary: "What We Do in the Shadows is a franchise that consists of New Zealand and American mockumentary horror-comedy movies and shows that follows sets of vampires living in today's world and the characters they surround themselves with."
