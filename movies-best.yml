@@ -35,6 +35,9 @@ collections:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     summary: Oscar Winning Movies
+    visible_library: true
+    visible_shared: true
+    visible_home: true
   Best of 2014:
     template: { name: Best of, year: 2014 }
   Best of 2015:

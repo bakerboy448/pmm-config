@@ -13,6 +13,7 @@ templates:
     delete_not_scheduled: true
     visible_home: true
     visible_shared: true
+    visible_library: true
     run_again: true
     sync_mode: sync
 collections:
