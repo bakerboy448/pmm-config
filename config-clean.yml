@@ -1,21 +1,22 @@
-## This file is a template remove the .template to use the file
-
 libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     metadata_path:
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies.yml
+      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-best.yml
+      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-collections.yml
+      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-general.yml
+      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-holidays.yml
     operations:
       delete_unmanaged_collections: true
       delete_collections_with_less: 2
     radarr: # Can be individually specified per library as well
       url: http://localhost:7878/radarr
-      token:
+      token: (removed)
       add: true
       add_existing: true
       root_folder_path: /data/media/media/movies
       monitor: true
       availability: released
-      quality_profile: "HD - No Remux"
+      quality_profile: HD - No Remux
       tag: pmm
       search: true
       radarr_path:
@@ -29,12 +30,12 @@ libraries: # Library mappings must have a colon (:) placed after them
       delete_collections_with_less: 2
     sonarr: # Can be individually specified per library as well
       url: http://localhost:8989/sonarr
-      token:
+      token: (removed)
       add: true
       add_existing: true
       root_folder_path: /data/media/media/tv
       monitor: all
-      quality_profile: "HD - Low - No Upgrade"
+      quality_profile: HD - Low - No Upgrade
       language_profile: English
       series_type: standard
       season_folder: true
@@ -62,50 +63,39 @@ settings: # Can be individually specified per library as well
   delete_below_minimum: true
   delete_not_scheduled: false
   tvdb_language: eng
+  asset_depth: 0
+  show_missing_season_assets: false
+  show_options: false
+  ignore_ids:
+  ignore_imdb_ids:
 webhooks:
   error: notifiarr
   run_start: notifiarr
   run_end: notifiarr
-  collection_creation: notifiarr
-  collection_addition: notifiarr
-  collection_removal: notifiarr
+  collection_changes:
+    - notifiarr
 plex: # Can be individually specified per library as well; REQUIRED for the script to run
   url: http://localhost:32400
-  token:
-  timeout: 60
+  token: (removed)
+  timeout: 120
   clean_bundles: false
   empty_trash: false
-  optimize: true
+  optimize: false
 tmdb: # REQUIRED for the script to run
-  apikey:
+  apikey: (removed)
   language: en
 tautulli: # Can be individually specified per library as well
   url: http://localhost:8181/tautulli
-  apikey:
-omdb:
-  apikey: ########
+  apikey: (removed)
 notifiarr:
-  apikey:
-# anidb: # Not required for AniDB builders unless you want mature content
-#   username: ######
-#   password: ######
-# trakt:
-#   client_id: ################################################################
-#   client_secret: ################################################################
-#   authorization:
-#     # everything below is autofilled by the script
-#     access_token:
-#     token_type:
-#     expires_in:
-#     refresh_token:
-#     scope: public
-#     created_at:
-# mal:
-#   client_id: ################################
-#   client_secret: ################################################################
-#   authorization:
-#     # everything below is autofilled by the script
-#     access_token:
-#     token_type:
-#     expires_in:
-#     refresh_token:
+  apikey: (removed)
+trakt:
+  client_id: (removed)
+  client_secret: (removed)
+  authorization:
+    access_token: (removed)
+    token_type: Bearer
+    expires_in: 7889237
+    refresh_token: (removed)
+    scope: public
+    created_at: 1639938124
