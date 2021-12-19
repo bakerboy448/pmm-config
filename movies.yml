@@ -29,9 +29,7 @@ templates:
     optional:
       - collection
       - tmdb_movie
-      - trakt_list
       - tmdb_list
-    trakt_list_details: <<trakt_list>>
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<tmdb_movie>>
     tmdb_list: <<tmdb_list>>
@@ -77,10 +75,6 @@ collections:
   #####################################
   #      Special Genre Collections    #
   #####################################
-  Superhero Movies:
-    template: { name: Special Genre }
-    trakt_list: https://trakt.tv/users/hdlists/lists/superhero-movies-from-1980-to-today
-    summary: "A collection of superhero movies released from 1980 until today."
 
   #####################################
   #     General Movies Collections    #
