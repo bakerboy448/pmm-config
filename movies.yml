@@ -246,9 +246,6 @@ collections:
     template: { name: Holiday, holiday: Christmas }
     imdb_list:
       - https://www.imdb.com/list/ls000096828/
-      - https://www.imdb.com/list/ls097394442/
-      - https://www.imdb.com/list/ls068976997/
-      - https://www.imdb.com/list/ls027567380/
     collection_order: release
 
   New Year's Eve Movies:
