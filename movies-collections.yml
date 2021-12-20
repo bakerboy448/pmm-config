@@ -361,8 +361,6 @@ collections:
         movie: "658009, 643413, 450001, 751391, 44249, 182127, 44865",
       }
     collection_order: alpha
-  Iron Man:
-    template: { name: Collection, collection: 131292 }
   It:
     template: { name: Collection, collection: 477962 }
   James Bond:
