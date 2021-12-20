@@ -12,6 +12,8 @@ templates:
     sync_mode: sync
     radarr_add: false
     collection_order: release
+    radarr_tag: PMM,PMM-<<collection_name>> # New
+    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
 collections:
   101 Dalmatians:
     template: { name: Collection, collection: 100693 }

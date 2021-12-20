@@ -30,13 +30,15 @@ templates:
     visible_library: true
     radarr_monitor: true
     radarr_search: true
-    radarr_tag: pmm,general-collection
+    radarr_tag: PMM,PMM-<<collection_name>> # New
+    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
   Special Genre:
     sort_title: "!C <<collection_name>>"
     collection_order: alpha
     collection_mode: hide
     visible_library: true
-    radarr_tag: pmm,general-special
+    radarr_tag: PMM,PMM-<<collection_name>> # New
+    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
 collections:
   #####################################
   #        Director Collections       #

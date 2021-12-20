@@ -16,6 +16,8 @@ templates:
     sort_title: <<collection_name>>
     collection_order: release
     collection_mode: hide
+    sonarr_tag: PMM,PMM-<<collection_name>> # New
+    item_sonarr_tag: PMM,PMM-<<collection_name>> # Existing
 
   #####################################
   #         Studio Collections        #
