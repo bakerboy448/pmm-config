@@ -16,6 +16,13 @@ templates:
     schedule: daily
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+  Special Genre:
+    sort_title: "!C <<collection_name>>"
+    collection_order: alpha
+    collection_mode: hide
+    visible_library: true
+    radarr_tag: PMM,PMM-<<collection_name>> # New
+    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
   Movies:
     optional:
       - collection
@@ -30,13 +37,6 @@ templates:
     visible_library: true
     radarr_monitor: true
     radarr_search: true
-    radarr_tag: PMM,PMM-<<collection_name>> # New
-    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
-  Special Genre:
-    sort_title: "!C <<collection_name>>"
-    collection_order: alpha
-    collection_mode: hide
-    visible_library: true
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
 collections:
