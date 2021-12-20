@@ -1,0 +1,69 @@
+templates:
+  collection:
+    sort_title: <<collection_name>>
+    collection_mode: hide_items
+    tmdb_collection_details: <<collection>>
+    collection_order: release
+    sync_mode: sync
+    radarr_monitor: true
+    radarr_search: true
+    radarr_tag: pmm,mcu
+  universe:
+    sort_title: "!+_<<collection_name>>"
+    collection_mode: hide
+    smart_label: year.desc
+    sync_mode: sync
+    visible_home: true
+    visible_shared: true
+    visible_library: true
+collections:
+  # MCU In watch order
+  Marvel Cinematic Universe:
+    template:
+      name: universe
+    summary: A collection of all Marvel Cinematic Universe movies.
+    tmdb_list: https://www.themoviedb.org/list/8168761
+    visible_library: true
+
+  # Individual Collections
+  Ant-Man Collection:
+    template:
+      name: collection
+      collection: 422834
+  The Avengers Collection:
+    sort_title: Avengers
+    template:
+      name: collection
+      collection: 86311
+  Captain America Collection:
+    template:
+      name: collection
+      collection: 131295
+  Black Panther Collection:
+    template:
+      name: collection
+      collection: 529892
+  Captain Marvel Collection:
+    template:
+      name: collection
+      collection Collection: 623911
+  Doctor Strange Collection:
+    template:
+      name: collection
+      collection: 618529
+  Guardians of the Galaxy Collection:
+    template:
+      name: collection
+      collection: 284433
+  Iron Man Collection:
+    template:
+      name: collection
+      collection: 131292
+  Spider-Man (Avengers) Collection:
+    template:
+      name: collection
+      collection: 531241
+  Thor Collection:
+    template:
+      name: collection
+      collection: 131296

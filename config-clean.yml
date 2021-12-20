@@ -5,6 +5,7 @@ libraries: # Library mappings must have a colon (:) placed after them
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-collections.yml
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-general.yml
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-holidays.yml
+      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-mcu.yml
     operations:
       delete_unmanaged_collections: true
       delete_collections_with_less: 2
