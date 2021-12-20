@@ -61,8 +61,6 @@ collections:
     template: { name: Collection, collection: 531315 }
   Annabelle:
     template: { name: Collection, collection: 402074 }
-  Ant-Man:
-    template: { name: Collection, collection: 422834 }
   Appleseed:
     template: { name: Collection, collection: "87800, 371526" }
   Atlantis:
@@ -71,8 +69,6 @@ collections:
     template: { name: Collection, collection: 370411 }
   Austin Powers:
     template: { name: Collection, collection: 1006 }
-  The Avengers:
-    template: { name: Collection, collection: 86311 }
   AVP:
     template: { name: Collection, collection: 115762 }
   Babe:
@@ -121,8 +117,6 @@ collections:
     template: { name: Collection, collection: 96472 }
   The Buddies:
     template: { name: Collection, collection: 91657 }
-  Captain America:
-    template: { name: Collection, collection: 131295 }
   Carrie:
     template: { name: Collection, collection: 257053 }
   Cars:
