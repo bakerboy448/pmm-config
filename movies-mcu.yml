@@ -7,7 +7,8 @@ templates:
     sync_mode: sync
     radarr_monitor: true
     radarr_search: true
-    radarr_tag: pmm,mcu
+    radarr_tag: PMM,PMM-<<collection_name>> # New
+    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
   universe:
     sort_title: "!+_<<collection_name>>"
     collection_mode: hide

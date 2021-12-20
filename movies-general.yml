@@ -8,12 +8,14 @@ templates:
     collection_order: release
     collection_mode: hide
     schedule: weekly(friday)
-    radarr_tag: pmm,general-director
+    radarr_tag: PMM,PMM-<<collection_name>> # New
+    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
   Studio:
     sort_title: "!B <<collection_name>>"
     collection_mode: hide
     schedule: daily
-    radarr_tag: pmm,general-studio
+    radarr_tag: PMM,PMM-<<collection_name>> # New
+    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
   Movies:
     optional:
       - collection

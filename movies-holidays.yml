@@ -18,7 +18,8 @@ templates:
     sync_mode: sync
     radarr_monitor: true
     radarr_search: true
-    radarr_tag: pmm,holidays
+    radarr_tag: PMM,PMM-<<collection_name>> # New
+    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
 collections:
   Valentine's Day Movies:
     template:
