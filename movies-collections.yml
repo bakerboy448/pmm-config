@@ -11,6 +11,7 @@ templates:
     tmdb_movie: <<movie>>
     sync_mode: sync
     radarr_add: false
+    radarr_search: false
     collection_order: release
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
