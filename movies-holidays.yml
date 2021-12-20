@@ -3,6 +3,8 @@
 ######################################################
 templates:
   Holiday:
+    optional:
+      - movie
     smart_label: title.asc
     summary: |-
       A timed collection of <<collection_name>> and other movies that may relate to the holiday.
@@ -16,6 +18,7 @@ templates:
     visible_library: true
     run_again: true
     sync_mode: sync
+    tmdb_movie: <<movie>>
     radarr_add_existing: true
     radarr_add: true
     radarr_monitor: true
@@ -66,6 +69,8 @@ collections:
       start_date: 12/01
       end_date: 12/31
     imdb_list: https://www.imdb.com/list/ls000096828/
+    tmdb_movie:
+      - 367544 # The Spirit of Christmas (2015)
   New Year's Day Movies:
     template:
       name: Holiday
