@@ -8,10 +8,12 @@ templates:
     collection_order: release
     collection_mode: hide
     schedule: weekly(friday)
+    radarr_tag: pmm,general-director
   Studio:
     sort_title: "!B <<collection_name>>"
     collection_mode: hide
     schedule: daily
+    radarr_tag: pmm,general-studio
   Movies:
     optional:
       - collection
@@ -20,17 +22,19 @@ templates:
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<tmdb_movie>>
     tmdb_list: <<tmdb_list>>
-    sort_title: <<collection_name>>
+    sort_title: "!D <<collection_name>>"
     collection_order: release
     collection_mode: hide
     visible_library: true
     radarr_monitor: true
     radarr_search: true
+    radarr_tag: pmm,general-collection
   Special Genre:
     sort_title: "!C <<collection_name>>"
     collection_order: alpha
     collection_mode: hide
     visible_library: true
+    radarr_tag: pmm,general-special
 collections:
   #####################################
   #        Director Collections       #

@@ -8,6 +8,7 @@ templates:
     smart_label: random
     radarr_monitor: false
     radarr_search: false
+    radarr_tag: pmm,charts
   Best of:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
     sort_title: +1_Best of <<year>>
@@ -16,6 +17,7 @@ templates:
     smart_label: audience_rating.desc
     radarr_monitor: false
     radarr_search: false
+    radarr_tag: pmm,bestof
 collections:
   Trending:
     template: { name: Chart, num: 2 }
