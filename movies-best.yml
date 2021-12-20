@@ -10,6 +10,9 @@ templates:
     radarr_search: false
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+    visible_library: true
+    visible_shared: true
+    visible_home: true
   Best of:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
     sort_title: "!F_Best of <<year>>"
@@ -20,6 +23,9 @@ templates:
     radarr_search: false
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+    visible_library: true
+    visible_shared: false
+    visible_home: false
   Decades:
     sort_title: "!G_Best of <<year>>s"
     sync_mode: sync
@@ -29,6 +35,9 @@ templates:
     radarr_search: false
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+    visible_library: true
+    visible_shared: true
+    visible_home: true
 collections:
   Trending:
     template: { name: Chart, num: 2 }
@@ -52,9 +61,6 @@ collections:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     summary: Oscar Winning Movies
-    visible_library: true
-    visible_shared: true
-    visible_home: true
   Best of 2014:
     template: { name: Best of, year: 2014 }
   Best of 2015:

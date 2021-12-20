@@ -10,12 +10,18 @@ templates:
     schedule: weekly(friday)
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+    visible_library: false
+    visible_shared: false
+    visible_home: false
   Studio:
     sort_title: "!B <<collection_name>>"
     collection_mode: hide
     schedule: daily
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+    visible_library: false
+    visible_shared: false
+    visible_home: false
   Special Genre:
     sort_title: "!C <<collection_name>>"
     collection_order: alpha
@@ -23,6 +29,8 @@ templates:
     visible_library: true
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+    visible_shared: false
+    visible_home: false
   Movies:
     optional:
       - collection

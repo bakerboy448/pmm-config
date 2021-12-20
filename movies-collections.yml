@@ -15,6 +15,9 @@ templates:
     collection_order: release
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+    visible_library: false
+    visible_shared: false
+    visible_home: false
 collections:
   101 Dalmatians:
     template: { name: Collection, collection: 100693 }
