@@ -7,110 +7,111 @@ libraries: # Library mappings must have a colon (:) placed after them
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-holidays.yml
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-mcu.yml
     operations:
-      delete_unmanaged_collections: true
       delete_collections_with_less: 2
+      delete_unmanaged_collections: true
     radarr: # Can be individually specified per library as well
-      url: http://localhost:7878/radarr
-      token: (removed)
-      add: true
       add_existing: true
-      root_folder_path: /data/media/media/movies
-      monitor: true
+      add: true
       availability: released
-      quality_profile: HD - No Remux
-      tag: pmm
-      search: true
-      radarr_path:
+      monitor: true
       plex_path:
+      quality_profile: HD - No Remux
+      radarr_path:
+      root_folder_path: /data/media/media/movies
+      search: false
+      tag: pmm
+      token: (removed)
+      url: http://localhost:7878/radarr
   TV Shows:
     metadata_path:
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv.yml
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv-meta.yml
     operations:
-      delete_unmanaged_collections: true
       delete_collections_with_less: 2
+      delete_unmanaged_collections: true
     sonarr: # Can be individually specified per library as well
-      url: http://localhost:8989/sonarr
-      token: (removed)
-      add: true
       add_existing: true
-      root_folder_path: /data/media/media/tv
-      monitor: all
-      quality_profile: HD - Low - No Upgrade
-      language_profile: English
-      series_type: standard
-      season_folder: true
-      tag: pmm
-      search: true
+      add: true
       cutoff_search: false
-      sonarr_path:
+      language_profile: English
+      monitor: all
       plex_path:
+      quality_profile: HD - Low - No Upgrade
+      root_folder_path: /data/media/media/tv
+      search: true
+      season_folder: true
+      series_type: standard
+      sonarr_path:
+      tag: pmm
+      token: (removed)
+      url: http://localhost:8989/sonarr
   TV Shows - Cartoons:
     metadata_path:
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv.yml
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv-meta.yml
     operations:
-      delete_unmanaged_collections: true
       delete_collections_with_less: 2
+      delete_unmanaged_collections: true
   TV Shows - Cartoons Kids:
     metadata_path:
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv.yml
       - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv-meta.yml
     operations:
-      delete_unmanaged_collections: true
       delete_collections_with_less: 2
+      delete_unmanaged_collections: true
 settings: # Can be individually specified per library as well
-  cache: true
-  cache_expiration: 60
+  asset_depth: 0
   asset_directory: config/assets
   asset_folders: true
-  create_asset_folders: true
-  sync_mode: sync
-  show_unmanaged: true
-  show_filtered: false
-  show_missing: true
-  show_missing_assets: true
-  save_missing: true
-  run_again_delay: 2
-  missing_only_released: true
-  only_filter_missing: false
+  cache_expiration: 60
+  cache: true
   collection_minimum: 2
+  create_asset_folders: true
   delete_below_minimum: true
   delete_not_scheduled: false
-  tvdb_language: eng
-  asset_depth: 0
-  show_missing_season_assets: false
-  show_options: false
+  dimensional_asset_rename: false
   ignore_ids:
   ignore_imdb_ids:
+  missing_only_released: true
+  only_filter_missing: false
+  run_again_delay: 2
+  save_missing: true
+  show_filtered: false
+  show_missing_assets: true
+  show_missing_season_assets: false
+  show_missing: true
+  show_options: false
+  show_unmanaged: true
+  sync_mode: sync
+  tvdb_language: eng
 webhooks:
+  collection_changes: notifiarr
   error: notifiarr
-  run_start: notifiarr
   run_end: notifiarr
-  collection_changes:
-    - notifiarr
+  run_start: notifiarr
 plex: # Can be individually specified per library as well; REQUIRED for the script to run
-  url: http://localhost:32400
-  token: (removed)
-  timeout: 120
   clean_bundles: false
   empty_trash: false
   optimize: false
+  timeout: 120
+  token: (removed)
+  url: http://localhost:32400
+notifiarr:
+  apikey: (removed)
+  develop: true
 tmdb: # REQUIRED for the script to run
   apikey: (removed)
   language: en
 tautulli: # Can be individually specified per library as well
+  apikey: (removed)
   url: http://localhost:8181/tautulli
-  apikey: (removed)
-notifiarr:
-  apikey: (removed)
 trakt:
   client_id: (removed)
   client_secret: (removed)
   authorization:
     access_token: (removed)
-    token_type: Bearer
+    created_at: 1639938124
     expires_in: 7889237
     refresh_token: (removed)
     scope: public
-    created_at: 1639938124
+    token_type: Bearer
