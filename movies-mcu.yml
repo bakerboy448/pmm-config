@@ -5,6 +5,7 @@ templates:
     tmdb_collection_details: <<collection>>
     collection_order: release
     sync_mode: sync
+    radarr_add: true
     radarr_monitor: true
     radarr_search: true
     radarr_tag: PMM,PMM-<<collection_name>> # New

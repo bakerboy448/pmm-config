@@ -16,6 +16,7 @@ templates:
     visible_library: true
     run_again: true
     sync_mode: sync
+    radarr_add: true
     radarr_monitor: true
     radarr_search: true
     radarr_tag: PMM,PMM-<<collection_name>> # New
