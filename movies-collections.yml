@@ -652,8 +652,6 @@ collections:
     template: { name: Collection, collection: 528 }
   Texas Chainsaw Massacre:
     template: { name: Collection, collection: "111751, 425175" }
-  Thor:
-    template: { name: Collection, collection: 131296 }
   The Three Stooges:
     template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls075972675/
