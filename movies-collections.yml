@@ -286,8 +286,6 @@ collections:
     template: { name: Collection, collection: 410261 }
   Goosebumps:
     template: { name: Collection, collection: 508783 }
-  Guardians of the Galaxy:
-    template: { name: Collection, collection: 284433 }
   Green Street Hooligans:
     template: { name: Collection, collection: 152544 }
   Grown Ups:
