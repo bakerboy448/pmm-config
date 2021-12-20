@@ -603,8 +603,6 @@ collections:
     template: { name: Collection, collection: 261526 }
   The Smurfs:
     template: { name: Collection, collection: 134897 }
-  Spider-Man (Avengers):
-    template: { name: Collection, collection: 531241 }
   Spider-Man (Original):
     template: { name: Collection, collection: 556 }
   Spy Kids:
