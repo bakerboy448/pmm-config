@@ -24,6 +24,8 @@ templates:
     collection_order: release
     collection_mode: hide
     visible_library: true
+    radarr_monitor: true
+    radarr_search: true
   Special Genre:
     sort_title: "!C <<collection_name>>"
     collection_order: alpha

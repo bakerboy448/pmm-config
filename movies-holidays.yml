@@ -16,6 +16,8 @@ templates:
     visible_library: true
     run_again: true
     sync_mode: sync
+    radarr_monitor: true
+    radarr_search: true
 collections:
   Valentine's Day Movies:
     template:
