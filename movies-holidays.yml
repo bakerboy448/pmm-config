@@ -71,6 +71,9 @@ collections:
     imdb_list: https://www.imdb.com/list/ls000096828/
     tmdb_movie:
       - 367544 # The Spirit of Christmas (2015)
+      - 360920 # The Grinch (2018)
+      - 8871 # How the Grinch Stole Christmas (2000)
+      - 13377 # How the Grinch Stole Christmas! (1966)
   New Year's Day Movies:
     template:
       name: Holiday
