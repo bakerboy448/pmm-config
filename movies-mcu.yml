@@ -48,7 +48,7 @@ collections:
   Captain Marvel Collection:
     template:
       name: collection
-      collection Collection: 623911
+      collection: 623911
   Doctor Strange Collection:
     template:
       name: collection
