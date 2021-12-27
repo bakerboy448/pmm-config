@@ -8,6 +8,7 @@ templates:
     radarr_add: true
     radarr_monitor: true
     radarr_search: true
+    schedule: daily
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
   universe:
@@ -18,6 +19,7 @@ templates:
     visible_home: true
     visible_shared: true
     visible_library: true
+    schedule: daily
 collections:
   # MCU In watch order
   Marvel Cinematic Universe:

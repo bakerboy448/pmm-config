@@ -14,6 +14,7 @@ templates:
     visible_library: true
     visible_shared: true
     visible_home: true
+    schedule: weekly(sunday)
   Best of:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
     sort_title: "!F_Best of <<year>>"
@@ -28,6 +29,7 @@ templates:
     visible_library: true
     visible_shared: false
     visible_home: false
+    schedule: monthly
   Decades:
     sort_title: "!G_Best of <<year>>s"
     sync_mode: sync
@@ -41,6 +43,7 @@ templates:
     visible_library: true
     visible_shared: true
     visible_home: true
+    schedule: monthly
 collections:
   Trending:
     template: { name: Chart, num: 2 }

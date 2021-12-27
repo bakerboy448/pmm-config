@@ -5,6 +5,7 @@ templates:
   Studio:
     sort_title: "!A <<collection_name>>"
     collection_mode: hide
+    schedule: daily
   TV Collection:
     optional:
       - trakt_list
@@ -16,6 +17,7 @@ templates:
     sort_title: <<collection_name>>
     collection_order: release
     collection_mode: hide
+    schedule: daily
     sonarr_tag: PMM,PMM-<<collection_name>> # New
     item_sonarr_tag: PMM,PMM-<<collection_name>> # Existing
 
