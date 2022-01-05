@@ -29,7 +29,7 @@ templates:
     visible_library: true
     visible_shared: false
     visible_home: false
-    schedule: monthly
+    schedule: monthly(15)
   Decades:
     sort_title: "!G_Best of <<year>>s"
     sync_mode: sync
@@ -43,7 +43,7 @@ templates:
     visible_library: true
     visible_shared: true
     visible_home: true
-    schedule: monthly
+    schedule: monthly(15)
 collections:
   Trending:
     template: { name: Chart, num: 2 }
