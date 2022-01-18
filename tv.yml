@@ -20,9 +20,22 @@ templates:
     schedule: daily
     sonarr_tag: PMM,PMM-<<collection_name>> # New
     item_sonarr_tag: PMM,PMM-<<collection_name>> # Existing
-
+  network:
+    tmdb_network: <<network>>
+    sort_title: +3_<<collection_name>>
+    sync_mode: sync
+    sonarr_tag: PMM,PMM-<<collection_name>> # New
+    item_sonarr_tag: PMM,PMM-<<collection_name>> # Existing
+    sonarr_add: false
+  networkFR:
+    tmdb_network: <<network>>
+    sort_title: +3__FR<<collection_name>>
+    sync_mode: sync
+    sonarr_tag: PMM,PMM-<<collection_name>> # New
+    item_sonarr_tag: PMM,PMM-<<collection_name>> # Existing
+    sonarr_add: false
   #####################################
-  #         Studio Collections        #
+  #       Studio Collections      #
   #####################################
 collections:
   DC Extended Universe:
@@ -35,3 +48,109 @@ collections:
     imdb_list: https://www.imdb.com/list/ls009410711/
     summary: "A collection of movies and shows created by Marvel Studios, comprising of the Marvel Cinematic Universe."
     collection_order: release
+
+  ### Networks
+  HBO:
+    template: { name: network, network: "49, 2593, 3186, 3308" }
+    poster: https://theposterdb.com/api/assets/113186}
+    tmdb_network: 49
+    summary: HBO Original Shows
+
+  Showtime:
+    template: { name: network, network: 67 }
+    poster: https://theposterdb.com/api/assets/113257}
+    summary: Showtime Original Shows
+
+  Netflix:
+    template: { name: network, network: 213 }
+    poster: https://theposterdb.com/api/assets/113218}
+    summary: Netflix Original Shows
+
+  Hulu:
+    template: { name: network, network: 453 }
+
+  Starz:
+    template: { name: network, network: "318, 758, 4906" }
+    poster: https://theposterdb.com/api/assets/113265}
+    summary: Starz Original Shows
+  HGTV:
+    template: { name: network, network: 210 }
+
+  National Geographic:
+    template:
+      { name: network, network: "43, 799, 1756, 1825, 3355, 4293, 4476" }
+
+  Prime Video:
+    template: { name: network, network: 1024 }
+
+  FX:
+    template: { name: network, network: 88 }
+
+  Disney+:
+    template: { name: network, network: "2739, 2919" }
+
+  Apple+:
+    template: { name: network, network: 2552 }
+
+  Discovery:
+    template:
+      {
+        name: network,
+        network: "10, 22, 64, 106, 244, 626, 670, 1079, 1287, 1534, 2087, 2480, 2692, 3045, 3591, 3900, 3953, 4440, 4462, 4741",
+      }
+
+  BBC:
+    template:
+      {
+        name: network,
+        network: "3546, 3278, 4, 332",
+        poster: https://theposterdb.com/api/assets/113123,
+        summary: Shows Aired on BBC One,
+      }
+    summary: Shows Aired on BBC One
+
+  iTV:
+    template: { name: network, network: "9, 3448, 24546, 5238" }
+
+  Canal+:
+    template: { name: networkFR, network: 285 }
+
+  France TV:
+    template: { name: networkFR, network: "249, 361, 3856" }
+
+  TF1:
+    template: { name: networkFR, network: 290 }
+
+  M6:
+    template: { name: networkFR, network: 712 }
+
+  ABC:
+    template:
+      { name: Studio, poster: https://theposterdb.com/api/assets/113115 }
+    tmdb_network: 2
+    summary: Shows Aired on ABC
+  AMC:
+    template:
+      { name: Studio, poster: https://theposterdb.com/api/assets/113118 }
+    tmdb_network: 174
+    summary: Shows Aired on AMC
+  CBS:
+    template:
+      { name: Studio, poster: https://theposterdb.com/api/assets/113138 }
+    tmdb_network: 16
+    summary: Shows Aired on CBS
+  FOX:
+    template:
+      { name: Studio, poster: https://theposterdb.com/api/assets/113173 }
+    tmdb_network: 19
+    summary: Shows Aired on FOX
+  NBC:
+    template:
+      { name: Studio, poster: https://theposterdb.com/api/assets/113217 }
+    tmdb_network: 6
+    summary: Shows Aired on NBC
+  SyFy:
+    template:
+      { name: Studio, poster: https://theposterdb.com/api/assets/113267 }
+    tmdb_network: 77
+    summary: Shows Aired on SYFY
