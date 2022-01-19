@@ -15,7 +15,7 @@ templates:
     visible_home: false
     radarr_monitor: false
     radarr_search: false
-    radarr_add: true
+    radarr_add: false
   Studio:
     sort_title: "!B <<collection_name>>"
     collection_mode: hide
@@ -39,7 +39,7 @@ templates:
     visible_home: false
     radarr_monitor: false
     radarr_search: false
-    radarr_add: true
+    radarr_add: false
   Movies:
     optional:
       - collection
@@ -56,7 +56,7 @@ templates:
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
     radarr_monitor: false
     radarr_search: false
-    radarr_add: true
+    radarr_add: false
 collections:
   #####################################
   #        Director Collections       #
