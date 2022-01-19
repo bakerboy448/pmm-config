@@ -8,7 +8,7 @@ templates:
     smart_label: random
     radarr_monitor: false
     radarr_search: false
-    radarr_add: true
+    radarr_add: false
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
     visible_library: true
@@ -21,8 +21,8 @@ templates:
     sync_mode: sync
     summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
-    radarr_monitor: false
-    radarr_search: false
+    radarr_monitor: true
+    radarr_search: true
     radarr_add: true
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
