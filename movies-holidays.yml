@@ -34,6 +34,8 @@ collections:
     imdb_list:
       - https://www.imdb.com/list/ls057783436/
       - https://www.imdb.com/list/ls064427905/
+    summary: "Forget Netflix and Chill, time to Plex and Chill"
+    url_poster: https://m.media-amazon.com/images/I/61dbP+B8EfL._SL1000_.jpg
   St. Patrick's Day Movies:
     template:
       name: Holiday
@@ -63,6 +65,8 @@ collections:
       - 8091 # Alien Collection
     tmdb_movie:
       - 23437 # A Nightmare on Elm Street (2010)
+    summary: "A collection of spook films, make sure to check for monsters under your bed before you go to sleep!"
+    url_poster: https://bit.ly/PlexSeasonHalloween
   Christmas Movies:
     template:
       name: Holiday
@@ -74,6 +78,8 @@ collections:
       - 360920 # The Grinch (2018)
       - 8871 # How the Grinch Stole Christmas (2000)
       - 13377 # How the Grinch Stole Christmas! (1966)
+    url_poster: https://theposterdb.com/api/assets/48897/view?
+    url_background: https://wallpapercave.com/wp/wp4972414.jpg
   New Year's Day Movies:
     template:
       name: Holiday
