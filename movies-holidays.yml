@@ -26,17 +26,17 @@ templates:
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
 collections:
-  Valentine's Day Movies:
+  Valentines Day Movies:
     template:
       name: Holiday
       start_date: 02/01
-      end_date: 02/29
+      end_date: 02/15
     imdb_list:
       - https://www.imdb.com/list/ls057783436/
       - https://www.imdb.com/list/ls064427905/
     summary: "Forget Netflix and Chill, time to Plex and Chill"
     url_poster: https://m.media-amazon.com/images/I/61dbP+B8EfL._SL1000_.jpg
-  St. Patrick's Day Movies:
+  St. Patricks Day Movies:
     template:
       name: Holiday
       start_date: 03/01
