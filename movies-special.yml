@@ -8,6 +8,11 @@ templates:
     visible_library: true
     collection_mode: hide
     sync_mode: sync
+    radarr_monitor: false
+    radarr_search: false
+    radarr_add: false
+    radarr_tag: PMM,PMM-<<collection_name>> # New
+    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
   streaming:
     visible_home: false
     visible_library: true
@@ -17,7 +22,11 @@ templates:
     collection_mode: hide
     smart_label: release.desc
     url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
-
+    radarr_monitor: false
+    radarr_search: false
+    radarr_add: false
+    radarr_tag: PMM,PMM-<<collection_name>> # New
+    item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
 collections:
   Trending Movies:
     template:
@@ -30,6 +39,9 @@ collections:
     summary: Movies Trending across the internet. (Updated daily)
     url_background: https://i.imgur.com/SOVfrIq.png
     url_poster: https://i.imgur.com/4vpMZoA.png
+    radarr_monitor: monitor
+    radarr_search: search
+    radarr_add: false
   Top 10 Movies of the Week:
     template:
       name: special
@@ -38,6 +50,9 @@ collections:
     summary: Top 10 Movies of the Week. (Updated every monday morning)
     collection_order: release
     schedule: weekly(monday)
+    radarr_monitor: monitor
+    radarr_search: search
+    radarr_add: false
   IMDB Top 250:
     sync_mode: sync
     trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies
