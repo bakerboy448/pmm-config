@@ -2,12 +2,12 @@ libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     metadata_path:
       - repo: movies-special.yml
-      - repo: movies-best.yml
-      - repo: movies-collections.yml
-      - repo: movies-general.yml
-      - repo: movies-holidays.yml
-      - repo: movies-mcu.yml
-      - repo: video-overlays.yml
+      - repo: movies-best
+      - repo: movies-collections
+      - repo: movies-general
+      - repo: movies-holidays
+      - repo: movies-mcu
+      - repo: video-overlays
     operations:
       delete_collections_with_less: 2
       delete_unmanaged_collections: true
@@ -26,10 +26,10 @@ libraries: # Library mappings must have a colon (:) placed after them
       add_missing: true
   TV Shows:
     metadata_path:
-      - repo: tv.yml
-      - repo: tv-meta.yml
-      - repo: tv-networks.yml
-      - repo: video-overlays.yml
+      - repo: tv
+      - repo: tv-meta
+      - repo: tv-networks
+      - repo: video-overlays
     operations:
       delete_collections_with_less: 2
     sonarr: # Can be individually specified per library as well
@@ -50,19 +50,18 @@ libraries: # Library mappings must have a colon (:) placed after them
       add_missing: true
   TV Shows - Cartoons:
     metadata_path:
-      - repo: tv.yml
-      - repo: tv-meta.yml
+      - repo: tv
+      - repo: tv-meta
     operations:
       delete_collections_with_less: 2
   TV Shows - Cartoons Kids:
     metadata_path:
-      - repo: tv.yml
-      - repo: tv-meta.yml
+      - repo: tv
+      - repo: tv-meta
     operations:
       delete_collections_with_less: 2
 settings: # Can be individually specified per library as well
-  asset_directory:
-    - config/assets
+  asset_directory: config/assets
   asset_folders: true
   asset_depth: 1
   dimensional_asset_rename: true
@@ -71,7 +70,6 @@ settings: # Can be individually specified per library as well
   create_asset_folders: false
   delete_below_minimum: true
   delete_not_scheduled: false
-  dimensional_asset_rename: false
   ignore_ids:
   ignore_imdb_ids:
   missing_only_released: true
