@@ -52,46 +52,44 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=feature
       limit: 30
     summary: Popular Movies across the internet
+    url_poster: https://i.imgur.com/HhAHgQV.jpg
   Oscars:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
     summary: Oscar Winning Movies
-  Best of 2014:
-    template: { name: Best of, year: 2014 }
-  Best of 2015:
-    template: { name: Best of, year: 2015 }
-  Best of 2016:
-    template: { name: Best of, year: 2016 }
-  Best of 2017:
-    template: { name: Best of, year: 2017 }
-  Best of 2018:
-    template: { name: Best of, year: 2018 }
-  Best of 2019:
-    template: { name: Best of, year: 2019 }
-  Best of 2020:
-    template: { name: Best of, year: 2020 }
+    url_poster: https://i.imgur.com/H05ESeK.png
+    url_background: https://i.imgur.com/0Kao9gY.jpeg
+  Best of 2022:
+    template: { name: Best of, year: 2022 }
   Best of 2021:
     template: { name: Best of, year: 2021 }
-  Best of 1970s:
-    template: { name: Decades, year: 1970 }
+  Best of 2020:
+    template: { name: Best of, year: 2020 }
+  Best of 2020s:
+    template: { name: Decades, year: 2020 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=1970-01-01,1979-12-31&num_votes=10000,&sort=num_votes,desc
+      url: https://www.imdb.com/search/title/?release_date=2020-01-01,2029-12-31&num_votes=1000,&sort=num_votes,desc
       limit: 30
-    url_poster: https://i.ibb.co/37n0VyF/1970.jpg
+    url_poster: https://i.ibb.co/SdvBshG/2020.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
-  Best of 1980s:
-    template: { name: Decades, year: 1980 }
+  Best of 2019:
+    template: { name: Best of, year: 2019 }
+  Best of 2018:
+    template: { name: Best of, year: 2018 }
+  Best of 2017:
+    template: { name: Best of, year: 2017 }
+  Best of 2016:
+    template: { name: Best of, year: 2016 }
+  Best of 2015:
+    template: { name: Best of, year: 2015 }
+  Best of 2014:
+    template: { name: Best of, year: 2014 }
+  Best of 2010s:
+    template: { name: Decades, year: 2010 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=1980-01-01,1989-12-31&num_votes=10000,&sort=num_votes,desc
+      url: https://www.imdb.com/search/title/?release_date=2010-01-01,2019-12-31&num_votes=10000,&sort=num_votes,desc
       limit: 30
-    url_poster: https://i.ibb.co/71CGnd1/1980.jpg
-    url_background: https://wallpapercave.com/wp/wp4016022.jpg
-  Best of 1990s:
-    template: { name: Decades, year: 1990 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=1990-01-01,1999-12-31&num_votes=10000,&sort=num_votes,desc
-      limit: 30
-    url_poster: https://i.ibb.co/r3TFwf7/1990.jpg
+    url_poster: https://i.ibb.co/4PrWNxT/2010.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 2000s:
     template: { name: Decades, year: 2000 }
@@ -100,17 +98,24 @@ collections:
       limit: 30
     url_poster: https://i.ibb.co/fMhyG74/2000.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
-  Best of 2010s:
-    template: { name: Decades, year: 2010 }
+  Best of 1990s:
+    template: { name: Decades, year: 1990 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=2010-01-01,2019-12-31&num_votes=10000,&sort=num_votes,desc
+      url: https://www.imdb.com/search/title/?release_date=1990-01-01,1999-12-31&num_votes=10000,&sort=num_votes,desc
       limit: 30
-    url_poster: https://i.ibb.co/4PrWNxT/2010.jpg
+    url_poster: https://i.ibb.co/r3TFwf7/1990.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
-  Best of 2020s:
-    template: { name: Decades, year: 2020 }
+  Best of 1980s:
+    template: { name: Decades, year: 1980 }
     imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=2020-01-01,2029-12-31&num_votes=1000,&sort=num_votes,desc
+      url: https://www.imdb.com/search/title/?release_date=1980-01-01,1989-12-31&num_votes=10000,&sort=num_votes,desc
       limit: 30
-    url_poster: https://i.ibb.co/SdvBshG/2020.jpg
+    url_poster: https://i.ibb.co/71CGnd1/1980.jpg
+    url_background: https://wallpapercave.com/wp/wp4016022.jpg
+  Best of 1970s:
+    template: { name: Decades, year: 1970 }
+    imdb_list:
+      url: https://www.imdb.com/search/title/?release_date=1970-01-01,1979-12-31&num_votes=10000,&sort=num_votes,desc
+      limit: 30
+    url_poster: https://i.ibb.co/37n0VyF/1970.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
