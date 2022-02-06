@@ -29,7 +29,6 @@ libraries: # Library mappings must have a colon (:) placed after them
       - repo: tv
       - repo: tv-meta
       - repo: tv-networks
-      - repo: video-overlays
     operations:
       delete_collections_with_less: 2
     sonarr: # Can be individually specified per library as well
