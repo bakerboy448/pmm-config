@@ -1,18 +1,18 @@
 libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     metadata_path:
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-best.yml
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-collections.yml
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-general.yml
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-holidays.yml
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-mcu.yml
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/movies-overlays.yml
+      - repo: movies-special.yml
+      - repo: movies-best.yml
+      - repo: movies-collections.yml
+      - repo: movies-general.yml
+      - repo: movies-holidays.yml
+      - repo: movies-mcu.yml
+      - repo: video-overlays.yml
     operations:
       delete_collections_with_less: 2
       delete_unmanaged_collections: true
     radarr: # Can be individually specified per library as well
       add_existing: true
-      add: true
       availability: released
       monitor: true
       plex_path:
@@ -23,16 +23,17 @@ libraries: # Library mappings must have a colon (:) placed after them
       tag: pmm
       token: (removed)
       url: http://localhost:7878/radarr
+      add_missing: true
   TV Shows:
     metadata_path:
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv.yml
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv-meta.yml
+      - repo: tv.yml
+      - repo: tv-meta.yml
+      - repo: tv-networks.yml
+      - repo: video-overlays.yml
     operations:
       delete_collections_with_less: 2
-      delete_unmanaged_collections: true
     sonarr: # Can be individually specified per library as well
       add_existing: true
-      add: true
       cutoff_search: false
       language_profile: English
       monitor: all
@@ -46,28 +47,28 @@ libraries: # Library mappings must have a colon (:) placed after them
       tag: pmm
       token: (removed)
       url: http://localhost:8989/sonarr
+      add_missing: true
   TV Shows - Cartoons:
     metadata_path:
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv.yml
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv-meta.yml
+      - repo: tv.yml
+      - repo: tv-meta.yml
     operations:
       delete_collections_with_less: 2
-      delete_unmanaged_collections: true
   TV Shows - Cartoons Kids:
     metadata_path:
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv.yml
-      - url: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/tv-meta.yml
+      - repo: tv.yml
+      - repo: tv-meta.yml
     operations:
       delete_collections_with_less: 2
-      delete_unmanaged_collections: true
 settings: # Can be individually specified per library as well
-  asset_depth: 0
-  asset_directory: config/assets
+  asset_directory:
+    - config/assets
   asset_folders: true
-  cache_expiration: 60
+  asset_depth: 1
+  dimensional_asset_rename: true
+  cache_expiration: 30
   cache: true
-  collection_minimum: 2
-  create_asset_folders: true
+  create_asset_folders: false
   delete_below_minimum: true
   delete_not_scheduled: false
   dimensional_asset_rename: false
@@ -76,23 +77,30 @@ settings: # Can be individually specified per library as well
   missing_only_released: true
   only_filter_missing: false
   run_again_delay: 2
-  save_missing: true
+  save_missing: false
   show_filtered: false
-  show_missing_assets: true
+  show_missing_assets: false
   show_missing_season_assets: false
   show_missing: true
-  show_options: false
+  show_options: true
   show_unmanaged: true
   sync_mode: sync
   tvdb_language: eng
+  minimum_items: 2
+  default_collection_order:
+  playlist_sync_to_users: all
+  download_url_assets: true
+  item_refresh_delay: 0
+  verify_ssl: true
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  custom_repo: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/
 webhooks:
-  collection_changes: notifiarr
   error: notifiarr
   run_end: notifiarr
   run_start: notifiarr
-notifiarr:
-  apikey: (removed)
-  develop: true
+  changes:
+    - notifiarr
 plex: # Can be individually specified per library as well; REQUIRED for the script to run
   clean_bundles: false
   empty_trash: false
@@ -106,6 +114,8 @@ tmdb: # REQUIRED for the script to run
 tautulli: # Can be individually specified per library as well
   apikey: (removed)
   url: http://localhost:8181/tautulli
+notifiarr:
+  apikey: (removed)
 trakt:
   client_id: (removed)
   client_secret: (removed)
