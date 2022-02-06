@@ -5,7 +5,7 @@ templates:
     tmdb_collection_details: <<collection>>
     collection_order: release
     sync_mode: sync
-    radarr_add: true
+    radarr_add_missing: true
     radarr_monitor: true
     radarr_search: true
     schedule: daily

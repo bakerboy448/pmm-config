@@ -15,7 +15,7 @@ templates:
     visible_home: false
     radarr_monitor: false
     radarr_search: false
-    radarr_add: false
+    radarr_add_missing: false
   Studio:
     sort_title: "!B <<collection_name>>"
     collection_mode: hide
@@ -27,7 +27,7 @@ templates:
     visible_home: false
     radarr_monitor: false
     radarr_search: false
-    radarr_add: false
+    radarr_add_missing: false
   Special Genre:
     sort_title: "!C <<collection_name>>"
     collection_order: alpha
@@ -39,7 +39,7 @@ templates:
     visible_home: false
     radarr_monitor: false
     radarr_search: false
-    radarr_add: false
+    radarr_add_missing: false
   Movies:
     optional:
       - collection
@@ -56,7 +56,7 @@ templates:
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
     radarr_monitor: false
     radarr_search: false
-    radarr_add: false
+    radarr_add_missing: false
 collections:
   #####################################
   #        Director Collections       #

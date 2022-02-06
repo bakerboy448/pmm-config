@@ -8,7 +8,7 @@ templates:
     smart_label: random
     radarr_monitor: false
     radarr_search: false
-    radarr_add: false
+    radarr_add_missing: false
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
     visible_library: true
@@ -23,7 +23,7 @@ templates:
     smart_label: audience_rating.desc
     radarr_monitor: true
     radarr_search: true
-    radarr_add: true
+    radarr_add_missing: true
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
     visible_library: true
@@ -37,7 +37,7 @@ templates:
     smart_label: audience_rating.desc
     radarr_monitor: true
     radarr_search: true
-    radarr_add: true
+    radarr_add_missing: true
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
     visible_library: true

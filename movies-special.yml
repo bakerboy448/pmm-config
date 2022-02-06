@@ -10,7 +10,7 @@ templates:
     sync_mode: sync
     radarr_monitor: false
     radarr_search: false
-    radarr_add: false
+    radarr_add_missing: false
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
   streaming:
@@ -24,7 +24,7 @@ templates:
     url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
     radarr_monitor: false
     radarr_search: false
-    radarr_add: false
+    radarr_add_missing: false
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
 collections:
@@ -41,7 +41,7 @@ collections:
     url_poster: https://i.imgur.com/4vpMZoA.png
     radarr_monitor: true
     radarr_search: true
-    radarr_add: false
+    radarr_add_missing: false
   Top 10 Movies of the Week:
     template:
       name: special
@@ -52,7 +52,7 @@ collections:
     schedule: weekly(monday)
     radarr_monitor: true
     radarr_search: true
-    radarr_add: false
+    radarr_add_missing: false
   IMDB Top 250:
     sync_mode: sync
     trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies

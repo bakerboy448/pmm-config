@@ -20,7 +20,7 @@ templates:
     sync_mode: sync
     tmdb_movie: <<movie>>
     radarr_add_existing: true
-    radarr_add: true
+    radarr_add_missing: true
     radarr_monitor: true
     radarr_search: true
     radarr_tag: PMM,PMM-<<collection_name>> # New
