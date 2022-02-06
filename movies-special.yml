@@ -39,8 +39,8 @@ collections:
     summary: Movies Trending across the internet. (Updated daily)
     url_background: https://i.imgur.com/SOVfrIq.png
     url_poster: https://i.imgur.com/4vpMZoA.png
-    radarr_monitor: monitor
-    radarr_search: search
+    radarr_monitor: true
+    radarr_search: true
     radarr_add: false
   Top 10 Movies of the Week:
     template:
@@ -50,14 +50,13 @@ collections:
     summary: Top 10 Movies of the Week. (Updated every monday morning)
     collection_order: release
     schedule: weekly(monday)
-    radarr_monitor: monitor
-    radarr_search: search
+    radarr_monitor: true
+    radarr_search: true
     radarr_add: false
   IMDB Top 250:
     sync_mode: sync
     trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies
     item_overlay: IMDB
-    build_collection: false
   Prime Video Movies:
     template:
       name: streaming
