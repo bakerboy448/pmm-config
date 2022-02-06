@@ -1,0 +1,66 @@
+####################################
+#    Special Movie Collections     #
+####################################
+templates:
+  special:
+    visible_home: true
+    visible_shared: true
+    visible_library: true
+    collection_mode: hide
+    sync_mode: sync
+  streaming:
+    visible_home: false
+    visible_library: true
+    visible_shared: true
+    sync_mode: sync
+    sort_title: +++++++++++++++++_
+    collection_mode: hide
+    smart_label: release.desc
+    url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
+
+collections:
+  Trending Movies:
+    template:
+      name: special
+    trakt_trending: 50
+    tmdb_trending_daily: 50
+    tmdb_trending_weekly: 50
+    sort_title: +++++++++++++++++++_1Trending
+    smart_label: year.desc
+    summary: Movies Trending across the internet. (Updated daily)
+    url_background: https://i.imgur.com/SOVfrIq.png
+    url_poster: https://i.imgur.com/4vpMZoA.png
+  Top 10 Movies of the Week:
+    template:
+      name: special
+    sort_title: ++++++++++++++++++_
+    trakt_list: https://trakt.tv/users/linaspurinis/lists/top-10-pirated-movies-of-the-week
+    summary: Top 10 Movies of the Week. (Updated every monday morning)
+    collection_order: release
+    schedule: weekly(monday)
+  IMDB Top 250:
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies
+    item_overlay: IMDB
+    build_collection: false
+  Prime Video Movies:
+    template:
+      name: streaming
+    trakt_list: https://trakt.tv/users/ryalism/lists/amazon-movies?sort=released,asc
+    url_poster: https://i.imgur.com/0ZScRde.jpg
+  Disney+ Movies:
+    template:
+      name: streaming
+    trakt_list: https://trakt.tv/users/ryalism/lists/disney-movies?sort=released,asc
+    url_poster: https://i.imgur.com/ScFEmxo.jpg
+  Hulu Movies:
+    template:
+      name: streaming
+    trakt_list: https://trakt.tv/users/ryalism/lists/hulu-movies?sort=released,asc
+    url_poster: https://i.imgur.com/fWmIKAj.jpg
+  Netflix Movies:
+    template:
+      name: streaming
+    trakt_list: https://trakt.tv/users/ryalism/lists/netflix-movies?sort=released,asc
+    url_poster: https://i.imgur.com/nFMCSz6.jpg
+    
