@@ -6,7 +6,7 @@ templates:
     tmdb_network: <<network>>
     sort_title: +3__FR<<collection_name>>
     sync_mode: sync
-    schedule: monthly(7)
+    schedule: weekly(sunday)
     sonarr_tag: PMM,PMM-<<collection_name>> # New
     item_sonarr_tag: PMM,PMM-<<collection_name>> # Existing
     sonarr_add_missing: false
@@ -16,12 +16,13 @@ templates:
     tmdb_network: <<network>>
     sort_title: +2_<<collection_name>>
     sync_mode: sync
-    schedule: monthly(7)
+    schedule: weekly(sunday)
     smart_label: episode_added.desc
     sonarr_tag: PMM,PMM-<<collection_name>> # New
     item_sonarr_tag: PMM,PMM-<<collection_name>> # Existing
     sonarr_add_missing: false
   ### Networks
+collections:
   ABC:
     template:
       name: network
