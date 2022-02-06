@@ -45,13 +45,6 @@ templates:
     visible_home: true
     schedule: monthly(15)
 collections:
-  Trending:
-    template: { name: Chart, num: 2 }
-    trakt_trending: 10
-    tmdb_trending_daily: 10
-    tmdb_trending_weekly: 10
-    summary: Movies Trending across the internet
-    schedule: daily
   Popular:
     template: { name: Chart, num: 3 }
     tmdb_popular: 30
@@ -59,11 +52,6 @@ collections:
       url: https://www.imdb.com/search/title/?title_type=feature
       limit: 30
     summary: Popular Movies across the internet
-  Top Rated:
-    template: { name: Chart, num: 4 }
-    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
-    tmdb_top_rated: 250
-    summary: Top Rated Movies across the internet
   Oscars:
     template: { name: Chart, num: 5 }
     imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
