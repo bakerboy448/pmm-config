@@ -1,7 +1,8 @@
 libraries: # Library mappings must have a colon (:) placed after them
   Movies:
+    missing_path: /data/media/.config/Plex-Meta-Manager/Missing/Movies.yml
     metadata_path:
-      - repo: movies-special.yml
+      - repo: movies-special
       - repo: movies-best
       - repo: movies-collections
       - repo: movies-general
@@ -25,10 +26,12 @@ libraries: # Library mappings must have a colon (:) placed after them
       url: http://localhost:7878/radarr
       add_missing: true
   TV Shows:
+    missing_path: /data/media/.config/Plex-Meta-Manager/Missing/TV.yml
     metadata_path:
       - repo: tv
       - repo: tv-meta
       - repo: tv-networks
+      - repo: networks
     operations:
       delete_collections_with_less: 2
     sonarr: # Can be individually specified per library as well
@@ -75,8 +78,8 @@ settings: # Can be individually specified per library as well
   only_filter_missing: false
   run_again_delay: 2
   save_missing: false
-  show_filtered: false
-  show_missing_assets: false
+  show_filtered: true
+  show_missing_assets: true
   show_missing_season_assets: false
   show_missing: true
   show_options: true
