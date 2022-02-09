@@ -16,7 +16,6 @@ templates:
     visible_home: true
     visible_shared: true
     visible_library: true
-    run_again: true
     sync_mode: sync
     tmdb_movie: <<movie>>
     radarr_add_existing: true
