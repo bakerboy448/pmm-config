@@ -10,7 +10,7 @@ libraries: # Library mappings must have a colon (:) placed after them
       - repo: movies-mcu
       - repo: video-overlays
     operations:
-      delete_collections_with_less: 2
+      assets_for_all: true
       delete_unmanaged_collections: true
     radarr: # Can be individually specified per library as well
       add_existing: true
@@ -32,8 +32,6 @@ libraries: # Library mappings must have a colon (:) placed after them
       - repo: tv-meta
       - repo: tv-networks
       - repo: networks
-    operations:
-      delete_collections_with_less: 2
     sonarr: # Can be individually specified per library as well
       add_existing: true
       cutoff_search: false
@@ -54,16 +52,11 @@ libraries: # Library mappings must have a colon (:) placed after them
     metadata_path:
       - repo: tv
       - repo: tv-meta
-    operations:
-      delete_collections_with_less: 2
   TV Shows - Cartoons Kids:
     metadata_path:
       - repo: tv
       - repo: tv-meta
-    operations:
-      delete_collections_with_less: 2
 settings: # Can be individually specified per library as well
-  asset_directory: config/assets
   asset_folders: true
   asset_depth: 1
   dimensional_asset_rename: true
@@ -77,7 +70,7 @@ settings: # Can be individually specified per library as well
   missing_only_released: true
   only_filter_missing: false
   run_again_delay: 2
-  save_missing: false
+  save_missing: true
   show_filtered: true
   show_missing_assets: true
   show_missing_season_assets: false
@@ -90,17 +83,16 @@ settings: # Can be individually specified per library as well
   default_collection_order:
   playlist_sync_to_users: all
   download_url_assets: true
-  item_refresh_delay: 0
+  item_refresh_delay: 2
   verify_ssl: true
   show_missing_episode_assets: false
-  show_asset_not_needed: true
+  show_asset_not_needed: false
   custom_repo: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/
 webhooks:
   error: notifiarr
   run_end: notifiarr
   run_start: notifiarr
-  changes:
-    - notifiarr
+  changes: notifiarr
 plex: # Can be individually specified per library as well; REQUIRED for the script to run
   clean_bundles: false
   empty_trash: false
