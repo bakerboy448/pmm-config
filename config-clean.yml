@@ -87,7 +87,7 @@ settings: # Can be individually specified per library as well
   verify_ssl: true
   show_missing_episode_assets: false
   show_asset_not_needed: false
-  custom_repo: https://raw.githubusercontent.com/bakerboy448/plex-meta-manger/main/
+  custom_repo: https://raw.githubusercontent.com/bakerboy448/pmm-config/main/
 webhooks:
   error: notifiarr
   run_end: notifiarr
