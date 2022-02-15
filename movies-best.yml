@@ -18,7 +18,6 @@ templates:
   Best of:
     trakt_list: 
       url: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
-      limit: 25
     sort_title: "!F_Best of <<year>>"
     sync_mode: sync
     summary: Rotten Tomatoes Best 25 Movies of <<year>>
