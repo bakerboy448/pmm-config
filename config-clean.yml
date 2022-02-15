@@ -1,4 +1,4 @@
-libraries: # Library mappings must have a colon (:) placed after them
+libraries:  # Library mappings must have a colon (:) placed after them
   Movies:
     missing_path: /data/media/.config/Plex-Meta-Manager/Missing/Movies.yml
     metadata_path:
@@ -12,7 +12,7 @@ libraries: # Library mappings must have a colon (:) placed after them
     operations:
       assets_for_all: true
       delete_unmanaged_collections: true
-    radarr: # Can be individually specified per library as well
+    radarr:  # Can be individually specified per library as well
       add_existing: true
       availability: released
       monitor: true
@@ -32,7 +32,7 @@ libraries: # Library mappings must have a colon (:) placed after them
       - repo: tv-meta
       - repo: tv-networks
       - repo: networks
-    sonarr: # Can be individually specified per library as well
+    sonarr:  # Can be individually specified per library as well
       add_existing: true
       cutoff_search: false
       language_profile: English
@@ -56,54 +56,58 @@ libraries: # Library mappings must have a colon (:) placed after them
     metadata_path:
       - repo: tv
       - repo: tv-meta
-settings: # Can be individually specified per library as well
-  asset_folders: true
+    operations:
+      delete_collections_with_less: 2
+settings:  # Can be individually specified per library as well
   asset_depth: 1
-  dimensional_asset_rename: true
+  asset_directory: /data/media/.config/Plex-Meta-Manager/assets
+  asset_folders: true
+  cache_builders: true
   cache_expiration: 30
   cache: true
-  create_asset_folders: false
+  create_asset_folders: true
+  custom_repo: https://raw.githubusercontent.com/bakerboy448/pmm-config/main/
+  default_collection_order:
   delete_below_minimum: true
   delete_not_scheduled: false
+  dimensional_asset_rename: true
+  download_url_assets: true
   ignore_ids:
   ignore_imdb_ids:
+  item_refresh_delay: 2
+  minimum_items: 2
   missing_only_released: true
   only_filter_missing: false
+  playlist_sync_to_users: all
   run_again_delay: 2
   save_missing: true
+  show_asset_not_needed: false
   show_filtered: true
-  show_missing_assets: true
+  show_missing_assets: false
+  show_missing_episode_assets: false
   show_missing_season_assets: false
   show_missing: true
   show_options: true
   show_unmanaged: true
   sync_mode: sync
   tvdb_language: eng
-  minimum_items: 2
-  default_collection_order:
-  playlist_sync_to_users: all
-  download_url_assets: true
-  item_refresh_delay: 2
   verify_ssl: true
-  show_missing_episode_assets: false
-  show_asset_not_needed: false
-  custom_repo: https://raw.githubusercontent.com/bakerboy448/pmm-config/main/
 webhooks:
   error: notifiarr
   run_end: notifiarr
   run_start: notifiarr
   changes: notifiarr
-plex: # Can be individually specified per library as well; REQUIRED for the script to run
+plex:  # Can be individually specified per library as well; REQUIRED for the script to run
   clean_bundles: false
   empty_trash: false
   optimize: false
   timeout: 120
   token: (removed)
   url: http://localhost:32400
-tmdb: # REQUIRED for the script to run
+tmdb:  # REQUIRED for the script to run
   apikey: (removed)
   language: en
-tautulli: # Can be individually specified per library as well
+tautulli:  # Can be individually specified per library as well
   apikey: (removed)
   url: http://localhost:8181/tautulli
 notifiarr:
