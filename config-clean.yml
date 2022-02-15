@@ -49,15 +49,15 @@ libraries:  # Library mappings must have a colon (:) placed after them
       url: http://localhost:8989/sonarr
       add_missing: true
   TV Shows - Cartoons:
+    missing_path: /data/media/.config/Plex-Meta-Manager/Missing/TV-Cartoons.yml
     metadata_path:
       - repo: tv
       - repo: tv-meta
   TV Shows - Cartoons Kids:
+    missing_path: /data/media/.config/Plex-Meta-Manager/Missing/TV-Cartoons-Kids.yml
     metadata_path:
       - repo: tv
       - repo: tv-meta
-    operations:
-      delete_collections_with_less: 2
 settings:  # Can be individually specified per library as well
   asset_depth: 1
   asset_directory: /data/media/.config/Plex-Meta-Manager/assets
@@ -67,7 +67,6 @@ settings:  # Can be individually specified per library as well
   cache: true
   create_asset_folders: true
   custom_repo: https://raw.githubusercontent.com/bakerboy448/pmm-config/main/
-  default_collection_order:
   delete_below_minimum: true
   delete_not_scheduled: false
   dimensional_asset_rename: true
