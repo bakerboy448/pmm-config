@@ -33,10 +33,12 @@ templates:
     schedule: monthly(15)
   Decades:
     sort_title: "!G_Best of <<year>>s"
-    limit: 50
     sync_mode: sync
     summary: IMDb Best 50 Movies of the <<year>>s
     smart_label: audience_rating.desc
+    imdb_list:
+      url: https://www.imdb.com/search/title/?release_date=<<start>>-01-01,<<end>>-12-31&num_votes=1000,&sort=num_votes,desc
+      limit: 50
     radarr_monitor: true
     radarr_search: true
     radarr_add_missing: true
@@ -68,9 +70,7 @@ collections:
   Best of 2020:
     template: { name: Best of, year: 2020 }
   Best of 2020s:
-    template: { name: Decades, year: 2020 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=2020-01-01,2029-12-31&num_votes=1000,&sort=num_votes,desc
+    template: { name: Decades, start: 2020, end: 2029 }
     url_poster: https://i.ibb.co/SdvBshG/2020.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 2019:
@@ -86,32 +86,22 @@ collections:
   Best of 2014:
     template: { name: Best of, year: 2014 }
   Best of 2010s:
-    template: { name: Decades, year: 2010 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=2010-01-01,2019-12-31&num_votes=10000,&sort=num_votes,desc
+    template: { name: Decades, start: 2010, end: 2019 }
     url_poster: https://i.ibb.co/4PrWNxT/2010.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 2000s:
-    template: { name: Decades, year: 2000 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=2000-01-01,2009-12-31&num_votes=10000,&sort=num_votes,desc
+    template: { name: Decades, start: 2000, end: 2009 }
     url_poster: https://i.ibb.co/fMhyG74/2000.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 1990s:
-    template: { name: Decades, year: 1990 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=1990-01-01,1999-12-31&num_votes=10000,&sort=num_votes,desc
+    template: { name: Decades, start: 1990, end: 1999 }
     url_poster: https://i.ibb.co/r3TFwf7/1990.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 1980s:
-    template: { name: Decades, year: 1980 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=1980-01-01,1989-12-31&num_votes=10000,&sort=num_votes,desc
+    template: { name: Decades, start: 1980, end: 1989 }
     url_poster: https://i.ibb.co/71CGnd1/1980.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 1970s:
-    template: { name: Decades, year: 1970 }
-    imdb_list:
-      url: https://www.imdb.com/search/title/?release_date=1970-01-01,1979-12-31&num_votes=10000,&sort=num_votes,desc
+    template: { name: Decades, start: 1970, end: 1979 }
     url_poster: https://i.ibb.co/37n0VyF/1970.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
