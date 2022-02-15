@@ -6,7 +6,6 @@ templates:
     visible_home: true
     visible_shared: true
     visible_library: true
-    collection_mode: hide
     sync_mode: sync
     radarr_monitor: false
     radarr_search: false
@@ -19,7 +18,6 @@ templates:
     visible_shared: true
     sync_mode: sync
     sort_title: +++++++++++++++++_
-    collection_mode: hide
     smart_label: release.desc
     url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
     radarr_monitor: false
