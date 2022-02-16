@@ -1,28 +1,11 @@
 templates:
-  #####################################
-  #     Custom Collection Template    #
-  #####################################
   Studio:
     sort_title: "!A <<collection_name>>"
     collection_mode: hide
     schedule: daily
-  TV Collection:
-    optional:
-      - trakt_list
-      - imdb_list
-      - tvdb_show
-    trakt_list_details: <<trakt_list>>
-    imdb_list: <<imdb_list>>
-    tvdb_show: <<tvdb_show>>
-    sort_title: <<collection_name>>
-    collection_order: release
-    collection_mode: hide
-    schedule: weekly(monday)
     sonarr_tag: PMM,PMM-<<collection_name>> # New
     item_sonarr_tag: PMM,PMM-<<collection_name>> # Existing
-  #####################################
-  #       Studio Collections      #
-  #####################################
+    sonarr_add_missing: false
 collections:
   DC Extended Universe:
     template: { name: Studio }
