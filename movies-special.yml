@@ -57,6 +57,9 @@ collections:
     sync_mode: sync
     trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies
     item_overlay: IMDB
+    radarr_add_missing: false
+    radarr_monitor: false
+    radarr_search: false
   Prime Video Movies:
     template:
       name: streaming
