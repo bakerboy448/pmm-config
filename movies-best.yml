@@ -19,11 +19,11 @@ templates:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
     sort_title: "!F_Best of <<year>>"
     sync_mode: sync
-    summary: Rotten Tomatoes Best 25 Movies of <<year>>
+    summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
     radarr_monitor: true
     radarr_search: true
-    radarr_add_missing: true
+    radarr_add_missing: false
     radarr_tag: PMM,PMM-<<collection_name>> # New
     item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
     visible_library: true
@@ -33,11 +33,11 @@ templates:
   Decades:
     sort_title: "!G_Best of <<year>>s"
     sync_mode: sync
-    summary: IMDb Best 50 Movies of the <<year>>s
+    summary: IMDb Best 20 Movies of the <<year>>s
     smart_label: audience_rating.desc
     imdb_list:
       url: https://www.imdb.com/search/title/?release_date=<<start>>-01-01,<<end>>-12-31&num_votes=1000,&sort=num_votes,desc
-      limit: 50
+      limit: 20
     radarr_monitor: true
     radarr_search: true
     radarr_add_missing: true
@@ -50,10 +50,10 @@ templates:
 collections:
   Popular:
     template: { name: Chart, num: 3 }
-    tmdb_popular: 30
+    tmdb_popular: 20
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature
-      limit: 30
+      limit: 20
     summary: Popular Movies across the internet
     url_poster: https://i.imgur.com/HhAHgQV.jpg
   Oscars:
@@ -64,8 +64,14 @@ collections:
     url_background: https://i.imgur.com/0Kao9gY.jpeg
   Best of 2022:
     template: { name: Best of, year: 2022 }
+    radarr_monitor: false
+    radarr_search: false
+    radarr_add_missing: true
   Best of 2021:
     template: { name: Best of, year: 2021 }
+    radarr_monitor: false
+    radarr_search: false
+    radarr_add_missing: true
   Best of 2020:
     template: { name: Best of, year: 2020 }
   Best of 2020s:
