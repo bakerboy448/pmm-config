@@ -91,11 +91,13 @@ settings:  # Can be individually specified per library as well
   sync_mode: sync
   tvdb_language: eng
   verify_ssl: true
+  default_collection_order:
 webhooks:
   error: notifiarr
   run_end: notifiarr
   run_start: notifiarr
   changes: notifiarr
+  version: notifiarr
 plex:  # Can be individually specified per library as well; REQUIRED for the script to run
   clean_bundles: false
   empty_trash: false
@@ -106,6 +108,7 @@ plex:  # Can be individually specified per library as well; REQUIRED for the scr
 tmdb:  # REQUIRED for the script to run
   apikey: (removed)
   language: en
+  cache_expiration: 60
 tautulli:  # Can be individually specified per library as well
   apikey: (removed)
   url: http://localhost:8181/tautulli
