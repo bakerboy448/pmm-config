@@ -1,4 +1,34 @@
-libraries:  # Library mappings must have a colon (:) placed after them
+radarr: # Can be individually specified per library as well
+  add_existing: true
+  availability: released
+  monitor: true
+  plex_path:
+  quality_profile: HD - No Remux
+  radarr_path:
+  root_folder_path: /data/media/media/movies
+  search: false
+  tag: pmm
+  token: (removed)
+  url: http://localhost:7878/radarr
+  add_missing: true
+sonarr: # Can be individually specified per library as well
+  add_existing: true
+  cutoff_search: false
+  language_profile: English
+  monitor: all
+  plex_path:
+  quality_profile: HD - Low - No Upgrade
+  root_folder_path: /data/media/media/tv
+  search: true
+  season_folder: true
+  series_type: standard
+  sonarr_path:
+  tag: pmm
+  token: (removed)
+  url: http://localhost:8989/sonarr
+  add_missing: true
+
+libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     missing_path: /data/media/.config/Plex-Meta-Manager/Missing/Movies.yml
     metadata_path:
@@ -12,19 +42,6 @@ libraries:  # Library mappings must have a colon (:) placed after them
     operations:
       assets_for_all: true
       delete_unmanaged_collections: true
-    radarr:  # Can be individually specified per library as well
-      add_existing: true
-      availability: released
-      monitor: true
-      plex_path:
-      quality_profile: HD - No Remux
-      radarr_path:
-      root_folder_path: /data/media/media/movies
-      search: false
-      tag: pmm
-      token: (removed)
-      url: http://localhost:7878/radarr
-      add_missing: true
   TV Shows:
     missing_path: /data/media/.config/Plex-Meta-Manager/Missing/TV.yml
     metadata_path:
@@ -32,22 +49,6 @@ libraries:  # Library mappings must have a colon (:) placed after them
       - repo: tv-meta
       - repo: tv-networks
       - repo: networks
-    sonarr:  # Can be individually specified per library as well
-      add_existing: true
-      cutoff_search: false
-      language_profile: English
-      monitor: all
-      plex_path:
-      quality_profile: HD - Low - No Upgrade
-      root_folder_path: /data/media/media/tv
-      search: true
-      season_folder: true
-      series_type: standard
-      sonarr_path:
-      tag: pmm
-      token: (removed)
-      url: http://localhost:8989/sonarr
-      add_missing: true
   TV Shows - Cartoons:
     missing_path: /data/media/.config/Plex-Meta-Manager/Missing/TV-Cartoons.yml
     metadata_path:
@@ -58,7 +59,7 @@ libraries:  # Library mappings must have a colon (:) placed after them
     metadata_path:
       - repo: tv
       - repo: tv-meta
-settings:  # Can be individually specified per library as well
+settings: # Can be individually specified per library as well
   asset_depth: 1
   asset_directory: /data/media/.config/Plex-Meta-Manager/assets
   asset_folders: true
@@ -98,18 +99,19 @@ webhooks:
   run_start: notifiarr
   changes: notifiarr
   version: notifiarr
-plex:  # Can be individually specified per library as well; REQUIRED for the script to run
+plex: # Can be individually specified per library as well; REQUIRED for the script to run
   clean_bundles: false
   empty_trash: false
   optimize: false
   timeout: 120
   token: (removed)
   url: http://localhost:32400
-tmdb:  # REQUIRED for the script to run
+tmdb: # REQUIRED for the script to run
   apikey: (removed)
   language: en
   cache_expiration: 60
-tautulli:  # Can be individually specified per library as well
+  region:
+tautulli: # Can be individually specified per library as well
   apikey: (removed)
   url: http://localhost:8181/tautulli
 notifiarr:
@@ -119,8 +121,9 @@ trakt:
   client_secret: (removed)
   authorization:
     access_token: (removed)
-    created_at: 1639938124
+    token_type: Bearer
     expires_in: 7889237
     refresh_token: (removed)
     scope: public
-    token_type: Bearer
+    created_at: 1649919626
+  pin:
