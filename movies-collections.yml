@@ -19,7 +19,7 @@ templates:
     visible_library: false
     visible_shared: false
     visible_home: false
-    schedule: weekly(tuesday)
+    schedule: weekly(thursday)
 collections:
   ... Has Fallen:
     name_mapping: Has Fallen
@@ -703,16 +703,16 @@ collections:
   Men in Black:
     template:
       collection: 86055
-      name: Movies
+      name: Collection
   Middle Earth:
     summary: A collection of movies and shows set in J.R.R. Tolkien's Middle Earth.
     template:
       collection: 119,121938
-      name: Movies
+      name: Collection
   Mission Impossible:
     template:
       collection: 87359
-      name: Movies
+      name: Collection
   'Mission: Impossible':
     name_mapping: Mission Impossible
     template:
@@ -937,11 +937,11 @@ collections:
   Spider-Man:
     template:
       collection: 556
-      name: Movies
+      name: Collection
   Spider-Man (Avengers):
     template:
       collection: 531241
-      name: Movies
+      name: Collection
   Spider-Man (Original):
     template:
       collection: 556
@@ -950,13 +950,13 @@ collections:
     sort_title: +5_2_Spider-Man Universe
     template:
       collection: 556, 531241, 573436, 125574
-      name: Movies
+      name: Collection
   'Spider-Man: Spider-Verse':
     collection_mode: hide
     name_mapping: Spider-Man Spider-Verse
     template:
       collection: 573436
-      name: Movies
+      name: Collection
   Spy Kids:
     template:
       collection: 86486
@@ -965,7 +965,7 @@ collections:
     summary: Star Trek is an American science fiction media franchise originating from the 1960s television series Star Trek, created by Gene Roddenberry.
     template:
       collection: 151,115575,115570
-      name: Movies
+      name: Collection
   'Star Trek: Alternate Reality':
     name_mapping: Star Trek Alternate Reality
     template:
@@ -984,7 +984,7 @@ collections:
   Star Wars:
     template:
       collection: 10
-      name: Movies
+      name: Collection
   'Star Wars: Legends':
     name_mapping: Star Wars Legends
     summary: Star Wars Anthology Films and other Star Wars Movies
@@ -1016,7 +1016,7 @@ collections:
   Superman:
     template:
       collection: 8537
-      name: Movies
+      name: Collection
   Superman (Original):
     template:
       collection: 8537
@@ -1041,7 +1041,7 @@ collections:
   Taxi:
     template:
       collection: 211721
-      name: Movies
+      name: Collection
   Ted:
     template:
       collection: 266672
@@ -1058,7 +1058,7 @@ collections:
   Terminator:
     template:
       collection: 528
-      name: Movies
+      name: Collection
   Texas Chainsaw Massacre:
     template:
       collection: 111751, 425175
@@ -1295,7 +1295,7 @@ collections:
     sort_title: Twilight Saga
     template:
       collection: 33514
-      name: Movies
+      name: Collection
   Tinker Bell:
     template:
       collection: 315595
