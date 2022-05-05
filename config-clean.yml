@@ -21,11 +21,6 @@ libraries: # Library mappings must have a colon (:) placed after them
       - repo: tv-meta
       - repo: tv-networks
       - repo: networks
-  TV Shows - Cartoons:
-    missing_path: /data/media/.config/Plex-Meta-Manager/Missing/TV-Cartoons.yml
-    metadata_path:
-      - repo: tv
-      - repo: tv-meta
   TV Shows - Cartoons Kids:
     missing_path: /data/media/.config/Plex-Meta-Manager/Missing/TV-Cartoons-Kids.yml
     metadata_path:
