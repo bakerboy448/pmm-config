@@ -1,43 +1,19 @@
-collections:
+overlays:
+  4K-HDR:
+    suppress_overlays:
+      - 4K
+      - HDR
+    plex_search:
+      all:
+        resolution: 4K
+        hdr: true
   4K:
     plex_search:
       all:
         resolution: 4K
-        hdr: false
-    filters:
-      filepath.not: DoVi
-    item_overlay: 4K
-    build_collection: false
-  4K-HDR:
-    plex_search:
-      all:
-        resolution: 4K
-        hdr: true
-    filters:
-      filepath.not: DoVi
-    item_overlay: 4K-HDR
-    build_collection: false
-  4K-Dolby:
-    plex_search:
-      all:
-        resolution: 4K
-    filters:
-      filepath: DoVi
-    item_overlay: 4K-Dolby
-    build_collection: false
   HDR:
     plex_search:
       all:
         hdr: true
-    filters:
-      filepath.not: DoVi
-      resolution.not: 4K
-    item_overlay: HDR
-    build_collection: false
-  Dolby:
-    plex_all: true
-    filters:
-      filepath: DoVi
-      resolution.not: 4K
-    item_overlay: Dolby
-    build_collection: false
+  IMDb-Top-250:
+    imdb_chart: top_movies
