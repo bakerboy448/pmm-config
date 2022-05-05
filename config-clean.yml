@@ -1,36 +1,9 @@
-radarr: # Can be individually specified per library as well
-  add_existing: true
-  availability: released
-  monitor: true
-  plex_path:
-  quality_profile: HD - No Remux
-  radarr_path:
-  root_folder_path: /data/media/media/movies
-  search: false
-  tag: pmm
-  token: (removed)
-  url: http://localhost:7878/radarr
-  add_missing: true
-sonarr: # Can be individually specified per library as well
-  add_existing: true
-  cutoff_search: false
-  language_profile: English
-  monitor: all
-  plex_path:
-  quality_profile: HD - Low - No Upgrade
-  root_folder_path: /data/media/media/tv
-  search: true
-  season_folder: true
-  series_type: standard
-  sonarr_path:
-  tag: pmm
-  token: (removed)
-  url: http://localhost:8989/sonarr
-  add_missing: true
-
 libraries: # Library mappings must have a colon (:) placed after them
   Movies:
     missing_path: /data/media/.config/Plex-Meta-Manager/Missing/Movies.yml
+    overlay_path:
+      - repo: video-overlays
+      - remove_overlays: true
     metadata_path:
       - repo: movies-special
       - repo: movies-best
@@ -38,7 +11,6 @@ libraries: # Library mappings must have a colon (:) placed after them
       - repo: movies-general
       - repo: movies-holidays
       - repo: movies-mcu
-      - repo: video-overlays
     operations:
       assets_for_all: true
       delete_unmanaged_collections: true
@@ -64,9 +36,9 @@ settings: # Can be individually specified per library as well
   asset_directory: /data/media/.config/Plex-Meta-Manager/assets
   asset_folders: true
   cache_builders: true
-  cache_expiration: 30
+  cache_expiration: 14
   cache: true
-  create_asset_folders: true
+  create_asset_folders: false
   custom_repo: https://raw.githubusercontent.com/bakerboy448/pmm-config/main/
   delete_below_minimum: true
   delete_not_scheduled: false
@@ -93,6 +65,7 @@ settings: # Can be individually specified per library as well
   tvdb_language: eng
   verify_ssl: true
   default_collection_order:
+  check_nightly: true
 webhooks:
   error: notifiarr
   run_end: notifiarr
@@ -109,13 +82,44 @@ plex: # Can be individually specified per library as well; REQUIRED for the scri
 tmdb: # REQUIRED for the script to run
   apikey: (removed)
   language: en
-  cache_expiration: 60
+  cache_expiration: 45
   region:
 tautulli: # Can be individually specified per library as well
   apikey: (removed)
   url: http://localhost:8181/tautulli
 notifiarr:
   apikey: (removed)
+radarr: # Can be individually specified per library as well
+  add_existing: true
+  availability: released
+  monitor: true
+  plex_path:
+  quality_profile: HD - No Remux
+  radarr_path:
+  root_folder_path: /data/media/media/movies
+  search: false
+  tag: pmm
+  token: (removed)
+  url: http://localhost:7878/radarr
+  add_missing: true
+  upgrade_existing: false
+sonarr: # Can be individually specified per library as well
+  add_existing: true
+  cutoff_search: false
+  language_profile: English
+  monitor: all
+  plex_path:
+  quality_profile: HD - Low - No Upgrade
+  root_folder_path: /data/media/media/tv
+  search: true
+  season_folder: true
+  series_type: standard
+  sonarr_path:
+  tag: pmm
+  token: (removed)
+  url: http://localhost:8989/sonarr
+  add_missing: true
+  upgrade_existing: false
 trakt:
   client_id: (removed)
   client_secret: (removed)
