@@ -21,690 +21,1378 @@ templates:
     visible_home: false
     schedule: weekly(tuesday)
 collections:
+  ... Has Fallen:
+    name_mapping: Has Fallen
+    template:
+      collection: 386534
+      name: Collection
   101 Dalmatians:
-    template: { name: Collection, collection: 100693 }
+    template:
+      collection: 100693
+      name: Collection
   101 Dalmatians (Live-Action):
-    template: { name: Collection, collection: 124916 }
+    template:
+      collection: 124916
+      name: Collection
   28 Days/Weeks Later:
-    template: { name: Collection, collection: 1565 }
     name_mapping: 28 Days-Weeks Later
+    template:
+      collection: 1565
+      name: Collection
   3 Ninja:
-    template: { name: Collection, collection: 71458 }
-  "300":
-    template: { name: Collection, collection: 125570 }
-  Addams Family:
-    template: { name: Collection, collection: 11716 }
-  Air Bud:
-    template: { name: Collection, collection: 97445 }
-  Aladdin:
-    template: { name: Collection, collection: 86027 }
-  Alice in Wonderland:
-    template: { name: Collection, collection: 261307 }
-  Alien:
-    template: { name: Collection, collection: "8091, 135416" }
-  All Dogs Go to Heaven:
-    template: { name: Collection, collection: 140910 }
-  Almighty:
-    template: { name: Collection, collection: 124949 }
-  Alvin and the Chipmunks:
-    template: { name: Collection, collection: 167613 }
-  The Amazing Spider-Man:
-    template: { name: Collection, collection: 125574 }
-  American Pie:
-    template: { name: Collection, collection: "2806, 298820" }
-  American Psycho:
-    template: { name: Collection, collection: 86105 }
-  An American Tail:
-    template: { name: Collection, collection: 8783 }
-  Anaconda:
-    template: { name: Collection, collection: 105995, movie: 336560 }
-  Anchorman:
-    template: { name: Collection, collection: 93791 }
-  Angels in the ...:
-    template: { name: Collection, collection: 508334 }
-    name_mapping: Angels in the
-  The Angry Birds:
-    template: { name: Collection, collection: 531315 }
-  Annabelle:
-    template: { name: Collection, collection: 402074 }
-  Appleseed:
-    template: { name: Collection, collection: "87800, 371526" }
-  Atlantis:
-    template: { name: Collection, collection: 100965 }
-  Attack on Titan:
-    template: { name: Collection, collection: 370411 }
-  Austin Powers:
-    template: { name: Collection, collection: 1006 }
+    template:
+      collection: 71458
+      name: Collection
+  '300':
+    template:
+      collection: 125570
+      name: Collection
+  A Dog's Purpose:
+    template:
+      collection: 591028
+      name: Collection
+  A Goofy Movie:
+    template:
+      collection: 410261
+      name: Collection
+  A Nightmare on Elm Street:
+    template:
+      collection: 8581
+      movie: 6466, 23437
+      name: Collection
   AVP:
-    template: { name: Collection, collection: 115762 }
+    template:
+      collection: 115762
+      name: Collection
+  Addams Family:
+    template:
+      collection: 11716
+      name: Collection
+  Air Bud:
+    template:
+      collection: 97445
+      name: Collection
+  Aladdin:
+    template:
+      collection: 86027
+      name: Collection
+  Alice in Wonderland:
+    template:
+      collection: 261307
+      name: Collection
+  Alien:
+    template:
+      collection: 8091, 135416
+      name: Collection
+  All Dogs Go to Heaven:
+    template:
+      collection: 140910
+      name: Collection
+  Almighty:
+    template:
+      collection: 124949
+      name: Collection
+  Alvin and the Chipmunks:
+    template:
+      collection: 167613
+      name: Collection
+  American Pie:
+    template:
+      collection: 2806, 298820
+      name: Collection
+  American Psycho:
+    template:
+      collection: 86105
+      name: Collection
+  An American Tail:
+    template:
+      collection: 8783
+      name: Collection
+  Anaconda:
+    template:
+      collection: 105995
+      movie: 336560
+      name: Collection
+  Anchorman:
+    template:
+      collection: 93791
+      name: Collection
+  Angels in the ...:
+    name_mapping: Angels in the
+    template:
+      collection: 508334
+      name: Collection
+  Annabelle:
+    template:
+      collection: 402074
+      name: Collection
+  Appleseed:
+    template:
+      collection: 87800, 371526
+      name: Collection
+  Atlantis:
+    template:
+      collection: 100965
+      name: Collection
+  Attack on Titan:
+    template:
+      collection: 370411
+      name: Collection
+  Austin Powers:
+    template:
+      collection: 1006
+      name: Collection
   Babe:
-    template: { name: Collection, collection: 9435 }
+    template:
+      collection: 9435
+      name: Collection
   Back to the Future:
-    template: { name: Collection, collection: 264 }
+    template:
+      collection: 264
+      name: Collection
   Bad Boys:
-    template: { name: Collection, collection: 14890 }
+    template:
+      collection: 14890
+      name: Collection
   Bad Moms:
-    template: { name: Collection, collection: 487376 }
+    template:
+      collection: 487376
+      name: Collection
   Bad Santa:
-    template: { name: Collection, collection: 423173 }
+    template:
+      collection: 423173
+      name: Collection
   Balto:
-    template: { name: Collection, collection: 117693 }
+    template:
+      collection: 117693
+      name: Collection
   Bambi:
-    template: { name: Collection, collection: 87250 }
+    template:
+      collection: 87250
+      name: Collection
   Barbershop:
-    template: { name: Collection, collection: 176097, movie: 14177 }
+    template:
+      collection: 176097
+      movie: 14177
+      name: Collection
   Batman:
-    template: { name: Collection, collection: 120794 }
+    template:
+      collection: 120794
+      name: Collection
   Batman (Adam West) Animation:
-    template: { name: Collection, collection: 626517 }
+    template:
+      collection: 626517
+      name: Collection
   Beauty and the Beast:
-    template: { name: Collection, collection: 153010 }
+    template:
+      collection: 153010
+      name: Collection
   Bill & Ted's Most Excellent:
-    template: { name: Collection, collection: 91746 }
+    template:
+      collection: 91746
+      name: Collection
   Black Water:
-    template: { name: Collection, collection: 730166 }
+    template:
+      collection: 730166
+      name: Collection
   Blade:
-    template: { name: Collection, collection: 735 }
+    template:
+      collection: 735
+      name: Collection
   Blade Runner:
-    template: { name: Collection, collection: 422837 }
-  The Blues Brothers:
-    template: { name: Collection, collection: 112636 }
-  The Boondock Saints:
-    template: { name: Collection, collection: 87186 }
+    template:
+      collection: 422837
+      name: Collection
   Borat Moviefilms:
-    template: { name: Collection, collection: 747168 }
-  The Bourne:
-    template: { name: Collection, collection: 31562 }
-  The Boy:
-    template: { name: Collection, collection: 666337 }
+    template:
+      collection: 747168
+      name: Collection
   Bring It On:
-    template: { name: Collection, collection: 430186 }
+    template:
+      collection: 430186
+      name: Collection
   Brother Bear:
-    template: { name: Collection, collection: 96472 }
-  The Buddies:
-    template: { name: Collection, collection: 91657 }
+    template:
+      collection: 96472
+      name: Collection
   Carrie:
-    template: { name: Collection, collection: 257053 }
+    template:
+      collection: 257053
+      name: Collection
   Cars:
-    template: { name: Collection, collection: 87118 }
+    template:
+      collection: 87118
+      name: Collection
   Charlie Brown:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls054850259/
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
+    template:
+      name: Collection
   Charlie's Angels:
-    template: { name: Collection, collection: 86029 }
+    template:
+      collection: 86029
+      name: Collection
   Cheaper by the Dozen:
-    template: { name: Collection, collection: 114783 }
-  The Chronicles of Narnia:
-    template: { name: Collection, collection: 420 }
-  The Chronicles of Riddick:
-    template: { name: Collection, collection: 2794 }
+    template:
+      collection: 114783
+      name: Collection
   Cinderella:
-    template: { name: Collection, collection: 55419 }
+    template:
+      collection: 55419
+      name: Collection
   Cinderella Story:
-    template: { name: Collection, collection: 437451 }
+    template:
+      collection: 437451
+      name: Collection
   City Slickers:
-    template: { name: Collection, collection: 150156 }
+    template:
+      collection: 150156
+      name: Collection
   Clash of the Titans:
-    template: { name: Collection, collection: 86780 }
+    template:
+      collection: 86780
+      name: Collection
   Clerks:
-    template: { name: Collection, collection: 182813 }
+    template:
+      collection: 182813
+      name: Collection
   Cloudy with a Chance of Meatballs:
-    template: { name: Collection, collection: 177467 }
+    template:
+      collection: 177467
+      name: Collection
   Cloverfield:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls021933730/
-    summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
-  The Conjuring:
-    template: { name: Collection, collection: 313086 }
+    summary: >-
+      Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an
+      experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
+    template:
+      name: Collection
   Cornetto Trilogy:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls068623110/
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
+    template:
+      name: Collection
   Creed:
-    template: { name: Collection, collection: 553717 }
+    template:
+      collection: 553717
+      name: Collection
   Crocodile Dundee:
-    template: { name: Collection, collection: 9332 }
-  The Croods:
-    template: { name: Collection, collection: 464577 }
+    template:
+      collection: 9332
+      name: Collection
   Crouching Tiger, Hidden Dragon:
-    template: { name: Collection, collection: 290973 }
-  Daddy's Home:
-    template: { name: Collection, collection: 473971 }
-  The Dark Knight:
-    template: { name: Collection, collection: 263 }
+    template:
+      collection: 290973
+      name: Collection
   DC Super Hero Girls:
-    template: { name: Collection, collection: "477208, 557495" }
+    template:
+      collection: 477208, 557495
+      name: Collection
+  Daddy's Home:
+    template:
+      collection: 473971
+      name: Collection
   Deadpool:
-    template: { name: Collection, collection: 448150, movie: 567604 }
+    template:
+      collection: 448150
+      movie: 567604
+      name: Collection
   Death Note:
-    template: { name: Collection, collection: 102019 }
+    template:
+      collection: 102019
+      name: Collection
   Death Race:
-    template: { name: Collection, collection: 86116 }
-  The Debt Collector:
-    template: { name: Collection, collection: 709271 }
+    template:
+      collection: 86116
+      name: Collection
   Despicable Me:
-    template: { name: Collection, collection: "86066, 544669" }
+    template:
+      collection: 86066, 544669
+      name: Collection
   Die Hard:
-    template: { name: Collection, collection: 1570 }
+    template:
+      collection: 1570
+      name: Collection
   Dirty Harry:
-    template: { name: Collection, collection: 10456 }
+    template:
+      collection: 10456
+      name: Collection
   Divergent:
-    template: { name: Collection, collection: 283579 }
-  A Dog's Purpose:
-    template: { name: Collection, collection: 591028 }
+    template:
+      collection: 283579
+      name: Collection
   DragonHeart:
-    template: { name: Collection, collection: 169452 }
+    template:
+      collection: 169452
+      name: Collection
   Dumb and Dumber:
-    template: { name: Collection, collection: 96665 }
+    template:
+      collection: 96665
+      name: Collection
   Dungeons & Dragons:
-    template: { name: Collection, collection: 106498 }
-  The Emperor's New Groove:
-    template: { name: Collection, collection: 178117 }
-  The Equalizer:
-    template: { name: Collection, collection: 523855 }
+    template:
+      collection: 106498
+      name: Collection
   Escape From ...:
-    template: { name: Collection, collection: 115838 }
     name_mapping: Escape From
+    template:
+      collection: 115838
+      name: Collection
   Escape Plan:
-    template: { name: Collection, collection: 525891 }
+    template:
+      collection: 525891
+      name: Collection
   Evangelion:
-    template: { name: Collection, collection: 210303 }
     summary: A Japanese animated film series and a retelling of the original Neon Genesis Evangelion anime television series, produced by Studio Khara. Hideaki Anno served as the writer and general manager of the project, with Kazuya Tsurumaki and Masayuki directing the films themselves. Yoshiyuki Sadamoto, Ikuto Yamashita and Shiro Sagisu returned to provide character designs, mechanical designs and music respectively.
-  The Expendables:
-    template: { name: Collection, collection: 126125 }
+    template:
+      collection: 210303
+      name: Collection
   Fantasia:
-    template: { name: Collection, collection: 55427 }
+    template:
+      collection: 55427
+      name: Collection
   Fantastic Beasts:
-    template: { name: Collection, collection: 435259 }
+    template:
+      collection: 435259
+      name: Collection
   Fantastic Four:
-    template: { name: Collection, collection: 9744 }
-  The Fast and the Furious:
-    template: { name: Collection, collection: "9485, 688042" }
+    template:
+      collection: 9744
+      name: Collection
   Fifty Shades:
-    template: { name: Collection, collection: 344830 }
+    template:
+      collection: 344830
+      name: Collection
   Final Destination:
-    template: { name: Collection, collection: 8864 }
+    template:
+      collection: 8864
+      name: Collection
   Final Fantasy:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls022264056/
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
+    template:
+      name: Collection
   Finding Nemo:
-    template: { name: Collection, collection: 137697 }
-  The Flintstones:
-    template: { name: Collection, collection: 351684 }
-  The Fox and the Hound:
-    template: { name: Collection, collection: 100970 }
+    template:
+      collection: 137697
+      name: Collection
   Free Willy:
-    template: { name: Collection, collection: 9328 }
+    template:
+      collection: 9328
+      name: Collection
   Friday:
-    template: { name: Collection, collection: 43563 }
+    template:
+      collection: 43563
+      name: Collection
   Friday the 13th:
-    template: { name: Collection, collection: 9735, movie: "6466, 222724" }
+    template:
+      collection: 9735
+      movie: 6466, 222724
+      name: Collection
   Frozen:
-    template: { name: Collection, collection: 386382, movie: "326359, 460793" }
+    template:
+      collection: 386382
+      movie: 326359, 460793
+      name: Collection
   G.I. Joe:
-    template: { name: Collection, collection: 135468 }
+    template:
+      collection: 135468
+      name: Collection
   Garfield:
-    template: { name: Collection, collection: "86115, 373918" }
+    template:
+      collection: 86115, 373918
+      name: Collection
   George Carlin Stand Up:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls070221411/
     summary: Collection of George Carlin's Stand Up Comedy HBO Specials
+    template:
+      name: Collection
   George Lopez Stand Up:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls086584751/
     summary: Collection of George Lopez's Stand Up Comedy Specials
+    template:
+      name: Collection
   George of the Jungle:
-    template: { name: Collection, collection: 126221 }
-  Ghost in the Shell:
-    template: { name: Collection, collection: 23026 }
+    template:
+      collection: 126221
+      name: Collection
   Ghost Rider:
-    template: { name: Collection, collection: 90306 }
+    template:
+      collection: 90306
+      name: Collection
+  Ghost in the Shell:
+    template:
+      collection: 23026
+      name: Collection
   Ghostbusters:
-    template: { name: Collection, collection: 2980, movie: 43074 }
-  The Girl - Millennium:
-    template: { name: Collection, collection: 575987 }
-  The Godfather:
-    template: { name: Collection, collection: 230 }
-  Godzilla (Showa):
-    template: { name: Collection, collection: 374509, movie: 18983 }
-    sort_title: Godzilla 01 (Showa)
-  Godzilla (Heisei):
-    template: { name: Collection, collection: 374511, movie: 39256 }
-    sort_title: Godzilla 02 (Heisei)
-  Godzilla (Millennium):
-    template: { name: Collection, collection: 374512 }
-    sort_title: Godzilla 04 (Millennium)
-  Godzilla (MonsterVerse):
-    template: { name: Collection, collection: 535313, movie: 293167 }
-    sort_title: Godzilla 05 (MonsterVerse)
+    template:
+      collection: 2980
+      movie: 43074
+      name: Collection
   Godzilla (Anime):
-    template: { name: Collection, collection: 535790 }
     sort_title: Godzilla 07 (Anime)
-  A Goofy Movie:
-    template: { name: Collection, collection: 410261 }
+    template:
+      collection: 535790
+      name: Collection
+  Godzilla (Heisei):
+    sort_title: Godzilla 02 (Heisei)
+    template:
+      collection: 374511
+      movie: 39256
+      name: Collection
+  Godzilla (Millennium):
+    sort_title: Godzilla 04 (Millennium)
+    template:
+      collection: 374512
+      name: Collection
+  Godzilla (MonsterVerse):
+    sort_title: Godzilla 05 (MonsterVerse)
+    template:
+      collection: 535313
+      movie: 293167
+      name: Collection
+  Godzilla (Showa):
+    sort_title: Godzilla 01 (Showa)
+    template:
+      collection: 374509
+      movie: 18983
+      name: Collection
   Goosebumps:
-    template: { name: Collection, collection: 508783 }
+    template:
+      collection: 508783
+      name: Collection
   Green Street Hooligans:
-    template: { name: Collection, collection: 152544 }
+    template:
+      collection: 152544
+      name: Collection
   Grown Ups:
-    template: { name: Collection, collection: 180546 }
+    template:
+      collection: 180546
+      name: Collection
   Halloween:
-    template: { name: Collection, collection: "91361, 126209" }
+    template:
+      collection: 91361, 126209
+      name: Collection
   Halo:
-    template: { name: Collection }
+    template:
+      name: Collection
     tmdb_list_details: 7070832
-  The Hangover:
-    template: { name: Collection, collection: 86119 }
   Hannibal Lecter:
-    template: { name: Collection, collection: 9743, movie: 11454 }
+    template:
+      collection: 9743
+      movie: 11454
+      name: Collection
   Happy Death Day:
-    template: { name: Collection, collection: 526380 }
+    template:
+      collection: 526380
+      name: Collection
   Happy Feet:
-    template: { name: Collection, collection: 92012 }
+    template:
+      collection: 92012
+      name: Collection
   Harold & Kumar:
-    template: { name: Collection, collection: 30663 }
+    template:
+      collection: 30663
+      name: Collection
   Harry Potter:
-    template: { name: Collection, collection: 1241 }
-  ... Has Fallen:
-    template: { name: Collection, collection: 386534 }
-    name_mapping: Has Fallen
+    template:
+      collection: 1241
+      name: Collection
   Hellboy:
-    template: { name: Collection, collection: 17235 }
+    template:
+      collection: 17235
+      name: Collection
   Hellboy (Animated):
-    template: { name: Collection, collection: 123203 }
+    template:
+      collection: 123203
+      name: Collection
   High School Musical:
-    template: { name: Collection, collection: 87253 }
+    template:
+      collection: 87253
+      name: Collection
   Highlander:
-    template: { name: Collection, collection: 8050 }
-  The Hobbit:
-    template: { name: Collection, collection: 121938 }
+    template:
+      collection: 8050
+      name: Collection
   Home Alone:
-    template: { name: Collection, collection: 9888 }
+    template:
+      collection: 9888
+      name: Collection
   Honey, I Shrunk the Kids:
-    template: { name: Collection, collection: 72119 }
+    template:
+      collection: 72119
+      name: Collection
   Horrible Bosses:
-    template: { name: Collection, collection: 280588 }
+    template:
+      collection: 280588
+      name: Collection
   Hot Tub Time Machine:
-    template: { name: Collection, collection: 313576 }
+    template:
+      collection: 313576
+      name: Collection
   Hotel Transylvania:
-    template: { name: Collection, collection: 185103 }
+    template:
+      collection: 185103
+      name: Collection
   House of 1000 Corpses:
-    template: { name: Collection, collection: 105625 }
+    template:
+      collection: 105625
+      name: Collection
   How to Train Your Dragon:
-    template: { name: Collection, collection: 89137 }
-  The Human Centipede:
-    template: { name: Collection, collection: 96671 }
-  The Hunchback of Notre Dame:
-    template: { name: Collection, collection: 97456 }
-  The Hunger Games:
-    template: { name: Collection, collection: 131635 }
-  The Huntsman:
-    template: { name: Collection, collection: 393379 }
+    template:
+      collection: 89137
+      name: Collection
   Ice Age:
     template:
-      { name: Collection, collection: 8354, movie: "79218, 717095, 387893" }
-  The Incredibles:
-    template: { name: Collection, collection: 468222 }
+      collection: 8354
+      movie: 79218, 717095, 387893
+      name: Collection
   Independence Day:
-    template: { name: Collection, collection: 304378 }
-  Indiana Jones:
-    template: { name: Collection, collection: 84 }
-  Ip Man:
     template:
-      {
-        name: Collection,
-        collection: 70068,
-        movie: "658009, 643413, 450001, 751391, 44249, 182127, 44865",
-      }
+      collection: 304378
+      name: Collection
+  Indiana Jones:
+    template:
+      collection: 84
+      name: Collection
+  Ip Man:
     collection_order: alpha
+    template:
+      collection: 70068
+      movie: 658009, 643413, 450001, 751391, 44249, 182127, 44865
+      name: Collection
   It:
-    template: { name: Collection, collection: 477962 }
+    template:
+      collection: 477962
+      name: Collection
   James Bond:
-    template: { name: Collection, collection: 645 }
+    template:
+      collection: 645
+      name: Collection
   Jaws:
-    template: { name: Collection, collection: 2366 }
+    template:
+      collection: 2366
+      name: Collection
   Jay and Silent Bob:
-    template: { name: Collection, collection: 726870 }
+    template:
+      collection: 726870
+      name: Collection
   Jeff Dunham Stand Up:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls086022668/
     summary: Collection of Jeff Dunham's Stand Up Comedy Specials
+    template:
+      name: Collection
   John Wick:
-    template: { name: Collection, collection: 404609 }
+    template:
+      collection: 404609
+      name: Collection
   Johnny Tsunami:
-    template: { name: Collection, collection: 394316 }
+    template:
+      collection: 394316
+      name: Collection
   Jumanji:
-    template: { name: Collection, collection: 495527 }
+    template:
+      collection: 495527
+      name: Collection
   Jump Street:
-    template: { name: Collection, collection: 212562 }
-  The Jungle Book:
-    template: { name: Collection, collection: 97459 }
+    template:
+      collection: 212562
+      name: Collection
   Jurassic Park:
-    template: { name: Collection, collection: 328, movie: 630322 }
-  The Karate Kid:
-    template: { name: Collection, collection: 8580, movie: 38575 }
+    template:
+      collection: 328
+      movie: 630322
+      name: Collection
   Kevin Hart Stand Up:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls049792208/
     summary: Collection of Kevin Hart's Stand Up Comedy Specials
+    template:
+      name: Collection
   Kick-Ass:
-    template: { name: Collection, collection: 179892 }
+    template:
+      collection: 179892
+      name: Collection
   Kill Bill:
-    template: { name: Collection, collection: 2883 }
+    template:
+      collection: 2883
+      name: Collection
   Kingsman:
-    template: { name: Collection, collection: 391860 }
+    template:
+      collection: 391860
+      name: Collection
   Kung Fu Panda:
-    template: { name: Collection, collection: 77816 }
-  Lady and the Tramp:
-    template: { name: Collection, collection: 97460 }
-  Lake Placid:
-    template: { name: Collection, collection: 97768 }
-  The Land Before Time:
-    template: { name: Collection, collection: 19163 }
-  Legally Blonde:
-    template: { name: Collection, collection: 86024 }
+    template:
+      collection: 77816
+      name: Collection
   LEGO DC Comics Super Heroes:
-    template: { name: Collection, collection: 386162 }
-  The Lego Movie:
-    template: { name: Collection, collection: 325470 }
+    template:
+      collection: 386162
+      name: Collection
+  Lady and the Tramp:
+    template:
+      collection: 97460
+      name: Collection
+  Lake Placid:
+    template:
+      collection: 97768
+      name: Collection
+  Legally Blonde:
+    template:
+      collection: 86024
+      name: Collection
   Lego Star Wars:
-    template: { name: Collection, collection: 302331 }
+    template:
+      collection: 302331
+      name: Collection
   Lethal Weapon:
-    template: { name: Collection, collection: 945 }
+    template:
+      collection: 945
+      name: Collection
   Lilo & Stitch:
-    template: { name: Collection, collection: 97461 }
-  The Lion King:
-    template: { name: Collection, collection: 94032 }
-  The Little Mermaid:
-    template: { name: Collection, collection: 33085 }
-  The Lord of the Rings:
-    template: { name: Collection, collection: 119 }
-  The Lord of the Rings (Animated):
-    template: { name: Collection, collection: 141290 }
+    template:
+      collection: 97461
+      name: Collection
   Mad Max:
-    template: { name: Collection, collection: 8945 }
+    template:
+      collection: 8945
+      name: Collection
   Madagascar:
     template:
-      { name: Collection, collection: 14740, movie: "161143, 25472, 270946" }
+      collection: 14740
+      movie: 161143, 25472, 270946
+      name: Collection
   Maleficent:
-    template: { name: Collection, collection: 531331 }
+    template:
+      collection: 531331
+      name: Collection
   Mall Cop:
-    template: { name: Collection, collection: 328372 }
-  The Man with No Name:
-    template: { name: Collection }
-    imdb_list: https://www.imdb.com/list/ls023916334/
-    summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
+    template:
+      collection: 328372
+      name: Collection
   Marvel Rising:
-    template: { name: Collection, collection: 627234 }
+    template:
+      collection: 627234
+      name: Collection
   Marx Brothers:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls068486735/
-    summary: The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars, and fans to be among the greatest and most influential comedians of the 20th century.
+    summary: >-
+      The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars, and fans to be among the greatest and most influential comedians of the 20th
+      century.
+    template:
+      name: Collection
   Mary Poppins:
-    template: { name: Collection, collection: 527439 }
-  The Mask:
-    template: { name: Collection, collection: 43072 }
-  The Matrix:
-    template: { name: Collection, collection: 2344 }
+    template:
+      collection: 527439
+      name: Collection
   Maya the Bee:
-    template: { name: Collection, collection: 522250 }
-  The Maze Runner:
-    template: { name: Collection, collection: 295130 }
+    template:
+      collection: 522250
+      name: Collection
   Mean Girls:
-    template: { name: Collection, collection: 99606 }
+    template:
+      collection: 99606
+      name: Collection
   Meet the Parents:
-    template: { name: Collection, collection: 51509 }
+    template:
+      collection: 51509
+      name: Collection
   Men In Black:
-    template: { name: Collection, collection: 86055 }
-  The Mighty Ducks:
-    template: { name: Collection, collection: 10709 }
-  "Mission: Impossible":
-    template: { name: Collection, collection: 87359 }
+    template:
+      collection: 86055
+      name: Collection
+  Men in Black:
+    template:
+      collection: 86055
+      name: Movies
+  Middle Earth:
+    summary: A collection of movies and shows set in J.R.R. Tolkien's Middle Earth.
+    template:
+      collection: 119,121938
+      name: Movies
+  Mission Impossible:
+    template:
+      collection: 87359
+      name: Movies
+  'Mission: Impossible':
     name_mapping: Mission Impossible
+    template:
+      collection: 87359
+      name: Collection
   Monsters, Inc.:
-    template: { name: Collection, collection: 137696 }
+    template:
+      collection: 137696
+      name: Collection
   Monty Python:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls072012494/
     summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
+    template:
+      name: Collection
   Mortal Kombat:
-    template: { name: Collection, collection: 9818, movie: 664767 }
+    template:
+      collection: 9818
+      movie: 664767
+      name: Collection
   Mothra:
-    template: { name: Collection, collection: 171732, movie: 39410 }
+    template:
+      collection: 171732
+      movie: 39410
+      name: Collection
   Mulan:
-    template: { name: Collection, collection: 87236 }
-  The Mummy:
-    template: { name: Collection, collection: 1733 }
-  The Muppet:
-    template: { name: Collection, collection: 256377 }
+    template:
+      collection: 87236
+      name: Collection
   National Treasure:
-    template: { name: Collection, collection: 52984 }
+    template:
+      collection: 52984
+      name: Collection
   Neighbors:
-    template: { name: Collection, collection: 400700 }
-  The Neverending Story:
-    template: { name: Collection, collection: 91430 }
+    template:
+      collection: 400700
+      name: Collection
   Night at the Museum:
-    template: { name: Collection, collection: 85943 }
-  A Nightmare on Elm Street:
-    template: { name: Collection, collection: 8581, movie: "6466, 23437" }
+    template:
+      collection: 85943
+      name: Collection
   Now You See Me:
-    template: { name: Collection, collection: 382685 }
+    template:
+      collection: 382685
+      name: Collection
   Ocean's:
-    template: { name: Collection, collection: 304 }
+    template:
+      collection: 304
+      name: Collection
   Ong Bak:
-    template: { name: Collection, collection: 94589 }
+    template:
+      collection: 94589
+      name: Collection
   Oz:
-    template: { name: Collection, collection: 627517, movie: "13155, 68728" }
+    template:
+      collection: 627517
+      movie: 13155, 68728
+      name: Collection
   Pacific Rim:
-    template: { name: Collection, collection: 363369 }
+    template:
+      collection: 363369
+      name: Collection
   Paddington:
-    template: { name: Collection, collection: 488924 }
+    template:
+      collection: 488924
+      name: Collection
   Parasyte:
-    template: { name: Collection, collection: 385386 }
+    template:
+      collection: 385386
+      name: Collection
   Percy Jackson:
-    template: { name: Collection, collection: 179919 }
+    template:
+      collection: 179919
+      name: Collection
   Pet Sematary:
-    template: { name: Collection, collection: 10789, movie: 157433 }
+    template:
+      collection: 10789
+      movie: 157433
+      name: Collection
   Peter Pan:
-    template: { name: Collection, collection: 55422 }
+    template:
+      collection: 55422
+      name: Collection
   Pirates of the Caribbean:
-    template: { name: Collection, collection: 295 }
+    template:
+      collection: 295
+      name: Collection
   Pitch Perfect:
-    template: { name: Collection, collection: 306031 }
+    template:
+      collection: 306031
+      name: Collection
   Planes:
-    template: { name: Collection, collection: 270252 }
+    template:
+      collection: 270252
+      name: Collection
   Planet of the Apes:
-    template: { name: Collection, collection: 173710 }
+    template:
+      collection: 173710
+      name: Collection
   Pocahontas:
-    template: { name: Collection, collection: 136214 }
+    template:
+      collection: 136214
+      name: Collection
   Pokémon:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls062687939/
     summary: Pokémon is a media franchise created by video game designer Satoshi Tajiri that centers on fictional creatures called Pokémon. As of 2020, there have been 23 animated films and one live action film. The first nineteen animated films are based on the anime television series of the same name, with the original film being remade into the 22nd. The 20th, 21st and 23rd animated films are set in an alternate continuity to the anime.
+    template:
+      name: Collection
   Police Story:
-    template: { name: Collection, collection: 269098 }
+    template:
+      collection: 269098
+      name: Collection
   Power Rangers:
-    template: { name: Collection, collection: 708816, movie: "305470, 306264" }
+    template:
+      collection: 708816
+      movie: 305470, 306264
+      name: Collection
   Predator:
-    template: { name: Collection, collection: 399 }
-  The Princess Diaries:
-    template: { name: Collection, collection: 107674 }
-  The Purge:
-    template: { name: Collection, collection: 256322 }
+    template:
+      collection: 399
+      name: Collection
   Quarantine:
-    template: { name: Collection, collection: 123932 }
+    template:
+      collection: 123932
+      name: Collection
   Rambo:
-    template: { name: Collection, collection: 5039 }
+    template:
+      collection: 5039
+      name: Collection
   Red Cliff:
-    template: { name: Collection, collection: 96677 }
+    template:
+      collection: 96677
+      name: Collection
   Rent:
-    template: { name: Collection }
+    template:
+      name: Collection
     tmdb_list_details: 7072241
-  The Rescuers:
-    template: { name: Collection, collection: 57971 }
   Resident Evil:
-    template: { name: Collection, collection: 17255 }
-  "Resident Evil: Biohazard":
-    template: { name: Collection, collection: 133352 }
+    template:
+      collection: 17255
+      name: Collection
+  'Resident Evil: Biohazard':
     name_mapping: Resident Evil Biohazard
+    template:
+      collection: 133352
+      name: Collection
   Ride Along:
-    template: { name: Collection, collection: 376650 }
+    template:
+      collection: 376650
+      name: Collection
   Rio:
-    template: { name: Collection, collection: 229932 }
+    template:
+      collection: 229932
+      name: Collection
   Robert Langdon:
-    template: { name: Collection, collection: 115776 }
+    template:
+      collection: 115776
+      name: Collection
   RoboCop:
-    template: { name: Collection, collection: 5547 }
+    template:
+      collection: 5547
+      name: Collection
   Rocky:
-    template: { name: Collection, collection: 1575 }
+    template:
+      collection: 1575
+      name: Collection
   Rugrats:
-    template: { name: Collection, collection: 57129 }
+    template:
+      collection: 57129
+      name: Collection
   Rurouni Kenshin:
-    template: { name: Collection, collection: 247028 }
+    template:
+      collection: 247028
+      name: Collection
   Rush Hour:
-    template: { name: Collection, collection: 90863 }
-  The Sandlot:
-    template: { name: Collection, collection: 87214 }
-  The Santa Clause:
-    template: { name: Collection, collection: 53159 }
+    template:
+      collection: 90863
+      name: Collection
   Santa Paws:
-    template: { name: Collection, collection: 469648 }
+    template:
+      collection: 469648
+      name: Collection
   Saw:
-    template: { name: Collection, collection: 656 }
+    template:
+      collection: 656
+      name: Collection
   Scary Movie:
-    template: { name: Collection, collection: 4246 }
-  The Scorpion King:
-    template: { name: Collection, collection: 116669 }
+    template:
+      collection: 4246
+      name: Collection
   Scream:
-    template: { name: Collection, collection: 2602 }
-  The Secret Life of Pets:
-    template: { name: Collection, collection: 427084 }
+    template:
+      collection: 2602
+      name: Collection
   Shaft:
-    template: { name: Collection, collection: "495, 608103" }
+    template:
+      collection: 495, 608103
+      name: Collection
   Shanghai Noon:
-    template: { name: Collection, collection: 59567 }
+    template:
+      collection: 59567
+      name: Collection
   Sharknado:
-    template: { name: Collection, collection: 286023 }
+    template:
+      collection: 286023
+      name: Collection
   Sherlock Holmes:
-    template: { name: Collection, collection: 102322 }
-  The Shining:
-    template: { name: Collection, collection: 530064 }
+    template:
+      collection: 102322
+      name: Collection
   Shrek:
-    template: { name: Collection, collection: 2150 }
+    template:
+      collection: 2150
+      name: Collection
   Silent Hill:
-    template: { name: Collection, collection: 64748 }
+    template:
+      collection: 64748
+      name: Collection
   Slap Shot:
-    template: { name: Collection, collection: 261526 }
-  The Smurfs:
-    template: { name: Collection, collection: 134897 }
+    template:
+      collection: 261526
+      name: Collection
+  Spider-Man:
+    template:
+      collection: 556
+      name: Movies
+  Spider-Man (Avengers):
+    template:
+      collection: 531241
+      name: Movies
   Spider-Man (Original):
-    template: { name: Collection, collection: 556 }
+    template:
+      collection: 556
+      name: Collection
+  Spider-Man Universe:
+    sort_title: +5_2_Spider-Man Universe
+    template:
+      collection: 556, 531241, 573436, 125574
+      name: Movies
+  'Spider-Man: Spider-Verse':
+    collection_mode: hide
+    name_mapping: Spider-Man Spider-Verse
+    template:
+      collection: 573436
+      name: Movies
   Spy Kids:
-    template: { name: Collection, collection: 86486 }
-  "Star Trek: Alternate Reality":
-    template: { name: Collection, collection: 115575 }
+    template:
+      collection: 86486
+      name: Collection
+  Star Trek:
+    summary: Star Trek is an American science fiction media franchise originating from the 1960s television series Star Trek, created by Gene Roddenberry.
+    template:
+      collection: 151,115575,115570
+      name: Movies
+  'Star Trek: Alternate Reality':
     name_mapping: Star Trek Alternate Reality
-  "Star Trek: The Next Generation":
-    template: { name: Collection, collection: 115570 }
+    template:
+      collection: 115575
+      name: Collection
+  'Star Trek: The Next Generation':
     name_mapping: Star Trek The Next Generation
-  "Star Trek: The Original Series":
-    template: { name: Collection, collection: 151 }
+    template:
+      collection: 115570
+      name: Collection
+  'Star Trek: The Original Series':
     name_mapping: Star Trek The Original Series
-  "Star Wars: Skywalker Saga":
-    template: { name: Collection, collection: 10 }
-    name_mapping: Star Wars Skywalker Saga
-  "Star Wars: Legends":
-    template: { name: Collection }
-    tmdb_movie: 348350, 330459
-    summary: "Star Wars Anthology Films and other Star Wars Movies"
+    template:
+      collection: 151
+      name: Collection
+  Star Wars:
+    template:
+      collection: 10
+      name: Movies
+  'Star Wars: Legends':
     name_mapping: Star Wars Legends
+    summary: Star Wars Anthology Films and other Star Wars Movies
+    template:
+      name: Collection
+    tmdb_movie: 348350, 330459
+  'Star Wars: Skywalker Saga':
+    name_mapping: Star Wars Skywalker Saga
+    template:
+      collection: 10
+      name: Collection
   Step Up:
-    template: { name: Collection, collection: 86092 }
+    template:
+      collection: 86092
+      name: Collection
   Street Fighter:
-    template: { name: Collection, collection: 190435, movie: "687354, 11667" }
+    template:
+      collection: 190435
+      movie: 687354, 11667
+      name: Collection
   Stuart Little:
-    template: { name: Collection, collection: 99727 }
+    template:
+      collection: 99727
+      name: Collection
   Super Troopers:
-    template: { name: Collection, collection: 449462 }
+    template:
+      collection: 449462
+      name: Collection
+  Superman:
+    template:
+      collection: 8537
+      name: Movies
   Superman (Original):
-    template: { name: Collection, collection: 8537 }
+    template:
+      collection: 8537
+      name: Collection
   Surf's Up:
-    template: { name: Collection, collection: 436295 }
+    template:
+      collection: 436295
+      name: Collection
+  TRON:
+    template:
+      collection: 63043
+      movie: 73362
+      name: Collection
   Taken:
-    template: { name: Collection, collection: 135483 }
+    template:
+      collection: 135483
+      name: Collection
   Tarzan:
-    template: { name: Collection, collection: 106768 }
+    template:
+      collection: 106768
+      name: Collection
+  Taxi:
+    template:
+      collection: 211721
+      name: Movies
   Ted:
-    template: { name: Collection, collection: 266672 }
+    template:
+      collection: 266672
+      name: Collection
   Teenage Mutant Ninja Turtles:
-    template: { name: Collection, collection: "1582, 401562", movie: 1273 }
+    template:
+      collection: 1582, 401562
+      movie: 1273
+      name: Collection
   Tekken:
-    template: { name: Collection, collection: 294172 }
-  The Terminator:
-    template: { name: Collection, collection: 528 }
+    template:
+      collection: 294172
+      name: Collection
+  Terminator:
+    template:
+      collection: 528
+      name: Movies
   Texas Chainsaw Massacre:
-    template: { name: Collection, collection: "111751, 425175" }
+    template:
+      collection: 111751, 425175
+      name: Collection
+  The Amazing Spider-Man:
+    template:
+      collection: 125574
+      name: Collection
+  The Angry Birds:
+    template:
+      collection: 531315
+      name: Collection
+  The Blues Brothers:
+    template:
+      collection: 112636
+      name: Collection
+  The Boondock Saints:
+    template:
+      collection: 87186
+      name: Collection
+  The Bourne:
+    template:
+      collection: 31562
+      name: Collection
+  The Boy:
+    template:
+      collection: 666337
+      name: Collection
+  The Buddies:
+    template:
+      collection: 91657
+      name: Collection
+  The Chronicles of Narnia:
+    template:
+      collection: 420
+      name: Collection
+  The Chronicles of Riddick:
+    template:
+      collection: 2794
+      name: Collection
+  The Conjuring:
+    template:
+      collection: 313086
+      name: Collection
+  The Croods:
+    template:
+      collection: 464577
+      name: Collection
+  The Dark Knight:
+    template:
+      collection: 263
+      name: Collection
+  The Debt Collector:
+    template:
+      collection: 709271
+      name: Collection
+  The Emperor's New Groove:
+    template:
+      collection: 178117
+      name: Collection
+  The Equalizer:
+    template:
+      collection: 523855
+      name: Collection
+  The Expendables:
+    template:
+      collection: 126125
+      name: Collection
+  The Fast and the Furious:
+    template:
+      collection: 9485, 688042
+      name: Collection
+  The Flintstones:
+    template:
+      collection: 351684
+      name: Collection
+  The Fox and the Hound:
+    template:
+      collection: 100970
+      name: Collection
+  The Girl - Millennium:
+    template:
+      collection: 575987
+      name: Collection
+  The Godfather:
+    template:
+      collection: 230
+      name: Collection
+  The Hangover:
+    template:
+      collection: 86119
+      name: Collection
+  The Hobbit:
+    template:
+      collection: 121938
+      name: Collection
+  The Human Centipede:
+    template:
+      collection: 96671
+      name: Collection
+  The Hunchback of Notre Dame:
+    template:
+      collection: 97456
+      name: Collection
+  The Hunger Games:
+    template:
+      collection: 131635
+      name: Collection
+  The Huntsman:
+    template:
+      collection: 393379
+      name: Collection
+  The Incredibles:
+    template:
+      collection: 468222
+      name: Collection
+  The Jungle Book:
+    template:
+      collection: 97459
+      name: Collection
+  The Karate Kid:
+    template:
+      collection: 8580
+      movie: 38575
+      name: Collection
+  The Land Before Time:
+    template:
+      collection: 19163
+      name: Collection
+  The Lego Movie:
+    template:
+      collection: 325470
+      name: Collection
+  The Lion King:
+    template:
+      collection: 94032
+      name: Collection
+  The Little Mermaid:
+    template:
+      collection: 33085
+      name: Collection
+  The Lord of the Rings:
+    template:
+      collection: 119
+      name: Collection
+  The Lord of the Rings (Animated):
+    template:
+      collection: 141290
+      name: Collection
+  The Man with No Name:
+    imdb_list: https://www.imdb.com/list/ls023916334/
+    summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
+    template:
+      name: Collection
+  The Mask:
+    template:
+      collection: 43072
+      name: Collection
+  The Matrix:
+    template:
+      collection: 2344
+      name: Collection
+  The Maze Runner:
+    template:
+      collection: 295130
+      name: Collection
+  The Mighty Ducks:
+    template:
+      collection: 10709
+      name: Collection
+  The Mummy:
+    template:
+      collection: 1733
+      name: Collection
+  The Muppet:
+    template:
+      collection: 256377
+      name: Collection
+  The Neverending Story:
+    template:
+      collection: 91430
+      name: Collection
+  The Princess Diaries:
+    template:
+      collection: 107674
+      name: Collection
+  The Purge:
+    template:
+      collection: 256322
+      name: Collection
+  The Rescuers:
+    template:
+      collection: 57971
+      name: Collection
+  The Sandlot:
+    template:
+      collection: 87214
+      name: Collection
+  The Santa Clause:
+    template:
+      collection: 53159
+      name: Collection
+  The Scorpion King:
+    template:
+      collection: 116669
+      name: Collection
+  The Secret Life of Pets:
+    template:
+      collection: 427084
+      name: Collection
+  The Shining:
+    template:
+      collection: 530064
+      name: Collection
+  The Smurfs:
+    template:
+      collection: 134897
+      name: Collection
+  The Terminator:
+    template:
+      collection: 528
+      name: Collection
   The Three Stooges:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls075972675/
-    tmdb_movie: 76489
     summary: The Three Stooges were an American vaudeville and comedy team active from 1922 until 1970, best known for their 190 short subject films by Columbia Pictures that have been regularly airing on television since 1958.
+    template:
+      name: Collection
+    tmdb_movie: 76489
+  The Transporter:
+    template:
+      collection: 9518
+      name: Collection
+  The Twilight Saga:
+    sort_title: Twilight Saga
+    template:
+      collection: 33514
+      name: Movies
   Tinker Bell:
-    template: { name: Collection, collection: 315595 }
+    template:
+      collection: 315595
+      name: Collection
   Tokyo Ghoul:
-    template: { name: Collection, collection: 551278 }
+    template:
+      collection: 551278
+      name: Collection
   Tom and Jerry:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls022966050/
     summary: Tom and Jerry's animated feature-length films based on the series.
+    template:
+      name: Collection
   Tomb Raider:
-    template: { name: Collection, collection: "2467, 621142" }
+    template:
+      collection: 2467, 621142
+      name: Collection
   Tomie:
-    template: { name: Collection, collection: 139394 }
+    template:
+      collection: 139394
+      name: Collection
   Toy Story:
-    template: { name: Collection, collection: 10194, movie: 130925 }
+    template:
+      collection: 10194
+      movie: 130925
+      name: Collection
   Trainspotting:
-    template: { name: Collection, collection: 424202 }
+    template:
+      collection: 424202
+      name: Collection
   Transformers:
-    template: { name: Collection, collection: 8650 }
-  The Transporter:
-    template: { name: Collection, collection: 9518 }
+    template:
+      collection: 8650
+      name: Collection
   Tremors:
-    template: { name: Collection, collection: 91799 }
+    template:
+      collection: 91799
+      name: Collection
   Trolls:
-    template: { name: Collection, collection: 489724 }
-  TRON:
-    template: { name: Collection, collection: 63043, movie: 73362 }
+    template:
+      collection: 489724
+      name: Collection
   Unbreakable:
-    template: { name: Collection }
     imdb_list: https://www.imdb.com/list/ls022101006/
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
+    template:
+      name: Collection
   Underworld:
-    template: { name: Collection, collection: 2326 }
+    template:
+      collection: 2326
+      name: Collection
   Viy:
-    template: { name: Collection, collection: 428046 }
+    template:
+      collection: 428046
+      name: Collection
   Wall Street:
-    template: { name: Collection, collection: 52783 }
+    template:
+      collection: 52783
+      name: Collection
   Wallace & Gromit:
-    template: { name: Collection, collection: 529 }
+    template:
+      collection: 529
+      name: Collection
   Wayne's World:
-    template: { name: Collection, collection: 8979 }
+    template:
+      collection: 8979
+      name: Collection
   Wonder Woman:
-    template: { name: Collection, collection: 468552 }
+    template:
+      collection: 468552
+      name: Collection
   Wreck-It Ralph:
-    template: { name: Collection, collection: 404825 }
+    template:
+      collection: 404825
+      name: Collection
   X-Men:
     template:
-      { name: Collection, collection: "748, 453993, 448150", movie: 567604 }
-  xXx:
-    template: { name: Collection, collection: 52785 }
+      collection: 748, 453993, 448150
+      movie: 567604
+      name: Collection
   Zenon:
-    template: { name: Collection, collection: 321148 }
+    template:
+      collection: 321148
+      name: Collection
   Zombieland:
-    template: { name: Collection, collection: 537982 }
+    template:
+      collection: 537982
+      name: Collection
   Zoolander:
-    template: { name: Collection, collection: 352789 }
+    template:
+      collection: 352789
+      name: Collection
   Zorro:
-    template: { name: Collection, collection: 1657 }
+    template:
+      collection: 1657
+      name: Collection
+  xXx:
+    template:
+      collection: 52785
+      name: Collection
