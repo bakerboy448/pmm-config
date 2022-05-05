@@ -71,7 +71,6 @@ collections:
     template: { name: Director, tmdb: 488 }
   Quentin Tarantino:
     template: { name: Director, tmdb: 138 }
-
   #####################################
   #         Studio Collections        #
   #####################################
@@ -91,128 +90,6 @@ collections:
     summary: "A collection of Pixar Animation movies."
     content_rating: G
     collection_order: alpha
-
-  #####################################
-  #     General Movies Collections    #
-  #####################################
-  Alien:
-    template: { name: Movies, collection: 8091 }
-  Attack on Titan:
-    template: { name: Movies, collection: 383987 }
-  Back to the Future:
-    template: { name: Movies, collection: 264 }
-  The Dark Knight:
-    template: { name: Movies, collection: 263 }
-    sort_title: Dark Knight
-  Deadpool:
-    template: { name: Movies, collection: 448150 }
-  Die Hard:
-    template: { name: Movies, collection: 1570 }
-  Fantastic Beasts:
-    template: { name: Movies, collection: 435259 }
-  The Fast and the Furious:
-    template: { name: Movies, collection: 9485 }
-    sort_title: Fast and the Furious
-  Final Destination:
-    template: { name: Movies, collection: 8864 }
-  The Godfather:
-    template: { name: Movies, collection: 230 }
-    sort_title: Godfather
-  Harry Potter:
-    template: { name: Movies, collection: 1241 }
-  The Hobbit:
-    template: { name: Movies, collection: 121938 }
-    sort_title: Hobbit
-  The Hunger Games:
-    template: { name: Movies, collection: 131635 }
-    sort_title: Hunger Games
-  Ice Age:
-    template: { name: Movies, collection: 8354 }
-  Indiana Jones:
-    template: { name: Movies, collection: 84 }
-  James Bond:
-    template: { name: Movies, collection: 645 }
-  John Wick:
-    template: { name: Movies, collection: 404609 }
-  Jurassic Park:
-    template: { name: Movies, collection: 328 }
-  The Karate Kid:
-    template: { name: Movies, collection: 8580 }
-    sort_title: Karate Kid
-  The Land Before Time:
-    template: { name: Movies, collection: 19163 }
-    sort_title: Land Before Time
-  The Lord of the Rings:
-    template: { name: Movies, collection: 119 }
-    sort_title: Lord of the Rings
-  Men in Black:
-    template: { name: Movies, collection: 86055 }
-  Middle Earth:
-    template: { name: Movies, collection: "119,121938" }
-    summary: A collection of movies and shows set in J.R.R. Tolkien's Middle Earth.
-  Mission Impossible:
-    template: { name: Movies, collection: 87359 }
-  The Mummy:
-    template: { name: Movies, collection: 1733 }
-  A Nightmare on Elm Street:
-    template: { name: Movies, collection: 8581, tmdb_movie: 23437 }
-    sort_title: Nightmare on Elm Street
-  Now You See Me:
-    template: { name: Movies, collection: 382685 }
-  Ocean's Movies:
-    template: { name: Movies, collection: 304, movie: 402900 }
-  Pirates of the Caribbean:
-    template: { name: Movies, collection: 295 }
-  Predator:
-    template: { name: Movies, collection: 399 }
-  Rambo:
-    template: { name: Movies, collection: 5039 }
-  Rocky:
-    template: { name: Movies, collection: 1575 }
-  Saw:
-    template: { name: Movies, collection: 656 }
-  Scream:
-    template: { name: Movies, collection: 2602 }
-  Sharknado:
-    template: { name: Movies, collection: 286023 }
-  Shrek:
-    template: { name: Movies, collection: 2150 }
-  Spider-Man:
-    template: { name: Movies, collection: 556 }
-  Spider-Man (Avengers):
-    template: { name: Movies, collection: 531241 }
-  "Spider-Man: Spider-Verse":
-    template: { name: Movies, collection: 573436 }
-    collection_mode: hide
-    name_mapping: Spider-Man Spider-Verse
-  Spider-Man Universe:
-    template: { name: Movies, collection: "556, 531241, 573436, 125574" }
-    sort_title: +5_2_Spider-Man Universe
-  Star Trek:
-    template: { name: Movies, collection: "151,115575,115570" }
-    summary: "Star Trek is an American science fiction media franchise originating from the 1960s television series Star Trek, created by Gene Roddenberry."
-  Star Wars:
-    template: { name: Movies, collection: 10 }
-  Superman:
-    template: { name: Movies, collection: 8537 }
-  Taken:
-    template: { name: Movies, collection: 135483 }
-  Taxi:
-    template: { name: Movies, collection: 211721 }
-  Terminator:
-    template: { name: Movies, collection: 528 }
-  Transformers:
-    template: { name: Movies, collection: 8650 }
-  The Transporter:
-    template: { name: Movies, collection: 9518 }
-    sort_title: Transporter
-  The Twilight Saga:
-    template: { name: Movies, collection: 33514 }
-    sort_title: Twilight Saga
-  X-Men:
-    template: { name: Movies, collection: "748,453993" }
-  Zombieland:
-    template: { name: Movies, collection: 537982 }
   #####################################
   #      Special Genre Collections    #
   #####################################
