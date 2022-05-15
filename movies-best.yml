@@ -17,7 +17,7 @@ templates:
     schedule: weekly(sunday)
   Best of:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
-    sort_title: "!F_Best of <<year>>"
+    sort_title: "+2_Best of <<year>>"
     sync_mode: sync
     summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
@@ -31,7 +31,7 @@ templates:
     visible_home: true
     schedule: monthly(15)
   Decades:
-    sort_title: "!G_Best of <<year>>s"
+    sort_title: "+2_Best of <<year>>s"
     sync_mode: sync
     summary: IMDb Best 20 Movies of the <<year>>s
     smart_label: audience_rating.desc
@@ -64,14 +64,9 @@ collections:
     url_background: https://i.imgur.com/0Kao9gY.jpeg
   Best of 2022:
     template: { name: Best of, year: 2022 }
-    radarr_monitor: false
-    radarr_search: false
     radarr_add_missing: true
   Best of 2021:
     template: { name: Best of, year: 2021 }
-    radarr_monitor: false
-    radarr_search: false
-    radarr_add_missing: true
   Best of 2020:
     template: { name: Best of, year: 2020 }
   Best of 2020s:
