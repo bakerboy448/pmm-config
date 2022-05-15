@@ -7,6 +7,7 @@ templates:
     visible_shared: true
     visible_library: true
     sync_mode: sync
+    sort_title: ++1_<<num>><<collection_name>>
     radarr_monitor: false
     radarr_search: false
     radarr_add_missing: false
@@ -17,7 +18,7 @@ templates:
     visible_library: true
     visible_shared: true
     sync_mode: sync
-    sort_title: +++++++++++++++++_
+    sort_title: +3_<<num>><<collection_name>>
     smart_label: release.desc
     url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
     radarr_monitor: false
@@ -32,7 +33,6 @@ collections:
     trakt_trending: 50
     tmdb_trending_daily: 50
     tmdb_trending_weekly: 50
-    sort_title: +++++++++++++++++++_1Trending
     smart_label: year.desc
     summary: Movies Trending across the internet. (Updated daily)
     url_background: https://i.imgur.com/SOVfrIq.png
@@ -43,7 +43,6 @@ collections:
   Top 10 Movies of the Week:
     template:
       name: special
-    sort_title: ++++++++++++++++++_
     trakt_list: https://trakt.tv/users/linaspurinis/lists/top-10-pirated-movies-of-the-week
     summary: Top 10 Movies of the Week. (Updated every monday morning)
     url_poster: https://i.imgur.com/dEBMu67.jpg
