@@ -17,7 +17,7 @@ templates:
     schedule: weekly(sunday)
   Best of:
     trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
-    sort_title: "+2_Best of <<year>>"
+    sort_title: "+2_<<num>>Best of <<year>>"
     sync_mode: sync
     summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
@@ -31,7 +31,7 @@ templates:
     visible_home: true
     schedule: monthly(15)
   Decades:
-    sort_title: "+2_Best of <<year>>s"
+    sort_title: "+2_<<num>>Best of <<year>>s"
     sync_mode: sync
     summary: IMDb Best 20 Movies of the <<year>>s
     smart_label: audience_rating.desc
@@ -63,45 +63,49 @@ collections:
     url_poster: https://github.com/bakerboy448/plex-meta-manger/raw/main/Posters/oscars.png
     url_background: https://i.imgur.com/0Kao9gY.jpeg
   Best of 2022:
-    template: { name: Best of, year: 2022 }
+    template: { name: Best of, year: 2022, num: 1 }
     radarr_add_missing: true
   Best of 2021:
-    template: { name: Best of, year: 2021 }
+    template: { name: Best of, year: 2021, num: 1 }
   Best of 2020:
-    template: { name: Best of, year: 2020 }
+    template: { name: Best of, year: 2020, num: 2 }
   Best of 2020s:
-    template: { name: Decades, start: 2020, end: 2029 }
+    template: { name: Decades, start: 2020, end: 2029, num: 2 }
     url_poster: https://i.ibb.co/SdvBshG/2020.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 2019:
-    template: { name: Best of, year: 2019 }
+    template: { name: Best of, year: 2019, num: 3 }
   Best of 2018:
-    template: { name: Best of, year: 2018 }
+    template: { name: Best of, year: 2018, num: 3 }
   Best of 2017:
-    template: { name: Best of, year: 2017 }
+    template: { name: Best of, year: 2017, num: 3 }
   Best of 2016:
-    template: { name: Best of, year: 2016 }
+    template: { name: Best of, year: 2016, num: 3 }
   Best of 2015:
-    template: { name: Best of, year: 2015 }
+    template: { name: Best of, year: 2015, num: 3 }
   Best of 2014:
-    template: { name: Best of, year: 2014 }
+    template: { name: Best of, year: 2014, num: 3 }
   Best of 2010s:
-    template: { name: Decades, start: 2010, end: 2019 }
+    template: { name: Decades, start: 2010, end: 2019, num: 3 }
     url_poster: https://i.ibb.co/4PrWNxT/2010.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 2000s:
-    template: { name: Decades, start: 2000, end: 2009 }
+    template: { name: Decades, start: 2000, end: 2009, num: 4 }
     url_poster: https://i.ibb.co/fMhyG74/2000.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 1990s:
-    template: { name: Decades, start: 1990, end: 1999 }
+    template: { name: Decades, start: 1990, end: 1999, num: 5 }
     url_poster: https://i.ibb.co/r3TFwf7/1990.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 1980s:
-    template: { name: Decades, start: 1980, end: 1989 }
+    template: { name: Decades, start: 1980, end: 1989, num: 6 }
     url_poster: https://i.ibb.co/71CGnd1/1980.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
   Best of 1970s:
-    template: { name: Decades, start: 1970, end: 1979 }
+    template: { name: Decades, start: 1970, end: 1979, num: 7 }
     url_poster: https://i.ibb.co/37n0VyF/1970.jpg
+    url_background: https://wallpapercave.com/wp/wp4016022.jpg
+  Best of 1960s:
+    template: { name: Decades, start: 1960, end: 1969, num: 8}
+    url_poster: https://i.ibb.co/37n0VyF/1960.jpg
     url_background: https://wallpapercave.com/wp/wp4016022.jpg
