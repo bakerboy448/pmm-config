@@ -1,31 +1,166 @@
-libraries: # Library mappings must have a colon (:) placed after them
+libraries:
   Movies:
-    missing_path: /data/media/.config/Plex-Meta-Manager/Missing/Movies.yml
-    overlay_path:
-      - repo: video-overlays
-      - remove_overlays: true
-    metadata_path:
-      - repo: movies-special
-      - repo: movies-best
-      - repo: movies-collections
-      - repo: movies-general
-      - repo: movies-holidays
-      - repo: movies-mcu
     operations:
       assets_for_all: true
       delete_unmanaged_collections: true
+    metadata_path:
+    - git: PMM/award/bafta
+      schedule: weekly(wednesday)
+    - git: PMM/award/cannes
+      schedule: weekly(wednesday)
+    - git: PMM/award/choice
+      schedule: weekly(wednesday)
+    - git: PMM/award/golden
+      schedule: weekly(wednesday)
+    - git: PMM/award/oscars
+      schedule: weekly(wednesday)
+      radarr_tag: PMM,PMM-<<collection_name>> # New
+      item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+    - git: PMM/award/other
+      schedule: weekly(wednesday)
+    - git: PMM/award/spirit
+      schedule: weekly(wednesday)
+    - git: PMM/award/sundance
+      schedule: weekly(wednesday)
+    - git: PMM/chart/basic
+      schedule: weekly(monday)
+    - git: PMM/chart/imdb
+      radarr_tag: PMM,PMM-<<collection_name>> # New
+      item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+      schedule: weekly(monday)
+    - git: PMM/chart/other
+      schedule: weekly(monday)
+    - git: PMM/chart/tautulli
+      schedule: weekly(monday)
+    - git: PMM/chart/tmdb
+      schedule: weekly(monday)
+    - git: PMM/chart/trakt
+      schedule: weekly(monday)
+    - git: PMM/actor
+      schedule: weekly(tuesday)
+    - git: PMM/movie/content_rating_us           # Choose content_rating_uk or content_rating_us
+    - git: PMM/genre
+      schedule: weekly(tuesday)
+    - git: PMM/resolution_standards              # Choose resolution_standards or resolution
+    - git: PMM/year
+    - git: PMM/movie/decade
+    - git: PMM/movie/director
+      schedule: weekly(tuesday)
+    - git: PMM/movie/franchise
+    - git: PMM/movie/universe
+      radarr_tag: PMM,PMM-<<collection_name>> # New
+      item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+    - git: PMM/movie/producer
+      schedule: weekly(tuesday)
+    - git: PMM/movie/seasonal
+      radarr_tag: PMM,PMM-<<collection_name>> # New
+      item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+    - git: PMM/movie/streaming
+    overlay_path:
+    - remove_overlays: false
+    - git: PMM/overlays/audio_codec
+    - git: PMM/overlays/audio_language
+    - git: PMM/overlays/direct_play
+    - git: PMM/overlays/imdb_top_250
+    - git: PMM/overlays/ratings
+    - git: PMM/overlays/resolution
+    - git: PMM/overlays/special_release
+    - git: PMM/overlays/streaming
+    - git: PMM/overlays/video_format
   TV Shows:
-    missing_path: /data/media/.config/Plex-Meta-Manager/Missing/TV.yml
+    operations:
+      assets_for_all: true
+      delete_unmanaged_collections: true
     metadata_path:
-      - repo: tv
-      - repo: tv-meta
-      - repo: tv-networks
-      - repo: networks
-  TV Shows - Cartoons Kids:
-    missing_path: /data/media/.config/Plex-Meta-Manager/Missing/TV-Cartoons-Kids.yml
-    metadata_path:
-      - repo: tv
-      - repo: tv-meta
+    - git: PMM/award/choice
+      schedule: monthly(1)
+    - git: PMM/award/golden
+       schedule: monthly(1)
+    - git: PMM/award/emmy
+      schedule: monthly(1)
+    - git: PMM/chart/basic
+      schedule: weekly(monday)
+    - git: PMM/chart/imdb
+      schedule: weekly(monday)
+    - git: PMM/chart/other
+      schedule: weekly(monday)
+    - git: PMM/chart/tautulli
+      schedule: weekly(monday)
+    - git: PMM/chart/tmdb
+      schedule: weekly(monday)
+    - git: PMM/chart/trakt
+      schedule: weekly(monday)
+    - git: PMM/actor
+      schedule: weekly(thursday)
+    - git: PMM/show/content_rating_us            # Choose content_rating_uk or content_rating_us
+    - git: PMM/genre
+    - git: PMM/resolution_standards              # Choose resolution_standards or resolution
+    - git: PMM/studio
+    - git: PMM/subtitle_language
+    - git: PMM/year
+    - git: PMM/show/decade
+    - git: PMM/show/network
+    - git: PMM/show/streaming
+    overlay_path:
+    - remove_overlays: false
+    - git: PMM/overlays/audio_codec
+    - git: PMM/overlays/audio_codec
+      template_variables:
+        overlay_level: episode
+    - git: PMM/overlays/audio_codec
+      template_variables:
+        overlay_level: season
+    - git: PMM/overlays/audio_language
+    - git: PMM/overlays/audio_language
+      template_variables:
+        overlay_level: episode
+    - git: PMM/overlays/audio_language
+      template_variables:
+        overlay_level: season
+    - git: PMM/overlays/direct_play
+    - git: PMM/overlays/direct_play
+      template_variables:
+        overlay_level: episode
+    - git: PMM/overlays/direct_play
+      template_variables:
+        overlay_level: season
+    - git: PMM/overlays/ratings
+    - git: PMM/overlays/ratings
+      template_variables:
+        overlay_level: episode
+    - git: PMM/overlays/ratings
+      template_variables:
+        overlay_level: season
+    - git: PMM/overlays/resolution
+    - git: PMM/overlays/resolution
+      template_variables:
+        overlay_level: episode
+    - git: PMM/overlays/resolution
+      template_variables:
+        overlay_level: season
+    - git: PMM/overlays/special_release
+    - git: PMM/overlays/special_release
+      template_variables:
+        overlay_level: episode
+    - git: PMM/overlays/special_release
+      template_variables:
+        overlay_level: season
+    - git: PMM/overlays/streaming
+    - git: PMM/overlays/streaming
+      template_variables:
+        overlay_level: episode
+    - git: PMM/overlays/streaming
+      template_variables:
+        overlay_level: season
+    - git: PMM/overlays/video_format
+    - git: PMM/overlays/video_format
+      template_variables:
+        overlay_level: episode
+    - git: PMM/overlays/video_format
+      template_variables:
+        overlay_level: season
+playlist_files:
+- git: PMM/playlist
 settings: # Can be individually specified per library as well
   asset_depth: 1
   asset_directory: /data/media/.config/Plex-Meta-Manager/assets
@@ -61,6 +196,9 @@ settings: # Can be individually specified per library as well
   verify_ssl: true
   default_collection_order:
   check_nightly: true
+  playlist_report: true
+  prioritize_assets: false
+  save_report: true
 webhooks:
   error: notifiarr
   run_end: notifiarr
@@ -96,7 +234,7 @@ radarr: # Can be individually specified per library as well
   tag: pmm
   token: (removed)
   url: http://localhost:7878/radarr
-  add_missing: true
+  add_missing: false
   upgrade_existing: false
 sonarr: # Can be individually specified per library as well
   add_existing: true
@@ -113,7 +251,7 @@ sonarr: # Can be individually specified per library as well
   tag: pmm
   token: (removed)
   url: http://localhost:8989/sonarr
-  add_missing: true
+  add_missing: false
   upgrade_existing: false
 trakt:
   client_id: (removed)
