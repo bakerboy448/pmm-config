@@ -1,7 +1,6 @@
 libraries:
   Movies:
     operations:
-      assets_for_all: true
       delete_unmanaged_collections: true
     metadata_path:
     - git: PMM/award/bafta
@@ -41,8 +40,6 @@ libraries:
     - git: PMM/movie/content_rating_us           # Choose content_rating_uk or content_rating_us
     - git: PMM/genre
       schedule: weekly(tuesday)
-    - git: PMM/resolution_standards              # Choose resolution_standards or resolution
-    - git: PMM/year
     - git: PMM/movie/decade
     - git: PMM/movie/director
       schedule: weekly(tuesday)
@@ -50,8 +47,6 @@ libraries:
     - git: PMM/movie/universe
       radarr_tag: PMM,PMM-<<collection_name>> # New
       item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
-    - git: PMM/movie/producer
-      schedule: weekly(tuesday)
     - git: PMM/movie/seasonal
       radarr_tag: PMM,PMM-<<collection_name>> # New
       item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
@@ -69,13 +64,12 @@ libraries:
     - git: PMM/overlays/video_format
   TV Shows:
     operations:
-      assets_for_all: true
       delete_unmanaged_collections: true
     metadata_path:
     - git: PMM/award/choice
       schedule: monthly(1)
     - git: PMM/award/golden
-       schedule: monthly(1)
+      schedule: monthly(1)
     - git: PMM/award/emmy
       schedule: monthly(1)
     - git: PMM/chart/basic
@@ -90,13 +84,8 @@ libraries:
       schedule: weekly(monday)
     - git: PMM/chart/trakt
       schedule: weekly(monday)
-    - git: PMM/actor
-      schedule: weekly(thursday)
     - git: PMM/show/content_rating_us            # Choose content_rating_uk or content_rating_us
     - git: PMM/genre
-    - git: PMM/resolution_standards              # Choose resolution_standards or resolution
-    - git: PMM/studio
-    - git: PMM/subtitle_language
     - git: PMM/year
     - git: PMM/show/decade
     - git: PMM/show/network
@@ -105,6 +94,7 @@ libraries:
     - remove_overlays: false
     - git: PMM/overlays/audio_codec
     - git: PMM/overlays/audio_codec
+      schedule: monthly(28)
       template_variables:
         overlay_level: episode
     - git: PMM/overlays/audio_codec
@@ -112,6 +102,7 @@ libraries:
         overlay_level: season
     - git: PMM/overlays/audio_language
     - git: PMM/overlays/audio_language
+      schedule: monthly(28)
       template_variables:
         overlay_level: episode
     - git: PMM/overlays/audio_language
@@ -119,6 +110,7 @@ libraries:
         overlay_level: season
     - git: PMM/overlays/direct_play
     - git: PMM/overlays/direct_play
+      schedule: monthly(28)
       template_variables:
         overlay_level: episode
     - git: PMM/overlays/direct_play
@@ -126,6 +118,7 @@ libraries:
         overlay_level: season
     - git: PMM/overlays/ratings
     - git: PMM/overlays/ratings
+      schedule: monthly(28)
       template_variables:
         overlay_level: episode
     - git: PMM/overlays/ratings
@@ -133,6 +126,7 @@ libraries:
         overlay_level: season
     - git: PMM/overlays/resolution
     - git: PMM/overlays/resolution
+      schedule: monthly(28)
       template_variables:
         overlay_level: episode
     - git: PMM/overlays/resolution
@@ -140,6 +134,7 @@ libraries:
         overlay_level: season
     - git: PMM/overlays/special_release
     - git: PMM/overlays/special_release
+      schedule: monthly(28)
       template_variables:
         overlay_level: episode
     - git: PMM/overlays/special_release
@@ -147,6 +142,7 @@ libraries:
         overlay_level: season
     - git: PMM/overlays/streaming
     - git: PMM/overlays/streaming
+      schedule: monthly(28)
       template_variables:
         overlay_level: episode
     - git: PMM/overlays/streaming
@@ -154,6 +150,7 @@ libraries:
         overlay_level: season
     - git: PMM/overlays/video_format
     - git: PMM/overlays/video_format
+      schedule: monthly(28)
       template_variables:
         overlay_level: episode
     - git: PMM/overlays/video_format
