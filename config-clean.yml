@@ -3,10 +3,6 @@ libraries:
     operations:
       delete_unmanaged_collections: true
     metadata_path:
-    - git: PMM/award/bafta
-      schedule: weekly(wednesday)
-    - git: PMM/award/cannes
-      schedule: weekly(wednesday)
     - git: PMM/award/choice
       schedule: weekly(wednesday)
     - git: PMM/award/golden
@@ -37,7 +33,6 @@ libraries:
       schedule: weekly(monday)
     - git: PMM/actor
       schedule: weekly(tuesday)
-    - git: PMM/movie/content_rating_us           # Choose content_rating_uk or content_rating_us
     - git: PMM/genre
       schedule: weekly(tuesday)
     - git: PMM/movie/decade
@@ -84,9 +79,7 @@ libraries:
       schedule: weekly(monday)
     - git: PMM/chart/trakt
       schedule: weekly(monday)
-    - git: PMM/show/content_rating_us            # Choose content_rating_uk or content_rating_us
     - git: PMM/genre
-    - git: PMM/year
     - git: PMM/show/decade
     - git: PMM/show/network
     - git: PMM/show/streaming
