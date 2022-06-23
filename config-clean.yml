@@ -10,6 +10,7 @@ libraries:
     - git: PMM/award/oscars
       schedule: weekly(wednesday)
       template_variables:
+        radarr_add_missing: true
         radarr_tag: PMM,PMM-<<collection_name>> # New
         item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
     - git: PMM/award/other
@@ -23,6 +24,7 @@ libraries:
     - git: PMM/chart/imdb
       schedule: weekly(monday)
       template_variables:
+        radarr_add_missing: true
         radarr_tag: PMM,PMM-<<collection_name>> # New
         item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
     - git: PMM/chart/other
@@ -30,7 +32,6 @@ libraries:
     - git: PMM/chart/tautulli
       schedule: weekly(monday)
     - git: PMM/chart/tmdb
-      schedule: weekly(monday)
     - git: PMM/chart/trakt
       schedule: weekly(monday)
     - git: PMM/actor
@@ -49,7 +50,7 @@ libraries:
       template_variables:
         radarr_tag: PMM,PMM-<<collection_name>> # New
         item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
-    - git: PMM/movie/streaming
+    - git: PMM/streaming
     overlay_path:
     - remove_overlays: false
     - git: PMM/overlays/audio_codec
@@ -80,13 +81,12 @@ libraries:
     - git: PMM/chart/tautulli
       schedule: weekly(monday)
     - git: PMM/chart/tmdb
-      schedule: weekly(monday)
     - git: PMM/chart/trakt
       schedule: weekly(monday)
     - git: PMM/genre
     - git: PMM/show/decade
     - git: PMM/show/network
-    - git: PMM/show/streaming
+    - git: PMM/streaming
     overlay_path:
     - remove_overlays: false
     - git: PMM/overlays/audio_codec
