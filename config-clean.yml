@@ -10,9 +10,10 @@ libraries:
     - git: PMM/award/oscars
       schedule: weekly(wednesday)
       template_variables:
+        radarr_monitor: false
+        radarr_tag: PMM,PMM-<<collection_name>>   # New
+        item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
         radarr_add_missing: true
-        radarr_tag: PMM,PMM-<<collection_name>> # New
-        item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
     - git: PMM/award/other
       schedule: weekly(wednesday)
     - git: PMM/award/spirit
@@ -24,9 +25,11 @@ libraries:
     - git: PMM/chart/imdb
       schedule: weekly(monday)
       template_variables:
+        use_lowest: false
         radarr_add_missing: true
-        radarr_tag: PMM,PMM-<<collection_name>> # New
-        item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+        radarr_monitor: false
+        radarr_tag: PMM,PMM-<<collection_name>>   # New
+        item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
     - git: PMM/chart/other
       schedule: weekly(monday)
     - git: PMM/chart/tautulli
@@ -34,22 +37,31 @@ libraries:
     - git: PMM/chart/tmdb
     - git: PMM/chart/trakt
       schedule: weekly(monday)
+    - git: PMM/chart/basic
     - git: PMM/actor
       schedule: weekly(tuesday)
+      template_variables:
+         # Sets the style of posters: bw or rainier
+        style: rainier
     - git: PMM/genre
       schedule: weekly(tuesday)
     - git: PMM/movie/decade
     - git: PMM/movie/director
       schedule: weekly(tuesday)
     - git: PMM/movie/franchise
+      template_variables:
+        radarr_tag: PMM,PMM-<<collection_name>>   # New
+        item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
     - git: PMM/movie/universe
       template_variables:
-        radarr_tag: PMM,PMM-<<collection_name>> # New
-        item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+        radarr_tag: PMM,PMM-<<collection_name>>   # New
+        item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
     - git: PMM/movie/seasonal
       template_variables:
-        radarr_tag: PMM,PMM-<<collection_name>> # New
-        item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+        radarr_monitor: false
+        radarr_add_missing: true
+        radarr_tag: PMM,PMM-<<collection_name>>   # New
+        item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
     - git: PMM/streaming
     overlay_path:
     - remove_overlays: false
@@ -62,6 +74,7 @@ libraries:
     - git: PMM/overlays/special_release
     - git: PMM/overlays/streaming
     - git: PMM/overlays/video_format
+    - git: PMM/overlays/oscars
   TV Shows:
     operations:
       delete_unmanaged_collections: true
@@ -76,6 +89,8 @@ libraries:
       schedule: weekly(monday)
     - git: PMM/chart/imdb
       schedule: weekly(monday)
+      template_variables:
+        use_lowest: false
     - git: PMM/chart/other
       schedule: weekly(monday)
     - git: PMM/chart/tautulli
@@ -83,10 +98,12 @@ libraries:
     - git: PMM/chart/tmdb
     - git: PMM/chart/trakt
       schedule: weekly(monday)
+    - git: PMM/chart/basic
     - git: PMM/genre
     - git: PMM/show/decade
     - git: PMM/show/network
     - git: PMM/streaming
+    - git: PMM/franchise
     overlay_path:
     - remove_overlays: false
     - git: PMM/overlays/audio_codec
@@ -194,28 +211,28 @@ settings: # Can be individually specified per library as well
   prioritize_assets: false
   save_report: true
 webhooks:
-  error: notifiarr
-  run_end: notifiarr
-  run_start: notifiarr
-  changes: notifiarr
-  version: notifiarr
+  error: (redacted)
+  run_end: (redacted)
+  run_start: (redacted)
+  changes: (redacted)
+  version: (redacted)
 plex: # Can be individually specified per library as well; REQUIRED for the script to run
   clean_bundles: false
   empty_trash: false
   optimize: false
   timeout: 120
-  token: (removed)
-  url: http://localhost:32400
+  token: (redacted)
+  url: (redacted)
 tmdb: # REQUIRED for the script to run
-  apikey: (removed)
+  apikey: (redacted)
   language: en
   cache_expiration: 45
   region:
 tautulli: # Can be individually specified per library as well
-  apikey: (removed)
-  url: http://localhost:8181/tautulli
+  apikey: (redacted)
+  url: (redacted)
 notifiarr:
-  apikey: (removed)
+  apikey: (redacted)
 radarr: # Can be individually specified per library as well
   add_existing: true
   availability: released
@@ -226,8 +243,8 @@ radarr: # Can be individually specified per library as well
   root_folder_path: /data/media/media/movies
   search: false
   tag: pmm
-  token: (removed)
-  url: http://localhost:7878/radarr
+  token: (redacted)
+  url: (redacted)
   add_missing: false
   upgrade_existing: false
 sonarr: # Can be individually specified per library as well
@@ -243,18 +260,18 @@ sonarr: # Can be individually specified per library as well
   series_type: standard
   sonarr_path:
   tag: pmm
-  token: (removed)
-  url: http://localhost:8989/sonarr
+  token: (redacted)
+  url: (redacted)
   add_missing: false
   upgrade_existing: false
 trakt:
-  client_id: (removed)
-  client_secret: (removed)
+  client_id: (redacted)
+  client_secret: (redacted)
   authorization:
-    access_token: (removed)
+    access_token: (redacted)
     token_type: Bearer
     expires_in: 7889237
-    refresh_token: (removed)
+    refresh_token: (redacted)
     scope: public
-    created_at: 1649919626
+    created_at: 1657883710
   pin:
