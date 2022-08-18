@@ -83,8 +83,14 @@ libraries:
       schedule: monthly(1)
     - git: PMM/award/golden
       schedule: monthly(1)
+      template_variables:
+        sonarr_tag: PMM,PMM-<<collection_name>>   # New
+        item_sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
     - git: PMM/award/emmy
       schedule: monthly(1)
+      template_variables:
+        sonarr_tag: PMM,PMM-<<collection_name>>   # New
+        item_sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
     - git: PMM/chart/basic
       schedule: weekly(monday)
     - git: PMM/chart/imdb
@@ -103,7 +109,13 @@ libraries:
     - git: PMM/show/decade
     - git: PMM/show/network
     - git: PMM/streaming
-    - git: PMM/franchise
+    - git: PMM/show/franchise
+      schedule: monthly(1)
+      template_variables:
+        sonarr_add_missing: false
+        sonarr_monitor: false
+        sonarr_tag: PMM,PMM-<<collection_name>>   # New
+        item_sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
     overlay_path:
     - remove_overlays: false
     - git: PMM/overlays/audio_codec
