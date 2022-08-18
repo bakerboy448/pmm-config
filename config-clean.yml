@@ -26,8 +26,10 @@ libraries:
       schedule: weekly(monday)
       template_variables:
         use_lowest: false
-        radarr_add_missing: true
-        radarr_monitor: false
+        radarr_add_missing_popular: true
+        radarr_monitor_popular: false
+        radarr_add_missing_top: true
+        radarr_monitor_top: false
         radarr_tag: PMM,PMM-<<collection_name>>   # New
         item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
     - git: PMM/chart/other
