@@ -66,13 +66,15 @@ libraries:
     - pmm: streaming
     overlay_path:
     - remove_overlays: false
+    - reapply_overlay: false
     - pmm: ribbon
-    - pmm: overlays/audio_codec
-    - pmm: overlays/direct_play
-    - pmm: overlays/ratings
-    - pmm: overlays/resolution
-    - pmm: overlays/streaming
-    - pmm: overlays/video_format
+    - pmm: mediastinger
+    - pmm: audio_codec
+    - pmm: direct_play
+    - pmm: ratings
+    - pmm: resolution
+    - pmm: streaming
+    - pmm: video_format
   TV Shows:
     operations:
       delete_collections:
@@ -82,14 +84,14 @@ libraries:
       schedule: monthly(1)
     - pmm: award/golden
       schedule: monthly(1)
-      template_variables:
+      # template_variables:
         # sonarr_tag: PMM,PMM-<<collection_name>>   # New
- #       item_# sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
+        # item_sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
     - pmm: award/emmy
       schedule: monthly(1)
-      template_variables:
+      # template_variables:
         # sonarr_tag: PMM,PMM-<<collection_name>>   # New
- #       item_# sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
+        # item_sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
     - pmm: chart/basic
       schedule: weekly(monday)
     - pmm: chart/imdb
@@ -106,60 +108,54 @@ libraries:
     - pmm: show/network
     - pmm: streaming
     - pmm: show/franchise
-      schedule: monthly(1)
-#      template_variables:
+      # template_variables:
         # sonarr_add_missing: false
         # sonarr_monitor: false
         # sonarr_tag: PMM,PMM-<<collection_name>>   # New
- #       item_# sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
+        # item_sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
     overlay_path:
     - remove_overlays: false
-    - pmm: overlays/audio_codec
-    - pmm: overlays/audio_codec
-      schedule: monthly(28)
+    - reapply_overlay: false
+    - pmm: audio_codec
+    - pmm: audio_codec
       template_variables:
         overlay_level: episode
-    - pmm: overlays/audio_codec
+    - pmm: audio_codec
       template_variables:
         overlay_level: season
-    - pmm: overlays/direct_play
-    - pmm: overlays/direct_play
-      schedule: monthly(28)
+    - pmm: direct_play
+    - pmm: direct_play
       template_variables:
         overlay_level: episode
-    - pmm: overlays/direct_play
+    - pmm: direct_play
       template_variables:
         overlay_level: season
-    - pmm: overlays/ratings
-    - pmm: overlays/ratings
-      schedule: monthly(28)
+    - pmm: ratings
+    - pmm: ratings
       template_variables:
         overlay_level: episode
-    - pmm: overlays/ratings
+    - pmm: ratings
       template_variables:
         overlay_level: season
-    - pmm: overlays/resolution
-    - pmm: overlays/resolution
-      schedule: monthly(28)
+    - pmm: resolution
+    - pmm: resolution
       template_variables:
         overlay_level: episode
-    - pmm: overlays/resolution
+    - pmm: resolution
       template_variables:
         overlay_level: season
-    - pmm: overlays/streaming
-    - pmm: overlays/streaming
-      schedule: monthly(28)
+    - pmm: streaming
+    - pmm: streaming
       template_variables:
         overlay_level: episode
-    - pmm: overlays/streaming
+    - pmm: streaming
       template_variables:
         overlay_level: season
-    - pmm: overlays/video_format
-    - pmm: overlays/video_format
-      schedule: monthly(28)
+    - pmm: video_format
+    - pmm: video_format
       template_variables:
         overlay_level: episode
-    - pmm: overlays/video_format
+    - pmm: video_format
       template_variables:
         overlay_level: season
 playlist_files:
