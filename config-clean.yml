@@ -2,13 +2,14 @@ libraries:
   Movies:
     operations:
       delete_collections:
-        unmanaged: true
+        managed: true # Keep only PMM Managed
+        configured: true # Keep only collections in this run
     metadata_path:
     - pmm: award/choice
       schedule: weekly(wednesday)
-    - pmm: award/golden
+    - pmm: golden
       schedule: weekly(wednesday)
-    - pmm: award/oscars
+    - pmm: oscars
       schedule: weekly(wednesday)
       template_variables:
         radarr_monitor: false
@@ -43,7 +44,7 @@ libraries:
         style: rainier
     - pmm: genre
       schedule: weekly(tuesday)
-    - pmm: movie/decade
+    - pmm: decade
     - pmm: movie/director
       schedule: weekly(tuesday)
       template_variables:
@@ -78,7 +79,7 @@ libraries:
   TV Shows:
     operations:
       delete_collections:
-        unmanaged: true
+        managed: true
     metadata_path:
     - pmm: award/choice
       schedule: monthly(1)
@@ -104,7 +105,7 @@ libraries:
     - pmm: chart/trakt
       schedule: weekly(monday)
     - pmm: genre
-    - pmm: show/decade
+    - pmm: decade
     - pmm: show/network
     - pmm: streaming
     - pmm: show/franchise
@@ -165,7 +166,7 @@ settings: # Can be individually specified per library as well
   asset_directory: /data/media/.config/Plex-Meta-Manager/assets
   asset_folders: true
   cache_builders: true
-  cache_expiration: 14
+  cache_expiration: 30
   cache: true
   create_asset_folders: false
   custom_repo: https://raw.githubusercontent.com/bakerboy448/pmm-config/main/
@@ -181,13 +182,12 @@ settings: # Can be individually specified per library as well
   only_filter_missing: false
   playlist_sync_to_users: all
   run_again_delay: 2
-  save_missing: true
   show_asset_not_needed: false
   show_filtered: true
   show_missing_assets: false
   show_missing_episode_assets: false
   show_missing_season_assets: false
-  show_missing: true
+  show_missing: false
   show_options: true
   show_unmanaged: true
   sync_mode: sync
@@ -200,28 +200,28 @@ settings: # Can be individually specified per library as well
   save_report: true
   show_unconfigured: true
 webhooks:
-  error: (redacted)
-  run_end: (redacted)
-  run_start: (redacted)
-  changes: (redacted)
-  version: (redacted)
+  error: notifiarr
+  run_end: notifiarr
+  run_start: notifiarr
+  changes: notifiarr
+  version: notifiarr
 plex: # Can be individually specified per library as well; REQUIRED for the script to run
   clean_bundles: false
   empty_trash: false
   optimize: false
   timeout: 120
-  token: (redacted)
-  url: (redacted)
+  token: (removed)
+  url: http://localhost:32400
 tmdb: # REQUIRED for the script to run
-  apikey: (redacted)
+  apikey: (removed)
   language: en
   cache_expiration: 45
   region:
 tautulli: # Can be individually specified per library as well
-  apikey: (redacted)
-  url: (redacted)
+  apikey: (removed)
+  url: http://localhost:8181/tautulli
 notifiarr:
-  apikey: (redacted)
+  apikey: (removed)
 radarr: # Can be individually specified per library as well
   add_existing: true
   availability: released
@@ -232,8 +232,8 @@ radarr: # Can be individually specified per library as well
   root_folder_path: /data/media/media/movies
   search: false
   tag: pmm
-  token: (redacted)
-  url: (redacted)
+  token: (removed)
+  url: http://localhost:7878/radarr
   add_missing: false
   upgrade_existing: false
 # sonarr: # Can be individually specified per library as well
@@ -249,18 +249,18 @@ radarr: # Can be individually specified per library as well
 #  series_type: standard
   # sonarr_path:
 #  tag: pmm
-#  token: (redacted)
-#  url: (redacted)
+#  token: (removed)
+#  url: http://localhost:8989/# sonarr
 #  add_missing: false
 #  upgrade_existing: false
 trakt:
-  client_id: (redacted)
-  client_secret: (redacted)
+  client_id: (removed)
+  client_secret: (removed)
   authorization:
-    access_token: (redacted)
+    access_token: (removed)
     token_type: Bearer
     expires_in: 7889237
-    refresh_token: (redacted)
+    refresh_token: (removed)
     scope: public
     created_at: 1665832520
   pin:
