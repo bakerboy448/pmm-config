@@ -2,8 +2,8 @@ libraries:
   Movies:
     operations:
       delete_collections:
-        managed: true # Keep only PMM Managed
-        configured: true # Keep only collections in this run
+        managed: false # Keep only PMM Managed
+        configured: false # Keep only collections in this run
     metadata_path:
     - pmm: award/choice
       schedule: weekly(wednesday)
@@ -79,7 +79,8 @@ libraries:
   TV Shows:
     operations:
       delete_collections:
-        managed: true
+        managed: false
+        unconfigured: false
     metadata_path:
     - pmm: award/choice
       schedule: monthly(1)
@@ -115,6 +116,9 @@ libraries:
         # sonarr_tag: PMM,PMM-<<collection_name>>   # New
         # item_sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
     overlay_path:
+    - schedule:
+     - monthly(1)
+     - monthly(15)
     - remove_overlays: false
     - reapply_overlay: false
     - pmm: audio_codec
@@ -194,7 +198,7 @@ settings: # Can be individually specified per library as well
   tvdb_language: eng
   verify_ssl: true
   default_collection_order:
-  check_nightly: false
+  check_nightly: true
   playlist_report: true
   prioritize_assets: false
   save_report: true
