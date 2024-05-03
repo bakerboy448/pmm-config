@@ -4,176 +4,133 @@ libraries:
       delete_collections:
         managed: false # Keep only PMM Managed
         configured: false # Keep only collections in this run
-    metadata_path:
-    - pmm: award/choice
-      schedule: weekly(wednesday)
-    - pmm: golden
-      schedule: weekly(wednesday)
-    - pmm: oscars
-      schedule: weekly(wednesday)
-      template_variables:
-        radarr_monitor: false
-        radarr_tag: PMM,PMM-<<collection_name>>   # New
-        item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
-        radarr_add_missing: true
-    - pmm: award/spirit
-      schedule: weekly(wednesday)
-    - pmm: award/sundance
-      schedule: weekly(wednesday)
-    - pmm: chart/basic
-      schedule: weekly(monday)
-    - pmm: chart/imdb
-      schedule: weekly(monday)
-      template_variables:
-        use_lowest: false
-        radarr_add_missing_popular: false
-        radarr_monitor_popular: false
-        radarr_add_missing_top: true
-        radarr_monitor_top: false
-        radarr_tag: PMM,PMM-<<collection_name>>   # New
-        item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
-    - pmm: chart/tautulli
-      schedule: weekly(monday)
-    - pmm: chart/tmdb
-    - pmm: chart/trakt
-      schedule: weekly(monday)
-    - pmm: actor
-      schedule: weekly(tuesday)
-      template_variables:
-         # Sets the style of posters: bw or rainier
-        style: rainier
-    - pmm: genre
-      schedule: weekly(tuesday)
-    - pmm: decade
-    - pmm: movie/director
-      schedule: weekly(tuesday)
-      template_variables:
-         # Sets the style of posters: bw or rainier
-        style: rainier
-    - pmm: movie/franchise
-      template_variables:
-        radarr_tag: PMM,PMM-<<collection_name>>   # New
-        item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
-    - pmm: movie/universe
-      template_variables:
-        radarr_tag: PMM,PMM-<<collection_name>>   # New
-        item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
-    - pmm: movie/seasonal
-      template_variables:
-        radarr_monitor: false
-        radarr_add_missing: true
-        radarr_tag: PMM,PMM-<<collection_name>>   # New
-        item_radarr_tag: PMM,PMM-<<collection_name>>   # Existing
-    - pmm: streaming
-    overlay_path:
-    - remove_overlays: false
-    - reapply_overlay: false
-    - pmm: ribbon
-    - pmm: mediastinger
-    - pmm: audio_codec
-    - pmm: direct_play
-    - pmm: ratings
-    - pmm: resolution
-    - pmm: streaming
-    - pmm: video_format
+    collection_files:
+      - default: choice
+        schedule: weekly(wednesday)
+      - default: golden
+        schedule: weekly(wednesday)
+      - default: oscars
+        schedule: weekly(wednesday)
+        template_variables:
+          radarr_monitor: false
+          radarr_tag: PMM,PMM-<<collection_name>> # New
+          item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+          radarr_add_missing: true
+      - default: spirit
+        schedule: weekly(wednesday)
+      - default: sundance
+        schedule: weekly(wednesday)
+      - default: basic
+        schedule: weekly(monday)
+      - default: imdb
+        schedule: weekly(monday)
+        template_variables:
+          use_lowest: false
+          radarr_add_missing_popular: false
+          radarr_monitor_popular: false
+          radarr_add_missing_top: true
+          radarr_monitor_top: false
+          radarr_tag: PMM,PMM-<<collection_name>> # New
+          item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+      - default: tautulli
+        schedule: weekly(monday)
+      - default: tmdb
+      - default: trakt
+        schedule: weekly(monday)
+      - default: actor
+        schedule: weekly(tuesday)
+        template_variables:
+          # Sets the style of posters: bw or rainier
+          style: rainier
+      - default: genre
+        schedule: weekly(tuesday)
+      - default: decade
+      - default: director
+        schedule: weekly(tuesday)
+        template_variables:
+          # Sets the style of posters: bw or rainier
+          style: rainier
+      - default: franchise
+        template_variables:
+          radarr_tag: PMM,PMM-<<collection_name>> # New
+          item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+      - default: universe
+        template_variables:
+          radarr_tag: PMM,PMM-<<collection_name>> # New
+          item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+      - default: seasonal
+        template_variables:
+          use_aapi: false # Skip Asian American Pacific Islander Movies
+          use_disabilities: false # Skip ♿ Disability Month Movies
+          use_black_history: false # Skip ✊ 🏿 Black History Month Movies
+          use_lgbtq: false # Skip 🏳️‍🌈 LGBTQ Month Movies
+          use_latinx: false # Skip 🪅 National Hispanic Heritage Moviesw
+          use_women: false # Skip 🚺 Women's History Month Movies
+          radarr_monitor: false
+          radarr_add_missing: true
+          radarr_tag: PMM,PMM-<<collection_name>> # New
+          item_radarr_tag: PMM,PMM-<<collection_name>> # Existing
+      - default: streaming
+      - default: studio
+      - default: year
+    overlay_files:
+      #- reset_overlays: plex
+      - remove_overlays: false
+      - reapply_overlay: false
+      - default: ribbon
+      - default: mediastinger
+      - default: direct_play
+      - default: ratings
+      - default: resolution
+      - default: streaming
   TV Shows:
     operations:
       delete_collections:
         managed: false
         unconfigured: false
-    metadata_path:
-    - pmm: award/choice
-      schedule: monthly(1)
-    - pmm: award/golden
-      schedule: monthly(1)
-      # template_variables:
-        # sonarr_tag: PMM,PMM-<<collection_name>>   # New
-        # item_sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
-    - pmm: award/emmy
-      schedule: monthly(1)
-      # template_variables:
-        # sonarr_tag: PMM,PMM-<<collection_name>>   # New
-        # item_sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
-    - pmm: chart/basic
-      schedule: weekly(monday)
-    - pmm: chart/imdb
-      schedule: weekly(monday)
-      template_variables:
-        use_lowest: false
-    - pmm: chart/tautulli
-      schedule: weekly(monday)
-    - pmm: chart/tmdb
-    - pmm: chart/trakt
-      schedule: weekly(monday)
-    - pmm: genre
-    - pmm: decade
-    - pmm: show/network
-    - pmm: streaming
-    - pmm: show/franchise
-      # template_variables:
-        # sonarr_add_missing: false
-        # sonarr_monitor: false
-        # sonarr_tag: PMM,PMM-<<collection_name>>   # New
-        # item_sonarr_tag: PMM,PMM-<<collection_name>>   # Existing
-    overlay_path:
-    - schedule:
-     - monthly(1)
-     - monthly(15)
-    - remove_overlays: false
-    - reapply_overlay: false
-    - pmm: audio_codec
-    - pmm: audio_codec
-      template_variables:
-        overlay_level: episode
-    - pmm: audio_codec
-      template_variables:
-        overlay_level: season
-    - pmm: direct_play
-    - pmm: direct_play
-      template_variables:
-        overlay_level: episode
-    - pmm: direct_play
-      template_variables:
-        overlay_level: season
-    - pmm: ratings
-    - pmm: ratings
-      template_variables:
-        overlay_level: episode
-    - pmm: ratings
-      template_variables:
-        overlay_level: season
-    - pmm: resolution
-    - pmm: resolution
-      template_variables:
-        overlay_level: episode
-    - pmm: resolution
-      template_variables:
-        overlay_level: season
-    - pmm: streaming
-    - pmm: streaming
-      template_variables:
-        overlay_level: episode
-    - pmm: streaming
-      template_variables:
-        overlay_level: season
-    - pmm: video_format
-    - pmm: video_format
-      template_variables:
-        overlay_level: episode
-    - pmm: video_format
-      template_variables:
-        overlay_level: season
+    collection_files:
+      - default: choice
+        schedule: monthly(1)
+      - default: golden
+        schedule: monthly(1)
+      - default: emmy
+        schedule: monthly(1)
+      - default: basic
+        schedule: weekly(monday)
+      - default: imdb
+        schedule: weekly(monday)
+        template_variables:
+          use_lowest: false
+      - default: tautulli
+        schedule: weekly(monday)
+      - default: tmdb
+      - default: trakt
+        schedule: weekly(monday)
+      - default: genre
+      - default: decade
+      - default: network
+      - default: streaming
+      - default: franchise
+      - default: studio
+    overlay_files:
+      - schedule:
+          - monthly(1)
+          - monthly(15)
+        # - reset_overlays: plex
+      - remove_overlays: false
+      - reapply_overlay: false
+      - default: streaming
 playlist_files:
-- pmm: playlist
+  - default: playlist
 settings: # Can be individually specified per library as well
   asset_depth: 1
-  asset_directory: /data/media/.config/Plex-Meta-Manager/assets
+  asset_directory: /config/assets
   asset_folders: true
   cache_builders: true
   cache_expiration: 30
   cache: true
   create_asset_folders: false
-  custom_repo: https://raw.githubusercontent.com/bakerboy448/pmm-config/main/
+  custom_repo:
   delete_below_minimum: true
   delete_not_scheduled: false
   dimensional_asset_rename: true
@@ -198,73 +155,83 @@ settings: # Can be individually specified per library as well
   tvdb_language: eng
   verify_ssl: true
   default_collection_order:
-  check_nightly: true
+  check_nightly: false
   playlist_report: true
   prioritize_assets: false
   save_report: true
   show_unconfigured: true
+  playlist_exclude_users:
+  run_order:
+    - operations
+    - metadata
+    - collections
+    - overlays
 webhooks:
   error: notifiarr
   run_end: notifiarr
   run_start: notifiarr
   changes: notifiarr
   version: notifiarr
+  delete: notifiarr
 plex: # Can be individually specified per library as well; REQUIRED for the script to run
   clean_bundles: false
   empty_trash: false
   optimize: false
   timeout: 120
-  token: (removed)
-  url: http://localhost:32400
+  token: <<SECRET_PLEX>>
+  url: http://plex:32400
+  db_cache: 4096
+  verify_ssl:
 tmdb: # REQUIRED for the script to run
-  apikey: (removed)
+  apikey: <<SECRET_TMDB>>
   language: en
   cache_expiration: 45
   region:
 tautulli: # Can be individually specified per library as well
-  apikey: (removed)
-  url: http://localhost:8181/tautulli
+  apikey: <<SECRET_TAUTULLI>>
+  url: http://tautulli:8181/tautulli
 notifiarr:
-  apikey: (removed)
+  apikey: <<SECRET_NOTIFIARR>>
 radarr: # Can be individually specified per library as well
   add_existing: true
   availability: released
   monitor: true
   plex_path:
-  quality_profile: HD - No Remux
+  quality_profile: HD - Web
   radarr_path:
-  root_folder_path: /data/media/media/movies
+  root_folder_path: /mnt/data/media/movies
   search: false
   tag: pmm
-  token: (removed)
-  url: http://localhost:7878/radarr
+  token: <<SECRET_RADARR>>
+  url: http://radarr:7878/radarr
   add_missing: false
   upgrade_existing: false
-# sonarr: # Can be individually specified per library as well
-#  add_existing: true
-#  cutoff_search: false
-#  language_profile: English
-#  monitor: all
-#  plex_path:
-#  quality_profile: HD - Low - No Upgrade
-#  root_folder_path: /data/media/media/tv
-#  search: true
-#  season_folder: true
-#  series_type: standard
-  # sonarr_path:
-#  tag: pmm
-#  token: (removed)
-#  url: http://localhost:8989/# sonarr
-#  add_missing: false
-#  upgrade_existing: false
+  sonarr: # Can be individually specified per library as well
+    add_existing: true
+    cutoff_search: false
+    monitor: none
+    plex_path:
+    quality_profile: HD - Low
+    root_folder_path: /mnt/data/media/tv
+    search: false
+    season_folder: true
+    series_type: standard
+    sonarr_path:
+    tag: pmm
+    token: <<SECRET_SONARR>>
+    url: http://sonarr:8989/# sonarr
+    add_missing: false
+    upgrade_existing: false
+  ignore_cache: false
+  monitor_existing: false
 trakt:
-  client_id: (removed)
-  client_secret: (removed)
+  client_id: <<SECRET_TRAKT_ID>>
+  client_secret: <<SECRET_TRAKT_SECRET>>
   authorization:
-    access_token: (removed)
+    access_token: [REMOVED]
     token_type: Bearer
-    expires_in: 7889237
-    refresh_token: (removed)
+    expires_in: 7889238
+    refresh_token: [REMOVED]
     scope: public
-    created_at: 1665832520
+    created_at: 1709468172
   pin:
